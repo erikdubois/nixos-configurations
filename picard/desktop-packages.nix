@@ -4,8 +4,21 @@
 
 { config, pkgs, ... }:
 
+# Plasma + Chadwm
+
 {
   environment.systemPackages = with pkgs; [
+    btop
+    dash
+    eww
+    feh
+    font-awesome
+    lolcat
+    nitrogen
     ocs-url
+    pavucontrol
+    picom
+    sxhkd
+    jetbrains-mono
   ];
 }
