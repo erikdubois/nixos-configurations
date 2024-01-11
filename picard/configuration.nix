@@ -8,6 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./core-packages.nix
+      ./desktop-packages.nix
       ./nvidia.nix
     ];
 
@@ -85,58 +87,6 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    alacritty
-    arc-theme
-    asciinema
-    avahi
-    baobab
-    bash-completion
-    bat
-    bibata-cursors
-    btop
-    chromium
-    cpuid
-    curl
-    discord
-    dmenu
-    duf
-    evince
-    feh
-    firefox
-    fish
-    flameshot
-    font-manager
-    galculator
-    gimp
-    git
-    gnome.dconf-editor
-    gnome.gnome-disk-utility
-    kitty
-    lollypop
-    meld
-    nitrogen
-    nomacs
-    ripgrep
-    scrot
-    simplescreenrecorder
-    spotify
-    sublime4
-    variety
-    vivaldi
-    vivaldi-ffmpeg-codecs
-    vlc
-    vscode
-    wget
-    widevine-cdm
-    wpsoffice
-    zsh
-    zsh-completions
-    zsh-syntax-highlighting
-  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
