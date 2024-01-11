@@ -9,7 +9,7 @@
   };
 
   # Load nvidia driver for Xorg and Wayland
-  services.xserver.videoDrivers = ["legacy-390"];
+  services.xserver.videoDrivers = ["nvidia"];
 
   hardware.nvidia = {
 

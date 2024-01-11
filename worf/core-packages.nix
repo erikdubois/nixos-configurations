@@ -30,6 +30,7 @@
     inkscape
     kitty
     lollypop
+    lshw
     meld
     nomacs
     ripgrep
