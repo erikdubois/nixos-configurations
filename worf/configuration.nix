@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
+      ./home-manager.nix
       # ./nvidia.nix
     ];
 
