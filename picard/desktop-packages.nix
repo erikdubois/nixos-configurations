@@ -18,6 +18,7 @@
     ocs-url
     pavucontrol
     picom
+    rofi
     sxhkd
     jetbrains-mono
   ];
