@@ -11,7 +11,7 @@
       ./core-packages.nix
       ./desktop-packages.nix
       ./home-manager.nix
-      ./nvidia.nix
+      #./nvidia.nix
       <home-manager/nixos>
     ];
 
