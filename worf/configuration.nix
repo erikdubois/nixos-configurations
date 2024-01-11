@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
-      ./nvidia.nix
+      # ./nvidia.nix
     ];
 
   # Bootloader.
