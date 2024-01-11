@@ -36,8 +36,8 @@
   # Enable the Deepin Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
-  services.xserver.desktopManager.xfce.enable = true;
-  services.xserver.windowManager.dwm.enable = true;
+  #services.xserver.desktopManager.xfce.enable = true;
+  #services.xserver.windowManager.dwm.enable = true;
 
   # Configure keymap in X11
   services.xserver = {
@@ -78,7 +78,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-    #  thunderbird
+
     ];
   };
 
@@ -88,57 +88,53 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  wget git sublime4 meld ripgrep
-alacritty
-kitty
-asciinema
-fish
-wpsoffice
-arc-theme
-avahi
-baobab
-bash-completion
-bat
-bibata-cursors
-btop
-chromium
-cpuid
-curl
-gnome.dconf-editor
-discord
-dmenu
-duf
-evince
-feh
-firefox
-flameshot
-font-manager
-galculator
-gimp
-git
-gnome.gnome-disk-utility
-lollypop
-meld
-nitrogen
-nomacs
-scrot
-simplescreenrecorder
-spotify
-variety
-vscode
-vivaldi
-vivaldi-ffmpeg-codecs
-widevine-cdm
-vlc
-wget
-zsh
-zsh-completions
-zsh-syntax-highlighting
-
-
-
-
+    alacritty
+    arc-theme
+    asciinema
+    avahi
+    baobab
+    bash-completion
+    bat
+    bibata-cursors
+    btop
+    chromium
+    cpuid
+    curl
+    discord
+    dmenu
+    duf
+    evince
+    feh
+    firefox
+    fish
+    flameshot
+    font-manager
+    galculator
+    gimp
+    git
+    gnome.dconf-editor
+    gnome.gnome-disk-utility
+    kitty
+    lollypop
+    meld
+    nitrogen
+    nomacs
+    ripgrep
+    scrot
+    simplescreenrecorder
+    spotify
+    sublime4
+    variety
+    vivaldi
+    vivaldi-ffmpeg-codecs
+    vlc
+    vscode
+    wget
+    widevine-cdm
+    wpsoffice
+    zsh
+    zsh-completions
+    zsh-syntax-highlighting
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
