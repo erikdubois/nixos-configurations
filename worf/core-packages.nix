@@ -27,6 +27,7 @@
     git
     gnome.dconf-editor
     gnome.gnome-disk-utility
+    hack-font
     inkscape
     kitty
     lollypop
@@ -38,6 +39,7 @@
     simplescreenrecorder
     spotify
     sublime4
+    telegram-desktop
     variety
     vivaldi
     vivaldi-ffmpeg-codecs
@@ -45,7 +47,7 @@
     vscode
     wget
     widevine-cdm
-    wpsoffice
+    #wpsoffice
     zsh
     zsh-completions
     zsh-syntax-highlighting

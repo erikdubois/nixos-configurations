@@ -4,8 +4,29 @@
 
 { config, pkgs, ... }:
 
+# Plasma + Chadwm
+
 {
   environment.systemPackages = with pkgs; [
+    btop
+    dash
+    eww
+    feh
+    font-awesome
+    lolcat
+    nitrogen
     ocs-url
-  ];
+    pavucontrol
+    picom
+    rofi
+    sxhkd
+    xfce.thunar
+    xfce.thunar-archive-plugin
+    jetbrains-mono
+    gnumake
+    xorg.libX11.dev
+    xorg.libXft
+    imlib2
+    xorg.libXinerama
+];
 }

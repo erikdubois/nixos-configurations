@@ -41,6 +41,11 @@ tput sgr0
 echo
 
 sudo cp -vf *.nix /etc/nixos/
+
+sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.11.tar.gz home-manager
+
+sudo nix-channel --update
+
 sudo nixos-rebuild switch
 
 echo
