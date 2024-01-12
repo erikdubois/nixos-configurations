@@ -21,13 +21,10 @@
     rofi
     sxhkd
     jetbrains-mono
-  ];
-
-  environment.systemPackages = with pkgs; [
-      gnumake
-      xorg.libX11.dev
-      xorg.libXft
-      imlib2
-      xorg.libXinerama
-  ];
+    gnumake
+    xorg.libX11.dev
+    xorg.libXft
+    imlib2
+    xorg.libXinerama
+];
 }
