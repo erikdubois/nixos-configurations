@@ -38,6 +38,7 @@
     simplescreenrecorder
     spotify
     sublime4
+    telegram-desktop
     variety
     vivaldi
     vivaldi-ffmpeg-codecs
