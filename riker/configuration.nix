@@ -10,9 +10,9 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
-      ./home-manager.nix
+      #./home-manager.nix
       #./nvidia.nix
-      <home-manager/nixos>
+      #<home-manager/nixos>
     ];
 
   # Bootloader.
