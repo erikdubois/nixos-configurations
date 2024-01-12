@@ -20,6 +20,7 @@
     picom
     rofi
     sxhkd
+    thunar
     jetbrains-mono
     gnumake
     xorg.libX11.dev
