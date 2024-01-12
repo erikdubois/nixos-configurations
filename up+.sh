@@ -36,11 +36,11 @@ git pull
 
 git clone https://github.com/erikdubois/Surfn-Plasma-Dark --depth=1  /tmp/input
 
-rm -rf /tmp/input/.git
-rm /tmp/input/git*
-rm /tmp/input/LICENSE
-rm /tmp/input/README.md
-rm /tmp/input/setup-our-git-credentials.sh
+cp -r /tmp/input/usr/share/* dotfiles/.local/share/
+
+rm -rf /tmp/input
+
+git clone https://github.com/erikdubois/Surfn-Plasma-Light --depth=1  /tmp/input
 
 cp -r /tmp/input/usr/share/* dotfiles/.local/share/
 
