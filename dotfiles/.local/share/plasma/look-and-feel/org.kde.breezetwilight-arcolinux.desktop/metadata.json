@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "erik.dubois@gmail.com",
+                "Name": "KDE Visual Design Group & ArcoLinux"
+            }
+        ],
+        "Category": "",
+        "Description": "Surfn Plasma Twilight",
+        "Id": "org.kde.breezetwilight-arcolinux.desktop",
+        "License": "GPLv2+",
+        "Name": "Surfn Plasma Twilight",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "https://www.kde.org"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}
