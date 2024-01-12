@@ -22,7 +22,6 @@
     ocs-url
     pavucontrol
     picom
-    qogir-kde
     rofi
     sxhkd
     xfce.thunar
