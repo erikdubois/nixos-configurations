@@ -48,6 +48,7 @@
     wget
     widevine-cdm
     #wpsoffice
+    yakuake
     zsh
     zsh-completions
     zsh-syntax-highlighting
