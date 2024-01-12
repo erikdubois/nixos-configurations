@@ -51,7 +51,7 @@ rm -rf /tmp/input
 echo "Surfn-Plasma-Flow"
 git clone https://github.com/erikdubois/Surfn-Plasma-Flow --depth=1  /tmp/input
 
-cp -r /tmp/input/usr/share/* dotfiles/.local/share/
+cp -r /tmp/input/icons/* dotfiles/.local/share/icons/
 
 rm -rf /tmp/input
 
