@@ -45,7 +45,7 @@
     vscode
     wget
     widevine-cdm
-    wpsoffice
+    #wpsoffice
     zsh
     zsh-completions
     zsh-syntax-highlighting
