@@ -38,6 +38,7 @@
     simplescreenrecorder
     spotify
     sublime4
+    telegram-desktop
     variety
     vivaldi
     vivaldi-ffmpeg-codecs
@@ -45,7 +46,7 @@
     vscode
     wget
     widevine-cdm
-    wpsoffice
+    #wpsoffice
     zsh
     zsh-completions
     zsh-syntax-highlighting
