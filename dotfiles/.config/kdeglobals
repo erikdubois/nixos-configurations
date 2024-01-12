@@ -1,0 +1,153 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65000000000000002
+ContrastEffect=1
+Enable=
+IntensityAmount=0.10000000000000001
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025000000000000001
+ColorEffect=2
+ContrastAmount=0.10000000000000001
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=64,69,82
+BackgroundNormal=65,72,87
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
+ForegroundActive=61,174,233
+ForegroundInactive=137,141,153
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Complementary]
+ForegroundLink=29,153,243
+ForegroundVisited=155,89,182
+
+[Colors:Selection]
+BackgroundAlternate=29,153,243
+BackgroundNormal=82,148,226
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
+ForegroundActive=252,252,252
+ForegroundInactive=147,186,227
+ForegroundLink=20,109,172
+ForegroundNegative=160,48,50
+ForegroundNeutral=182,85,0
+ForegroundNormal=211,218,227
+ForegroundPositive=27,123,67
+ForegroundVisited=155,89,182
+
+[Colors:Tooltip]
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
+ForegroundActive=61,174,233
+ForegroundInactive=137,141,153
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:View]
+BackgroundAlternate=64,69,82
+BackgroundNormal=64,69,82
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
+ForegroundActive=61,174,233
+ForegroundInactive=137,141,153
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Window]
+BackgroundAlternate=47,52,63
+BackgroundNormal=47,52,63
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
+ForegroundActive=61,174,233
+ForegroundInactive=137,141,153
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[General]
+BrowserApplication=firefox.desktop
+ColorSchemeHash=fe6711d5312a664b695e8bc1d1d4b53f52ba20f0
+Name=Breeze Light
+XftAntialias=true
+XftHintStyle=hintfull
+XftSubPixel=rgb
+fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+
+[KDE]
+ColorScheme=Breeze
+LookAndFeelPackage=com.github.varlesh.arc-dark-tela
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+SingleClick=false
+contrast=4
+widgetStyle=kvantum-dark
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=167
+View Style=DetailTree
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
+
+[WM]
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeForeground=211,218,227
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115

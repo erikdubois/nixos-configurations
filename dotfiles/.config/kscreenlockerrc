@@ -1,0 +1,8 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Greeter]
+WallpaperPlugin=org.kde.slideshow
+
+[Greeter][Wallpaper][org.kde.slideshow][General]
+SlidePaths=/usr/share/backgrounds/arcolinux
