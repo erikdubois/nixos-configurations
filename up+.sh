@@ -46,6 +46,18 @@ cp -r /tmp/input/usr/share/* dotfiles/.local/share/
 
 rm -rf /tmp/input
 
+git clone https://github.com/erikdubois/Surfn-Plasma-Flow --depth=1  /tmp/input
+
+cp -r /tmp/input/usr/share/* dotfiles/.local/share/
+
+rm -rf /tmp/input
+
+git clone https://github.com/erikdubois/Surfn-Plasma-Dark-Tela --depth=1  /tmp/input
+
+cp -r /tmp/input/usr/share/* dotfiles/.local/share/
+
+rm -rf /tmp/input
+
 # Below command will backup everything inside the project folder
 git add --all .
 
