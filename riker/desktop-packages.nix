@@ -20,7 +20,8 @@
     picom
     rofi
     sxhkd
-    thunar
+    xfce.thunar
+    xfce.thunar-archive-plugin
     jetbrains-mono
     gnumake
     xorg.libX11.dev
