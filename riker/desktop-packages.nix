@@ -10,16 +10,19 @@
 
   services.xserver.windowManager.dwm.enable = true;
   environment.systemPackages = with pkgs; [
+    arc-kde-theme
     btop
     dash
     eww
     feh
     font-awesome
     lolcat
+    materia-kde-theme
     nitrogen
     ocs-url
     pavucontrol
     picom
+    qogir-kde
     rofi
     sxhkd
     xfce.thunar
