@@ -10,9 +10,9 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
-      ./home-manager.nix
+      #./home-manager.nix
       ./nvidia.nix
-      <home-manager/nixos>
+      #<home-manager/nixos>
     ];
 
   # Bootloader.
@@ -91,7 +91,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.nvidia.acceptLicense = true;
-  experimental-features = [ "nix-command" "flakes" ];
+  #experimental-features = [ "nix-command" "flakes" ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
