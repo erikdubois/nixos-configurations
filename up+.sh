@@ -34,24 +34,28 @@
 echo "Checking for newer files online first"
 git pull
 
+echo "Surfn-Plasma-Dark"
 git clone https://github.com/erikdubois/Surfn-Plasma-Dark --depth=1  /tmp/input
 
 cp -r /tmp/input/usr/share/* dotfiles/.local/share/
 
 rm -rf /tmp/input
 
+echo "Surfn-Plasma-Light"
 git clone https://github.com/erikdubois/Surfn-Plasma-Light --depth=1  /tmp/input
 
 cp -r /tmp/input/usr/share/* dotfiles/.local/share/
 
 rm -rf /tmp/input
 
+echo "Surfn-Plasma-Flow"
 git clone https://github.com/erikdubois/Surfn-Plasma-Flow --depth=1  /tmp/input
 
 cp -r /tmp/input/usr/share/* dotfiles/.local/share/
 
 rm -rf /tmp/input
 
+echo "Surfn-Plasma-Dark-Tela"
 git clone https://github.com/erikdubois/Surfn-Plasma-Dark-Tela --depth=1  /tmp/input
 
 cp -r /tmp/input/usr/share/* dotfiles/.local/share/
