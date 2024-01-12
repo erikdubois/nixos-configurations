@@ -27,6 +27,7 @@
     git
     gnome.dconf-editor
     gnome.gnome-disk-utility
+    hack-font
     inkscape
     kitty
     lollypop
