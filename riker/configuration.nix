@@ -80,7 +80,7 @@
   users.users.erik = {
     isNormalUser = true;
     description = "erik";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "samba" ];
     packages = with pkgs; [
       firefox
     ];
