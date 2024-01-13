@@ -59,6 +59,12 @@ git clone https://github.com/arcolinux/arcolinux-btop --depth=1  /tmp/input
 cp -r /tmp/input/etc/skel/.config/* dotfiles/.config
 rm -rf /tmp/input
 
+echo"Thunar"
+git clone https://github.com/arcolinux/arcolinux-xfce --depth=1  /tmp/input
+mkdir dotfiles/.config/Thunar
+cp -r /tmp/input/etc/skel/.config/Thunar/* dotfiles/.config/Thunar
+rm -rf /tmp/input
+
 # Below command will backup everything inside the project folder
 git add --all .
 
