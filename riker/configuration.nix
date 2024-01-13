@@ -113,7 +113,6 @@
     ipv6 = true;
     publish = {
 		  enable = true;
-      adresses = true;
       workstation = true;
   	};
   };
