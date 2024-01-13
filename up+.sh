@@ -84,9 +84,9 @@ git clone https://github.com/arcolinux/arcolinux-alacritty --depth=1  /tmp/input
 cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
 rm -rf /tmp/input
 
-echo"bin"
+echo "bin"
 git clone https://github.com/arcolinux/arcolinux-bin --depth=1  /tmp/input
-cp -r /tmp/input/etc/skel/* dotfiles/
+cp -r /tmp/input/etc/skel/.* dotfiles/
 rm -rf /tmp/input
 
 # Below command will backup everything inside the project folder
