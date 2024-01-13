@@ -16,7 +16,7 @@
     bibata-cursors
     btop
     chromium
-    cnijfilter2
+    #cnijfilter2
     curl
     discord
     duf
