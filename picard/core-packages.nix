@@ -6,6 +6,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #wpsoffice
     alacritty
     arc-theme
     avahi
@@ -30,11 +31,14 @@
     hack-font
     inkscape
     kitty
+    ksysguard
     lollypop
     lshw
     meld
+    neofetch
     nomacs
     ripgrep
+    rxvt-unicode
     scrot
     simplescreenrecorder
     spotify
@@ -47,7 +51,7 @@
     vscode
     wget
     widevine-cdm
-    #wpsoffice
+    xorg.xkill
     yakuake
     zsh
     zsh-completions
