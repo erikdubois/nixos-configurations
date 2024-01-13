@@ -109,7 +109,7 @@
     enable = true;
     nssmdns = true;
     openFirewall = true;
-    publish = enable;
+    publish = true;
   };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
