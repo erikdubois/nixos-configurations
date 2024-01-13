@@ -22,6 +22,7 @@
     pavucontrol
     picom
     rofi
+    sddm-kcm
     sxhkd
     xfce.thunar
     xfce.thunar-archive-plugin
