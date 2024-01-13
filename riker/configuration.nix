@@ -13,7 +13,7 @@
       #./home-manager.nix
       #./nvidia.nix
       #<home-manager/nixos>
-      #./samba.nix
+      ./samba.nix
     ];
 
   # Bootloader.
@@ -54,7 +54,7 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
-  services.printing.gutenprint = true;
+  services.printing.drivers = true;
 
   # Enable sound with pipewire.
   sound.enable = true;
