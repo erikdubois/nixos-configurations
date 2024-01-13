@@ -109,11 +109,14 @@
   services.avahi = {
     enable = true;
     nssmdns = true;
-    openFirewall = true;
+    ipv4 = true;
+    ipv6 = true;
     publish = {
-		enable = true;
+		  enable = true;
+      adresses = true;
+      workstation = true;
   	};
- };
+  };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
