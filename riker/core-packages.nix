@@ -31,7 +31,6 @@
     hack-font
     inkscape
     kitty
-    ksysguard
     lollypop
     lshw
     meld
