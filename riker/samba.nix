@@ -31,7 +31,7 @@
     shares = {
       SHARED-RIKER = {
         path = "/home/erik/SHARED";
-        "browseable" = "yes";
+        browseable = "yes";
         "read only" = "no";
         "guest ok" = "yes";
         "public" = "yes";
