@@ -122,7 +122,8 @@
 
   programs.bash = {
     enable = true;
-    bashrcExtra = ''
+	enableCompletion = true;
+    shellInit = ''
       . ~/.bashrc-personal
     '';
   };
