@@ -54,7 +54,7 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
-  services.printing.drivers = ["cnijfilter2"];
+  services.printing.drivers = ["pkgs.cnijfilter2"];
 
   # Enable sound with pipewire.
   sound.enable = true;
