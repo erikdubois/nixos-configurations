@@ -39,6 +39,7 @@
     lollypop
     lshw
     meld
+    most
     neofetch
     nomacs
     ripgrep
