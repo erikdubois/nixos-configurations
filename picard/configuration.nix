@@ -13,7 +13,7 @@
       #./home-manager.nix
       ./nvidia.nix
       #<home-manager/nixos>
-      #./samba.nix
+      ./samba.nix
     ];
 
   # Bootloader.
