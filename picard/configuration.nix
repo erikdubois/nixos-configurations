@@ -121,7 +121,6 @@
   };
 
   programs.bash = {
-    enable = true;
 	enableCompletion = true;
     shellInit = ''
       . ~/.bashrc-personal
