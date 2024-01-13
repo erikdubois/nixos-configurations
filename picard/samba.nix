@@ -18,6 +18,7 @@
       workgroup = WORKGROUP
       server string = smbnix
       netbios name = smbnix
+      server role = standalone server
       security = user 
       #use sendfile = yes
       #max protocol = smb2
@@ -30,7 +31,7 @@
     shares = {
       SHARED = {
         path = "/home/erik/SHARED";
-        browseable = "yes";
+        "browseable" = "yes";
         "read only" = "no";
         "guest ok" = "yes";
         "public" = "yes";
