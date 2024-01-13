@@ -13,6 +13,7 @@
       #./home-manager.nix
       ./nvidia.nix
       #<home-manager/nixos>
+      ./samba.nix
     ];
 
   # Bootloader.
@@ -56,7 +57,7 @@
 
   # Enable sound with pipewire.
   sound.enable = true;
-  hardware.pulseaudio.enable = false;
+  hardware.pulseaudio.enable = true;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -102,6 +103,26 @@
   # };
 
   # List services that you want to enable:
+
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  hardware.bluetooth.settings = {
+    General = {
+      Enable = "Source,Sink,Media,Socket";
+    };
+  };
+  hardware.bluetooth.settings = {
+    General = {
+      Experimental = true;
+    };
+  };
+
+  # Samba
+
+  services.gvfs = {
+    enable = true;
+    package = lib.mkForce pkgs.gnome3.gvfs;
+  };
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
