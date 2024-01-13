@@ -957,10 +957,10 @@ Type=GESTURE
 
 [Data_4]
 Comment=Comment
-DataCount=39
+DataCount=33
 Enabled=true
 ImportId=9999
-Name=ArcoLinux
+Name=nixos
 SystemGroup=0
 Type=ACTION_DATA_GROUP
 
@@ -1055,14 +1055,14 @@ Uuid={3a6140e2-3567-4350-94e3-03df8d02b545}
 [Data_4_13]
 Comment=Comment
 Enabled=true
-Name=atom
+Name=code
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_13Actions]
 ActionsCount=1
 
 [Data_4_13Actions0]
-CommandURL=atom
+CommandURL=code
 Type=COMMAND_URL
 
 [Data_4_13Conditions]
@@ -1471,14 +1471,14 @@ Uuid={e20b2d65-f5bd-4819-b3fe-9871ad8c43a0}
 [Data_4_28]
 Comment=Comment
 Enabled=true
-Name=atom
+Name=thunar
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_28Actions]
 ActionsCount=1
 
 [Data_4_28Actions0]
-CommandURL=atom
+CommandURL=thunar
 Type=COMMAND_URL
 
 [Data_4_28Conditions]
@@ -1490,21 +1490,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_28Triggers0]
-Key=
+Key=Ctrl+Alt+B
 Type=SHORTCUT
-Uuid={c193d63c-6570-45a3-9fc3-a1a206efb1d8}
+Uuid={10de7d96-63a9-4746-b323-4bf106497412}
 
 [Data_4_29]
 Comment=Comment
 Enabled=true
-Name=pamac-manager
+Name=btop
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_29Actions]
 ActionsCount=1
 
 [Data_4_29Actions0]
-CommandURL=pamac-manager
+CommandURL=urxvt -T 'htop task manager' -e htop
 Type=COMMAND_URL
 
 [Data_4_29Conditions]
@@ -1516,9 +1516,9 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_29Triggers0]
-Key=Ctrl+Alt+P
+Key=Meta+H
 Type=SHORTCUT
-Uuid={70f72937-91cb-4591-9694-973958efe5b8}
+Uuid={da62b0eb-7321-4ade-ba2b-85d1eed4813b}
 
 [Data_4_2Actions]
 ActionsCount=1
@@ -1549,14 +1549,14 @@ Type=SIMPLE_ACTION_DATA
 [Data_4_30]
 Comment=Comment
 Enabled=true
-Name=ArcoLinux-Welcome-App
+Name=variety -f
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_30Actions]
 ActionsCount=1
 
 [Data_4_30Actions0]
-CommandURL=arcolinux-welcome-app
+CommandURL=variety -f
 Type=COMMAND_URL
 
 [Data_4_30Conditions]
@@ -1568,21 +1568,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_30Triggers0]
-Key=Ctrl+Alt+W
+Key=Alt+F
 Type=SHORTCUT
-Uuid={9a618ca9-3b05-4c25-8f13-019c04190597}
+Uuid={4941e5ca-b4f3-4b1b-b566-33d3fc94e4ad}
 
 [Data_4_31]
 Comment=Comment
 Enabled=true
-Name=thunar
+Name=meld (alt)
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_31Actions]
 ActionsCount=1
 
 [Data_4_31Actions0]
-CommandURL=thunar
+CommandURL=meld
 Type=COMMAND_URL
 
 [Data_4_31Conditions]
@@ -1594,21 +1594,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_31Triggers0]
-Key=Ctrl+Alt+B
+Key=Alt+F5
 Type=SHORTCUT
-Uuid={10de7d96-63a9-4746-b323-4bf106497412}
+Uuid={797fe08f-5d4c-4e50-8273-cb935c130818}
 
 [Data_4_32]
 Comment=Comment
 Enabled=true
-Name=htop
+Name=krunner
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_32Actions]
 ActionsCount=1
 
 [Data_4_32Actions0]
-CommandURL=urxvt -T 'htop task manager' -e htop
+CommandURL=krunner
 Type=COMMAND_URL
 
 [Data_4_32Conditions]
@@ -1620,21 +1620,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_32Triggers0]
-Key=Meta+H
+Key=Meta+Shift+D
 Type=SHORTCUT
-Uuid={da62b0eb-7321-4ade-ba2b-85d1eed4813b}
+Uuid={724847d0-a2da-4779-8fb5-3deb43e643c5}
 
 [Data_4_33]
 Comment=Comment
 Enabled=true
-Name=variety -f
+Name=btop
 Type=SIMPLE_ACTION_DATA
 
 [Data_4_33Actions]
 ActionsCount=1
 
 [Data_4_33Actions0]
-CommandURL=variety -f
+CommandURL=btop
 Type=COMMAND_URL
 
 [Data_4_33Conditions]
@@ -1646,165 +1646,9 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_33Triggers0]
-Key=Alt+F
+Key=Ctrl+Alt+End
 Type=SHORTCUT
-Uuid={4941e5ca-b4f3-4b1b-b566-33d3fc94e4ad}
-
-[Data_4_34]
-Comment=Comment
-Enabled=true
-Name=conky-toggle
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_34Actions]
-ActionsCount=1
-
-[Data_4_34Actions0]
-CommandURL=conky-toggle
-Type=COMMAND_URL
-
-[Data_4_34Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_34Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_34Triggers0]
-Key=Meta+C
-Type=SHORTCUT
-Uuid={c9e2644b-c28c-478b-8cac-6d08fa7e117e}
-
-[Data_4_35]
-Comment=Comment
-Enabled=true
-Name=conky-rotate next
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_35Actions]
-ActionsCount=1
-
-[Data_4_35Actions0]
-CommandURL=conky-rotate -n
-Type=COMMAND_URL
-
-[Data_4_35Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_35Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_35Triggers0]
-Key=Ctrl+Alt+PgUp
-Type=SHORTCUT
-Uuid={b532ba71-4e40-452d-9346-403342ff23c5}
-
-[Data_4_36]
-Comment=Comment
-Enabled=true
-Name=conky-rotate previous
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_36Actions]
-ActionsCount=1
-
-[Data_4_36Actions0]
-CommandURL=conky-rotate -p
-Type=COMMAND_URL
-
-[Data_4_36Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_36Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_36Triggers0]
-Key=Ctrl+Alt+PgDown
-Type=SHORTCUT
-Uuid={548fecdb-c1e0-4d97-8102-3314df40cd2d}
-
-[Data_4_37]
-Comment=Comment
-Enabled=true
-Name=meld (alt)
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_37Actions]
-ActionsCount=1
-
-[Data_4_37Actions0]
-CommandURL=meld
-Type=COMMAND_URL
-
-[Data_4_37Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_37Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_37Triggers0]
-Key=Alt+F5
-Type=SHORTCUT
-Uuid={797fe08f-5d4c-4e50-8273-cb935c130818}
-
-[Data_4_38]
-Comment=Comment
-Enabled=true
-Name=krunner
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_38Actions]
-ActionsCount=1
-
-[Data_4_38Actions0]
-CommandURL=krunner
-Type=COMMAND_URL
-
-[Data_4_38Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_38Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_38Triggers0]
-Key=Meta+Shift+D
-Type=SHORTCUT
-Uuid={724847d0-a2da-4779-8fb5-3deb43e643c5}
-
-[Data_4_39]
-Comment=Comment
-Enabled=true
-Name=ArchLinux-Tweak-Tool
-Type=SIMPLE_ACTION_DATA
-
-[Data_4_39Actions]
-ActionsCount=1
-
-[Data_4_39Actions0]
-CommandURL=archlinux-tweak-tool
-Type=COMMAND_URL
-
-[Data_4_39Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_4_39Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_4_39Triggers0]
-Key=Ctrl+Alt+E
-Type=SHORTCUT
-Uuid={c9ab3ae7-adc3-4212-b2c0-9903c21f8cf7}
+Uuid={094cd975-ba2a-4be6-ab5f-6f94cd2cfc7f}
 
 [Data_4_3Actions]
 ActionsCount=1
@@ -2010,6 +1854,7 @@ WindowsCount=0
 Theme[$d]
 
 [KDE]
+AnimationDurationFactor[$d]
 ColorScheme[$d]
 LookAndFeelPackage[$d]
 ShowIconsInMenuItems[$d]
@@ -2041,6 +1886,9 @@ View Style[$d]
 AlreadyImported=defaults,kde32b1,spectacle,konsole,konqueror_gestures_kde321,9999
 Disabled=false
 Version=2
+
+[PreviewSettings]
+MaximumRemoteSize[$d]
 
 [Toolbar style]
 ToolButtonStyle[$d]

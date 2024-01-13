@@ -21,8 +21,14 @@ plugin=org.kde.plasma.kicker
 [Containments][2][Applets][38][Configuration]
 PreloadWeight=100
 
+[Containments][2][Applets][38][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][2][Applets][38][Configuration][General]
+customButtonImage=fire
 favoritesPortedToKAstats=true
+useCustomButtonImage=true
 
 [Containments][2][Applets][38][Shortcuts]
 global=Alt+F1
@@ -46,7 +52,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=25
+PreloadWeight=40
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -83,11 +89,16 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][22][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][22][Configuration]
 PreloadWeight=0
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
+Image=/nix/store/a7jszbwh7l4k0zvghkssav97qjnj6k1b-plasma-workspace-wallpapers-5.27.10/share/wallpapers/Altai/
+SlidePaths=/nix/store/r86cymy2d46f01rmrw26gbv2fqk9qf42-breeze-qt5-5.27.10-bin/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][26]
 ItemGeometries-1920x1080=
@@ -98,13 +109,26 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
+
+[Containments][26][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][26][Configuration]
 PreloadWeight=0
 
+[Containments][26][General]
+filterMimeTypes=\\0
+
 [Containments][26][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
+Image=/nix/store/a7jszbwh7l4k0zvghkssav97qjnj6k1b-plasma-workspace-wallpapers-5.27.10/share/wallpapers/Altai/
+SlidePaths=/nix/store/r86cymy2d46f01rmrw26gbv2fqk9qf42-breeze-qt5-5.27.10-bin/share/wallpapers/,/run/current-system/sw/share/wallpapers/
+
+[Containments][26][Wallpaper][org.kde.slideshow][General]
+Image=file:///nix/store/a7jszbwh7l4k0zvghkssav97qjnj6k1b-plasma-workspace-wallpapers-5.27.10/share/wallpapers/FlyingKonqui/
+SlideInterval=3600
+SlidePaths=/nix/store/r86cymy2d46f01rmrw26gbv2fqk9qf42-breeze-qt5-5.27.10-bin/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][7]
 activityId=
@@ -139,7 +163,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=0
+PreloadWeight=15
 
 [Containments][7][Applets][13]
 immutability=1
@@ -232,12 +256,16 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][7][Applets][41][Configuration]
 PreloadWeight=0
 
+[Containments][7][Applets][42]
+immutability=1
+plugin=org.kde.kscreen
+
 [Containments][7][Configuration]
 PreloadWeight=0
 
 [Containments][7][General]
-extraItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen
-knownItems=org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.kdeconnect,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen
+extraItems=org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.printmanager
 
 [ScreenMapping]
 itemsOnDisabledScreens=

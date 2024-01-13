@@ -14,6 +14,7 @@
     eww
     feh
     font-awesome
+    kate
     lolcat
     materia-kde-theme
     nitrogen

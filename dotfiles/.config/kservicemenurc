@@ -1,0 +1,17 @@
+[Show]
+compressfileitemaction=true
+diff=true
+diffsudo=true
+extractfileitemaction=true
+forgetfileitemaction=true
+installFont=true
+kactivitymanagerd_fileitem_linking_plugin=true
+kio-admin=true
+mountisoaction=true
+runInKonsole=true
+selected=true
+selectedsudo=true
+setArg1=true
+setAsWallpaper=true
+slideshowfileitemaction=true
+tagsfileitemaction=true

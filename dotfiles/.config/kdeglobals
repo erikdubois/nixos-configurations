@@ -101,17 +101,17 @@ ForegroundVisited=155,89,182
 BrowserApplication=firefox.desktop
 ColorSchemeHash=fe6711d5312a664b695e8bc1d1d4b53f52ba20f0
 Name=Breeze Light
-XftAntialias=true
-XftHintStyle=hintfull
-XftSubPixel=rgb
-fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=Hack,11,-1,5,50,0,0,0,0,0
+font=Noto Sans,11,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 
 [KDE]
+AnimationDurationFactor=0.35355339059327373
 ColorScheme=Breeze
 LookAndFeelPackage=com.github.varlesh.arc-dark-tela
 ShowIconsInMenuItems=true
@@ -139,6 +139,9 @@ Sort reversed=false
 Speedbar Width=167
 View Style=DetailTree
 
+[PreviewSettings]
+MaximumRemoteSize=0
+
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
@@ -146,7 +149,7 @@ ToolButtonStyleOtherToolbars=TextBesideIcon
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
