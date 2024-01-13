@@ -64,19 +64,29 @@ git pull
 # cp -r /tmp/input/etc/skel/.config/Thunar/* dotfiles/.config/Thunar
 # rm -rf /tmp/input
 
-echo"Variety"
-git clone https://github.com/arcolinux/arcolinux-variety --depth=1  /tmp/input
+# echo"Variety"
+# git clone https://github.com/arcolinux/arcolinux-variety --depth=1  /tmp/input
+# cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+# rm -rf /tmp/input
+
+# echo"Variety"
+# git clone https://github.com/arcolinux/arcolinux-variety-autostart --depth=1  /tmp/input
+# cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+# rm -rf /tmp/input
+
+# echo"btop"
+# git clone https://github.com/arcolinux/arcolinux-btop --depth=1  /tmp/input
+# cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+# rm -rf /tmp/input
+
+echo "alacritty"
+git clone https://github.com/arcolinux/arcolinux-alacritty --depth=1  /tmp/input
 cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
 rm -rf /tmp/input
 
-echo"Variety"
-git clone https://github.com/arcolinux/arcolinux-variety-autostart --depth=1  /tmp/input
-cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
-rm -rf /tmp/input
-
-echo"btop"
-git clone https://github.com/arcolinux/arcolinux-btop --depth=1  /tmp/input
-cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+echo"bin"
+git clone https://github.com/arcolinux/arcolinux-bin --depth=1  /tmp/input
+cp -r /tmp/input/etc/skel/* dotfiles/
 rm -rf /tmp/input
 
 # Below command will backup everything inside the project folder
