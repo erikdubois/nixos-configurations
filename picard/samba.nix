@@ -16,8 +16,8 @@
     securityType = "user";
     extraConfig = ''
       workgroup = WORKGROUP
-      server string = smbnix
-      netbios name = smbnix
+      server string = smbnix-picard
+      netbios name = smbnix-picard
       server role = standalone server
       security = user 
       #use sendfile = yes
@@ -29,7 +29,7 @@
       map to guest = bad user
     '';
     shares = {
-      SHARED = {
+      SHARED-PICARD = {
         path = "/home/erik/SHARED";
         "browseable" = "yes";
         "read only" = "no";
