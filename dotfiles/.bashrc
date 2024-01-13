@@ -51,7 +51,6 @@ alias give-me-qwerty-us="sudo localectl set-x11-keymap us"
 alias setlocale="sudo localectl set-locale LANG=en_US.UTF-8"
 alias setlocales="sudo localectl set-x11-keymap be && sudo localectl set-locale LANG=en_US.UTF-8"
 
-
 #free
 alias free="free -mt"
 
@@ -107,12 +106,12 @@ alias cpu="cpuid -i | grep uarch | head -n 1"
 
 
 #shopt
-shopt -s autocd # change to named directory
-shopt -s cdspell # autocorrects cd misspellings
-shopt -s cmdhist # save multi-line commands in history as single line
-shopt -s dotglob
-shopt -s histappend # do not overwrite history
-shopt -s expand_aliases # expand aliases
+# shopt -s autocd # change to named directory
+# shopt -s cdspell # autocorrects cd misspellings
+# shopt -s cmdhist # save multi-line commands in history as single line
+# shopt -s dotglob
+# shopt -s histappend # do not overwrite history
+# shopt -s expand_aliases # expand aliases
 
 #clear
 alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
@@ -233,7 +232,7 @@ alias personal='cp -Rf /personal/* ~'
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
-[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
+#[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 # reporting tools - install when not installed
 #neofetch
