@@ -29,6 +29,7 @@
     gnome.dconf-editor
     gnome.gnome-disk-utility
     gnome.gnome-bluetooth
+    gnome.gvfs
     hack-font
     inkscape
     kitty
