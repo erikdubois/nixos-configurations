@@ -110,7 +110,7 @@
     nssmdns = true;
     openFirewall = true;
     publish = enable;
-    publish.workstation = true;
+    workstation = true;
   };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
