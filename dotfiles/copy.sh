@@ -42,6 +42,7 @@ echo
 
 cp -rf .config ~
 cp -rf .local ~
+cp .bashrc ~
 cp .bashrc-latest ~
 cp .Xresources ~
 

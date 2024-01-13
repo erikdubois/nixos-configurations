@@ -31,6 +31,9 @@
     gnome.gnome-disk-utility
     gnome.gvfs
     hack-font
+    hblock
+    hwinfo
+    hw-probe
     inkscape
     kitty
     lollypop
