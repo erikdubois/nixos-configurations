@@ -8,17 +8,21 @@
 
 {
   environment.systemPackages = with pkgs; [
+    arc-kde-theme
     btop
     dash
     eww
     feh
     font-awesome
+    kate
     lolcat
+    materia-kde-theme
     nitrogen
     ocs-url
     pavucontrol
     picom
     rofi
+    sddm-kcm
     sxhkd
     xfce.thunar
     xfce.thunar-archive-plugin

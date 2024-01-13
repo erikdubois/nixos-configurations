@@ -6,6 +6,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #wpsoffice
     alacritty
     arc-theme
     avahi
@@ -15,6 +16,7 @@
     bibata-cursors
     btop
     chromium
+    #cnijfilter2
     curl
     discord
     duf
@@ -27,14 +29,21 @@
     git
     gnome.dconf-editor
     gnome.gnome-disk-utility
+    gnome.gvfs
     hack-font
+    hblock
+    hwinfo
+    hw-probe
     inkscape
     kitty
     lollypop
     lshw
     meld
+    most
+    neofetch
     nomacs
     ripgrep
+    rxvt-unicode
     scrot
     simplescreenrecorder
     spotify
@@ -47,7 +56,8 @@
     vscode
     wget
     widevine-cdm
-    #wpsoffice
+    xorg.xkill
+    yakuake
     zsh
     zsh-completions
     zsh-syntax-highlighting

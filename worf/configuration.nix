@@ -10,8 +10,10 @@
       ./hardware-configuration.nix
       ./core-packages.nix
       ./desktop-packages.nix
-      ./home-manager.nix
-      # ./nvidia.nix
+      #./home-manager.nix
+      #./nvidia.nix
+      #<home-manager/nixos>
+      ./samba.nix
     ];
 
   # Bootloader.
@@ -19,7 +21,7 @@
   boot.loader.grub.device = "/dev/sda";
   boot.loader.grub.useOSProber = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "nixos-worf"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -53,6 +55,7 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+  services.printing.drivers = [pkgs.cnijfilter2];
 
   # Enable sound with pipewire.
   sound.enable = true;
@@ -78,7 +81,7 @@
   users.users.erik = {
     isNormalUser = true;
     description = "erik";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "samba" ];
     packages = with pkgs; [
       firefox
     ];
@@ -91,7 +94,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.nvidia.acceptLicense = true;
-  experimental-features = [ "nix-command" "flakes" ];
+  
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -103,6 +107,36 @@
 
   # List services that you want to enable:
 
+  services.avahi = {
+    enable = true;
+    nssmdns = true;
+    ipv4 = true;
+    ipv6 = true;
+    publish = {
+		  enable = true;
+      workstation = true;
+  	};
+  };
+
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  hardware.bluetooth.settings = {
+    General = {
+      Enable = "Source,Sink,Media,Socket";
+      Experimental = true;
+    };
+  };
+
+  programs.bash = {
+	enableCompletion = true;
+    shellInit = ''
+      . ~/.bashrc-personal
+    '';
+  };
+
+  # Gvfs
+  services.gvfs.enable = true;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
@@ -110,7 +144,7 @@
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+  networking.firewall.enable = false;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
