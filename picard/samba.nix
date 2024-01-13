@@ -19,7 +19,7 @@
       server string = smbnix-picard
       netbios name = smbnix-picard
       server role = standalone server
-      security = user 
+      #security = user 
       #use sendfile = yes
       #max protocol = smb2
       # note: localhost is the ipv6 localhost ::1

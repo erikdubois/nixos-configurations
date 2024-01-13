@@ -19,7 +19,7 @@
       server string = smbnix-riker
       netbios name = smbnix-riker
       server role = standalone server
-      security = user 
+      #security = user 
       #use sendfile = yes
       #max protocol = smb2
       # note: localhost is the ipv6 localhost ::1
