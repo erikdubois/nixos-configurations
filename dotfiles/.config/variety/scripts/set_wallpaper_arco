@@ -228,7 +228,7 @@ if [[ " ${SIMPLE_WMS[*]} " = *" $XDG_CURRENT_DESKTOP "* || " ${SIMPLE_WMS[*]} " 
     fi
 fi
 #FOR LIGHTDM
-SIMPLE_WMS=("awesome" "berry" "bspwm" "chadwm" "cwm" "dk" "dusk" "dwm" "fvwm3" "herbstluftwm" "hypr" "i3" "none+i3" "i3-with-shmlog" "icewm" "icewm-session" "jwm" "leftwm" "openbox" "qtile" "spectrwm" "worm" "wmderland" "xmonad")
+SIMPLE_WMS=("awesome" "none+awesome" "berry" "bspwm" "none+bspwm" "chadwm" "none+chadwm" "cwm" "dk" "dusk" "dwm" "fvwm3" "herbstluftwm" "hypr" "i3" "none+i3" "i3-with-shmlog" "icewm" "icewm-session" "jwm" "leftwm" "openbox" "qtile" "spectrwm" "worm" "wmderland" "xmonad")
 if [[ " ${SIMPLE_WMS[*]} " = *" $XDG_CURRENT_DESKTOP "* || " ${SIMPLE_WMS[*]} " = *" $XDG_SESSION_DESKTOP "* ||
       " ${SIMPLE_WMS[*]} " = *" $DESKTOP_SESSION "* ]]; then
     if command -v "feh" >/dev/null 2>&1; then
