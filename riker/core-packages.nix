@@ -46,6 +46,7 @@
     inkscape
     insync
     inxi
+    killall
     kitty
     lm_sensors
     lollypop
