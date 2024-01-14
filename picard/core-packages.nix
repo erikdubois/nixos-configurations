@@ -20,6 +20,7 @@
     discord
     dropbox
     duf
+    etcher
     evince
     feh
     firefox
