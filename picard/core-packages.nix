@@ -55,6 +55,7 @@
     sublime4
     telegram-desktop
     variety
+    virtualbox
     vivaldi
     vivaldi-ffmpeg-codecs
     vlc
