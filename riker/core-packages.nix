@@ -11,6 +11,7 @@
     #google-chrome
     #wpsoffice
     alacritty
+    arandr
     arc-theme
     avahi
     baobab
