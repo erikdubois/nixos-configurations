@@ -15,9 +15,9 @@
       #<home-manager/nixos>
       ./samba.nix
       ./env-vars.nix
-      ./virtualbox.nix
+      #./virtualbox.nix
       #./desktops/awesome.nix
-      #./desktops/i3wm.nix
+      ./desktops/i3wm.nix
     ];
 
   # Bootloader.
