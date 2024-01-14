@@ -1,0 +1,33 @@
+(defwidget btn [name command class]
+  (box :orientation "v"
+       :halign "center"
+       :class "btnMargin"
+    (button :onclick command 
+        :class "btn ${class}" 
+      name))
+)
+
+(defwidget btns []
+  (box :orientation "h"
+       :class 'footerBtns'
+ 
+  (btn :name ""
+  :command "~/.config/arco-chadwm/launcher/launcher.sh"
+    :class "restart"
+  )
+
+(btn :name "ﳓ"
+  :command "slock"
+  :class "lock"
+ )
+
+ (btn :name "﬉" 
+   :command "iwgtk"
+   :class "wifi"
+  )
+
+ (btn :name "" 
+    :command "systemctl suspend"
+    :class "sleep"
+  )
+))

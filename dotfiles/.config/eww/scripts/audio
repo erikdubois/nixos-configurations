@@ -1,0 +1,15 @@
+#!/bin/sh
+
+headvol() {
+  amixer -D pulse get Master | awk '$0~/%/{print $5}' | tr -d '[%]' | uniq
+}
+
+mastervol() {
+  amixer -D pulse get Master | awk '$0~/%/{print $5}' | tr -d '[%]' | uniq
+}
+
+micvol() {
+  amixer -D pulse get Master | awk '$0~/%/{print $5}' | tr -d '[%]' | uniq
+}
+
+"$@"
