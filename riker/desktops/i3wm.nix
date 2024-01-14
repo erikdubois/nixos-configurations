@@ -9,8 +9,7 @@
   #services.xserver.displayManager.defaultSession = "none+i3";
   services.xserver.windowManager.i3.enable = true;
 
-  windowManager.i3 = {
-    enable = true;
+  services.xserver.windowManager.i3 = {
     extraPackages = with pkgs; [
       dmenu #application launcher most people use
       i3status # gives you the default i3 status bar
