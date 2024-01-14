@@ -28,12 +28,12 @@ alias listdir="ls -d */ > list"
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
-alias udpate='sudo nixos-rebuild switch --upgrade'
-alias upate='sudo nixos-rebuild switch --upgrade'
-alias updte='sudo nixos-rebuild switch --upgrade'
-alias updqte='sudo nixos-rebuild switch --upgrade'
-alias upqll='sudo nixos-rebuild switch --upgrade'
-alias upal='sudo nixos-rebuild switch --upgrade'
+alias udpate='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias upate='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias updte='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias updqte='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias upqll='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias upal='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
@@ -64,13 +64,13 @@ alias userlist="cut -d: -f1 /etc/passwd | sort"
 alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
-alias update='sudo nixos-rebuild switch --upgrade'
-alias upd='sudo nixos-rebuild switch --upgrade'
+alias update='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
+alias upd='sudo nix-channel --update && sudo nixos-rebuild switch --upgrade'
 
 # updates everything
-alias pksyua="sudo nixos-rebuild switch --upgrade"
-alias upall="sudo nixos-rebuild switch --upgrade"
-alias upa="sudo nixos-rebuild switch --upgrade"
+alias pksyua="sudo nix-channel --update && sudo nixos-rebuild switch --upgrade"
+alias upall="sudo nix-channel --update && sudo nixos-rebuild switch --upgrade"
+alias upa="sudo nix-channel --update && sudo nixos-rebuild switch --upgrade"
 
 #ps
 alias psa="ps auxf"
@@ -230,6 +230,12 @@ alias grh="git reset --hard"
 #in there. They will not be overwritten by skel.
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
+
+# found on the net
+alias list="nix-env -qaP \*"
+alias gramps="nix-env -p /nix/var/nix/profiles/system --list-generations"
+alias nnixos-config="sudo $EDITOR /etc/nixos/configuration.nix"
+alias cleanup="sudo nix-collect-garbage"
 
 # reporting tools - install when not installed
 #neofetch
