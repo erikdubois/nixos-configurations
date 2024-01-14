@@ -4,6 +4,8 @@
 
 { config, pkgs, ... }:
 
+# never put virtualbox in this list
+
 {
   environment.systemPackages = with pkgs; [
     #google-chrome
@@ -55,7 +57,6 @@
     sublime4
     telegram-desktop
     variety
-    virtualbox
     vivaldi
     vivaldi-ffmpeg-codecs
     vlc
