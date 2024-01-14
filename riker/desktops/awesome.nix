@@ -13,5 +13,11 @@
       luadbi-mysql # Database abstraction layer
     ];
   };
+  services.xserver.windowManager.awesome = {
+    extraPackages = with pkgs; [
+      betterlockscreen
+      i3lock
+    ];
+  };
 }
 

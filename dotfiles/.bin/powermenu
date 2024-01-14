@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bash ~/.config/powermenu/powermenu.sh
