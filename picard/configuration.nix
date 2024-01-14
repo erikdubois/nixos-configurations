@@ -24,6 +24,9 @@
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
+  # Kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+
   networking.hostName = "nixos-picard"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
