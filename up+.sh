@@ -94,6 +94,11 @@ git pull
 # cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
 # rm -rf /tmp/input
 
+echo "I3wm"
+git clone https://github.com/arcolinux/arcolinux-i3wm --depth=1  /tmp/input
+cp -r /tmp/input/etc/skel/.config/* dotfiles/.config/
+rm -rf /tmp/input
+
 # Below command will backup everything inside the project folder
 git add --all .
 
