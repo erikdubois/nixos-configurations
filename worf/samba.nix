@@ -16,8 +16,8 @@
     securityType = "user";
     extraConfig = ''
       workgroup = WORKGROUP
-      server string = smbnix-riker
-      netbios name = smbnix-riker
+      server string = smbnix-worf
+      netbios name = smbnix-worf
       server role = standalone server
       #security = user 
       #use sendfile = yes
@@ -29,7 +29,7 @@
       map to guest = bad user
     '';
     shares = {
-      SHARED-RIKER = {
+      SHARED-WORF = {
         path = "/home/erik/SHARED";
         browseable = "yes";
         "read only" = "no";

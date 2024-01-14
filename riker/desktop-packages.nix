@@ -14,8 +14,12 @@
     eww
     feh
     font-awesome
+    gnumake
+    imlib2
+    jetbrains-mono
     kate
     lolcat
+    lxappearance
     materia-kde-theme
     nitrogen
     ocs-url
@@ -26,11 +30,8 @@
     sxhkd
     xfce.thunar
     xfce.thunar-archive-plugin
-    jetbrains-mono
-    gnumake
     xorg.libX11.dev
     xorg.libXft
-    imlib2
     xorg.libXinerama
 ];
 }

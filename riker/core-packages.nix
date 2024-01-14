@@ -16,7 +16,6 @@
     bibata-cursors
     btop
     chromium
-    #cnijfilter2
     curl
     discord
     dropbox
@@ -33,8 +32,8 @@
     gnome.gvfs
     hack-font
     hblock
-    hwinfo
     hw-probe
+    hwinfo
     inkscape
     insync
     kitty
