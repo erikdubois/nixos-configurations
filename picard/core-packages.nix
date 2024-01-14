@@ -19,6 +19,7 @@
     #cnijfilter2
     curl
     discord
+    dropbox
     duf
     evince
     feh
@@ -35,6 +36,7 @@
     hwinfo
     hw-probe
     inkscape
+    insync
     kitty
     lollypop
     lshw

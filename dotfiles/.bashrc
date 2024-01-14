@@ -226,9 +226,6 @@ alias ltupg="leftwm-theme upgrade"
 alias rmgitcache="rm -r ~/.cache/git"
 alias grh="git reset --hard"
 
-#moving your personal files and folders from /personal to ~
-alias personal='cp -Rf /personal/* ~'
-
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
