@@ -14,6 +14,7 @@
       ./nvidia.nix
       #<home-manager/nixos>
       ./samba.nix
+      ./env-vars.nix
     ];
 
   # Bootloader.
