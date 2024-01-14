@@ -99,6 +99,7 @@
   nixpkgs.config.nvidia.acceptLicense = true;
   
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.auto-optimise-store = true;
 
   # Auto system update
   system.autoUpgrade = {
