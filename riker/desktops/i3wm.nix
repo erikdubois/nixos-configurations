@@ -13,7 +13,6 @@
     extraPackages = with pkgs; [
       #autorandr
       autotiling
-      betterlockscreen
       dmenu
       i3blocks 
       i3lock-fancy-unstable
