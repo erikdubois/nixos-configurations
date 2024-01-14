@@ -14,12 +14,16 @@
       #./nvidia.nix
       #<home-manager/nixos>
       ./samba.nix
+      ./env-vars.nix
     ];
 
   # Bootloader.
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
   boot.loader.grub.useOSProber = true;
+
+  # Swappiness
+  boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   networking.hostName = "nixos-worf"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.

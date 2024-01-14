@@ -43,6 +43,7 @@
     most
     neofetch
     nomacs
+    obs-studio
     ripgrep
     rxvt-unicode
     scrot

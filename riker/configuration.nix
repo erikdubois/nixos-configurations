@@ -14,11 +14,15 @@
       #./nvidia.nix
       #<home-manager/nixos>
       ./samba.nix
+      ./env-vars.nix
     ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+
+  # Swappiness
+  boot.kernel.sysctl = { "vm.swappiness" = 10;};
 
   networking.hostName = "nixos-riker"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
