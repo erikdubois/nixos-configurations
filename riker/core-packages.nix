@@ -6,6 +6,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #google-chrome
     #wpsoffice
     alacritty
     arc-theme
@@ -38,6 +39,7 @@
     inkscape
     insync
     kitty
+    lm_sensors
     lollypop
     lshw
     meld
