@@ -40,7 +40,7 @@ echo "################################################################"
 tput sgr0
 echo
 
-sudo cp -vf *.nix /etc/nixos/
+sudo cp -rvf *.nix /etc/nixos/
 
 sudo nixos-rebuild switch
 
