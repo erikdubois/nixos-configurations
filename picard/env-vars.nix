@@ -2,13 +2,13 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, editor, browser, ... }:
+{ config, pkgs, ... }:
 
 {
   environment.variables = {
-    EDITOR = "${editor}";
-    BROWSER = "${browser}";
+    EDITOR = "nano";
+    BROWSER = "firefox";
     QT_QPA_PLATFORM = "xcb";
-    QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
+    #QT_QPA_PLATFORMTHEME = lib.mkForce "qt5ct";
   };	
 }
