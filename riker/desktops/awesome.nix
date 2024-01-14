@@ -15,7 +15,7 @@
   };
   services.xserver.windowManager.awesome = {
     extraPackages = with pkgs; [
-      i3lock-fancy-unstable
+      i3lock-fancy
     ];
   };
 }

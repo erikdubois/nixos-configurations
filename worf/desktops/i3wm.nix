@@ -14,8 +14,8 @@
       #autorandr
       autotiling
       dmenu
-      i3blocks 
-      i3lock-fancy-unstable
+      i3blocks
+      i3lock-fancy
       i3status
     ];
   };
