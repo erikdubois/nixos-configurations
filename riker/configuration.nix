@@ -16,7 +16,7 @@
       ./samba.nix
       ./env-vars.nix
       #./virtualbox.nix
-      #./desktops/awesome.nix
+      ./desktops/awesome.nix
       ./desktops/i3wm.nix
       ./desktops/bspwm.nix
     ];
@@ -27,6 +27,9 @@
 
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
+
+  # Kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = "nixos-riker"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.

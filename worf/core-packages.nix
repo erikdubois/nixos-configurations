@@ -46,6 +46,7 @@
     inkscape
     insync
     inxi
+    killall
     kitty
     lm_sensors
     lollypop
@@ -59,6 +60,7 @@
     ookla-speedtest
     qbittorrent-qt5
     platinum-searcher
+    polybar
     ripgrep
     rxvt-unicode
     scrot
