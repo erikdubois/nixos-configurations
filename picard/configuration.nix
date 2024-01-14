@@ -16,6 +16,8 @@
       ./samba.nix
       ./env-vars.nix
       ./virtualbox.nix
+      #./desktops/awesome.nix
+      #./desktops/i3wm.nix
     ];
 
   # Bootloader.
