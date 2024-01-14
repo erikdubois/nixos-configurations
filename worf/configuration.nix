@@ -15,6 +15,7 @@
       #<home-manager/nixos>
       ./samba.nix
       ./env-vars.nix
+      #./virtualbox.nix
     ];
 
   # Bootloader.
@@ -100,6 +101,12 @@
   nixpkgs.config.nvidia.acceptLicense = true;
   
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.auto-optimise-store = true;
+
+  # Auto system update
+  system.autoUpgrade = {
+      enable = true;
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
@@ -159,6 +166,6 @@
   system.stateVersion = "23.11"; # Did you read the comment?
 
  nixpkgs.config.permittedInsecurePackages = [
-	"openssl-1.1.1w"
+	"openssl-1.1.1w" "electron-19.1.9"
 ];
 }

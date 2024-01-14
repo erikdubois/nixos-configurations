@@ -23,12 +23,15 @@
     discord
     dropbox
     duf
+    edid-decode
     etcher
     evince
     feh
+    filezilla
     firefox
     flameshot
     font-manager
+    fsearch
     gimp
     git
     gnome.dconf-editor
@@ -40,15 +43,20 @@
     hwinfo
     inkscape
     insync
+    inxi
     kitty
     lm_sensors
     lollypop
     lshw
     meld
+    mlocate
     most
     neofetch
     nomacs
     obs-studio
+    ookla-speedtest
+    qbittorrent-qt5
+    platinum-searcher
     ripgrep
     rxvt-unicode
     scrot
