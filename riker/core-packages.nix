@@ -60,6 +60,7 @@
     ookla-speedtest
     qbittorrent-qt5
     platinum-searcher
+    polybar
     ripgrep
     rxvt-unicode
     scrot
