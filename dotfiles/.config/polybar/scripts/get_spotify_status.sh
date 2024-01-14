@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # The name of polybar bar which houses the main spotify module and the control modules.
 PARENT_BAR="mainbar-i3"

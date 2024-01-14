@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # credits
 # https://linuxconfig.org/polybar-a-better-wm-panel-for-your-linux-system

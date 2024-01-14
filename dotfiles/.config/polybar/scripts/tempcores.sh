@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # fork from Per-core temperatures :
 # https://github.com/jaagr/polybar/wiki/User-contributed-modules#per-core-temperatures

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # More info : https://github.com/jaagr/polybar/wiki
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # credits
 # https://github.com/NicholasFeldman/dotfiles/blob/master/polybar/.config/polybar/spotify.sh
