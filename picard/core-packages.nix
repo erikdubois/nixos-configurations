@@ -42,6 +42,7 @@
     hblock
     hw-probe
     hwinfo
+    i3lock-fancy
     inkscape
     insync
     inxi
