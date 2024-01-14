@@ -236,6 +236,7 @@ alias list="nix-env -qaP \*"
 alias gramps="nix-env -p /nix/var/nix/profiles/system --list-generations"
 alias nnixos-config="sudo $EDITOR /etc/nixos/configuration.nix"
 alias cleanup="sudo nix-collect-garbage"
+alias gp="git pull"
 
 # reporting tools - install when not installed
 #neofetch
