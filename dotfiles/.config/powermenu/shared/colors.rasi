@@ -15,4 +15,4 @@
 
 /* Import color-scheme from `colors` directory */
 
-@import "~/.config/rofi/files/colors/onedark.rasi"
+@import "~/.config/powermenu/shared/colors/onedark.rasi"
