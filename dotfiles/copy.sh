@@ -43,6 +43,7 @@ echo
 cp -rf .config ~
 cp -rf .local ~
 cp .bashrc ~
+cp .bashrc-personal ~
 cp .Xresources ~
 
 echo
