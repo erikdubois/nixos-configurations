@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-l35myl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040404",
+        "foreground": "#7fbaec",
+        "cursor": "#7fbaec"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#E08A1C",
+        "color2": "#FEEB00",
+        "color3": "#AB47BB",
+        "color4": "#AB47BB",
+        "color5": "#1690AA",
+        "color6": "#18B2D2",
+        "color7": "#7fbaec",
+        "color8": "#5882a5",
+        "color9": "#E08A1C",
+        "color10": "#FEEB00",
+        "color11": "#AB47BB",
+        "color12": "#AB47BB",
+        "color13": "#1690AA",
+        "color14": "#18B2D2",
+        "color15": "#7fbaec"
+    }
+}
