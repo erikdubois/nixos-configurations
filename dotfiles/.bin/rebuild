@@ -33,6 +33,10 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 path="/home/erik/Documents/nixos-configurations/"
 
+cd $path
+
+git pull
+
 host=$(hostname)
 
 if [ $host == "nixos-riker" ]; then
