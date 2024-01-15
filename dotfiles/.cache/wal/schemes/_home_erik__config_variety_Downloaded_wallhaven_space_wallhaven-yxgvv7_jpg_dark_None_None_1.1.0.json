@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-yxgvv7.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E121A",
+        "foreground": "#c8cbba",
+        "cursor": "#c8cbba"
+    },
+    "colors": {
+        "color0": "#0E121A",
+        "color1": "#4C4D4F",
+        "color2": "#6C695F",
+        "color3": "#C55E5A",
+        "color4": "#6F9170",
+        "color5": "#979275",
+        "color6": "#DD9547",
+        "color7": "#c8cbba",
+        "color8": "#8c8e82",
+        "color9": "#4C4D4F",
+        "color10": "#6C695F",
+        "color11": "#C55E5A",
+        "color12": "#6F9170",
+        "color13": "#979275",
+        "color14": "#DD9547",
+        "color15": "#c8cbba"
+    }
+}

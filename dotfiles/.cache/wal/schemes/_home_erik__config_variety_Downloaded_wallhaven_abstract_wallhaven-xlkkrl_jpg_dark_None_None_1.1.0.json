@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-xlkkrl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1e25",
+        "foreground": "#db9498",
+        "cursor": "#db9498"
+    },
+    "colors": {
+        "color0": "#0d1e25",
+        "color1": "#2F2F42",
+        "color2": "#4C2F45",
+        "color3": "#6D2D4B",
+        "color4": "#2B4E44",
+        "color5": "#5A4C48",
+        "color6": "#9D2935",
+        "color7": "#db9498",
+        "color8": "#99676a",
+        "color9": "#2F2F42",
+        "color10": "#4C2F45",
+        "color11": "#6D2D4B",
+        "color12": "#2B4E44",
+        "color13": "#5A4C48",
+        "color14": "#9D2935",
+        "color15": "#db9498"
+    }
+}

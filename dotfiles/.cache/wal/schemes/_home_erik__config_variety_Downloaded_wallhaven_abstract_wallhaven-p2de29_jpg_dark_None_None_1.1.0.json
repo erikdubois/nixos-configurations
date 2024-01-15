@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-p2de29.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07001F",
+        "foreground": "#91bced",
+        "cursor": "#91bced"
+    },
+    "colors": {
+        "color0": "#07001F",
+        "color1": "#C3A643",
+        "color2": "#FFDB45",
+        "color3": "#4F62CE",
+        "color4": "#EA478F",
+        "color5": "#01BB92",
+        "color6": "#03C498",
+        "color7": "#91bced",
+        "color8": "#6583a5",
+        "color9": "#C3A643",
+        "color10": "#FFDB45",
+        "color11": "#4F62CE",
+        "color12": "#EA478F",
+        "color13": "#01BB92",
+        "color14": "#03C498",
+        "color15": "#91bced"
+    }
+}

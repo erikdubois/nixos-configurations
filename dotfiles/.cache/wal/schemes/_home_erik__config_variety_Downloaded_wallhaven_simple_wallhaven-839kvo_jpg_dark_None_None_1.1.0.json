@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-839kvo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0904",
+        "foreground": "#dcdce0",
+        "cursor": "#dcdce0"
+    },
+    "colors": {
+        "color0": "#0c0904",
+        "color1": "#C6907A",
+        "color2": "#8C7D85",
+        "color3": "#AB9D92",
+        "color4": "#B5B0AF",
+        "color5": "#D1B1A4",
+        "color6": "#C8C0C1",
+        "color7": "#dcdce0",
+        "color8": "#9a9a9c",
+        "color9": "#C6907A",
+        "color10": "#8C7D85",
+        "color11": "#AB9D92",
+        "color12": "#B5B0AF",
+        "color13": "#D1B1A4",
+        "color14": "#C8C0C1",
+        "color15": "#dcdce0"
+    }
+}

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-x6ejll.jpg"
+let background = "#0a0604"
+let foreground = "#b0a2c5"
+let cursor     = "#b0a2c5"
+
+" Colors
+let color0  = "#0a0604"
+let color1  = "#41304D"
+let color2  = "#504C4C"
+let color3  = "#6C605D"
+let color4  = "#86563D"
+let color5  = "#8F6D56"
+let color6  = "#AC8C6F"
+let color7  = "#b0a2c5"
+let color8  = "#7b7189"
+let color9  = "#41304D"
+let color10 = "#504C4C"
+let color11 = "#6C605D"
+let color12 = "#86563D"
+let color13 = "#8F6D56"
+let color14 = "#AC8C6F"
+let color15 = "#b0a2c5"

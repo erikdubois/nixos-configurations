@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-yxk33x.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060F18",
+        "foreground": "#dea599",
+        "cursor": "#dea599"
+    },
+    "colors": {
+        "color0": "#060F18",
+        "color1": "#1A4050",
+        "color2": "#2E4149",
+        "color3": "#295A66",
+        "color4": "#5A4645",
+        "color5": "#E3573B",
+        "color6": "#9E5245",
+        "color7": "#dea599",
+        "color8": "#9b736b",
+        "color9": "#1A4050",
+        "color10": "#2E4149",
+        "color11": "#295A66",
+        "color12": "#5A4645",
+        "color13": "#E3573B",
+        "color14": "#9E5245",
+        "color15": "#dea599"
+    }
+}

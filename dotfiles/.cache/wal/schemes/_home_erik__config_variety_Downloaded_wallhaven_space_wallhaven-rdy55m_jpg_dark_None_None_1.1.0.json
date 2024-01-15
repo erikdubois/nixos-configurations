@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-rdy55m.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#01120D",
+        "foreground": "#f5e5de",
+        "cursor": "#f5e5de"
+    },
+    "colors": {
+        "color0": "#01120D",
+        "color1": "#66A1A8",
+        "color2": "#A29F9B",
+        "color3": "#EFB09B",
+        "color4": "#F9CDA1",
+        "color5": "#FECFAF",
+        "color6": "#BCCDC2",
+        "color7": "#f5e5de",
+        "color8": "#aba09b",
+        "color9": "#66A1A8",
+        "color10": "#A29F9B",
+        "color11": "#EFB09B",
+        "color12": "#F9CDA1",
+        "color13": "#FECFAF",
+        "color14": "#BCCDC2",
+        "color15": "#f5e5de"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-p8p2rp.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a091b",
+        "foreground": "#d4dfea",
+        "cursor": "#d4dfea"
+    },
+    "colors": {
+        "color0": "#0a091b",
+        "color1": "#479BCC",
+        "color2": "#AD9891",
+        "color3": "#CCAC9D",
+        "color4": "#CEB9AF",
+        "color5": "#D1C0B8",
+        "color6": "#83AFE6",
+        "color7": "#d4dfea",
+        "color8": "#949ca3",
+        "color9": "#479BCC",
+        "color10": "#AD9891",
+        "color11": "#CCAC9D",
+        "color12": "#CEB9AF",
+        "color13": "#D1C0B8",
+        "color14": "#83AFE6",
+        "color15": "#d4dfea"
+    }
+}

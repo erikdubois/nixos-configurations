@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-wyojrr.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101010",
+        "foreground": "#85c0c7",
+        "cursor": "#85c0c7"
+    },
+    "colors": {
+        "color0": "#101010",
+        "color1": "#474A4A",
+        "color2": "#475E61",
+        "color3": "#48676A",
+        "color4": "#397C83",
+        "color5": "#417C83",
+        "color6": "#008D9F",
+        "color7": "#85c0c7",
+        "color8": "#5d868b",
+        "color9": "#474A4A",
+        "color10": "#475E61",
+        "color11": "#48676A",
+        "color12": "#397C83",
+        "color13": "#417C83",
+        "color14": "#008D9F",
+        "color15": "#85c0c7"
+    }
+}

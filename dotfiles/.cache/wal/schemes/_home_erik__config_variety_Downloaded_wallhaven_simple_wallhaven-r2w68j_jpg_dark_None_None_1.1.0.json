@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-r2w68j.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A1215",
+        "foreground": "#f1e3e8",
+        "cursor": "#f1e3e8"
+    },
+    "colors": {
+        "color0": "#0A1215",
+        "color1": "#B78670",
+        "color2": "#E18E70",
+        "color3": "#AB6E97",
+        "color4": "#EDAB9F",
+        "color5": "#E4B9BB",
+        "color6": "#F7D1D2",
+        "color7": "#f1e3e8",
+        "color8": "#a89ea2",
+        "color9": "#B78670",
+        "color10": "#E18E70",
+        "color11": "#AB6E97",
+        "color12": "#EDAB9F",
+        "color13": "#E4B9BB",
+        "color14": "#F7D1D2",
+        "color15": "#f1e3e8"
+    }
+}

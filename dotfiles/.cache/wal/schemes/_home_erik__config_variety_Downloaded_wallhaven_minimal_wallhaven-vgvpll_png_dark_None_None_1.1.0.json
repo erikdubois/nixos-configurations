@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-vgvpll.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0c0a",
+        "foreground": "#f3f3e8",
+        "cursor": "#f3f3e8"
+    },
+    "colors": {
+        "color0": "#0f0c0a",
+        "color1": "#DB4C4B",
+        "color2": "#E75150",
+        "color3": "#E56F6A",
+        "color4": "#A38876",
+        "color5": "#C4AEA0",
+        "color6": "#E7E1D0",
+        "color7": "#f3f3e8",
+        "color8": "#aaaaa2",
+        "color9": "#DB4C4B",
+        "color10": "#E75150",
+        "color11": "#E56F6A",
+        "color12": "#A38876",
+        "color13": "#C4AEA0",
+        "color14": "#E7E1D0",
+        "color15": "#f3f3e8"
+    }
+}

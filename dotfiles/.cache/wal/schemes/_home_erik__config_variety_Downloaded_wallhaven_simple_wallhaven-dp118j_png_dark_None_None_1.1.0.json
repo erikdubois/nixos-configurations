@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-dp118j.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0A13",
+        "foreground": "#bed8db",
+        "cursor": "#bed8db"
+    },
+    "colors": {
+        "color0": "#0D0A13",
+        "color1": "#308C9E",
+        "color2": "#56A1AD",
+        "color3": "#6AB3BC",
+        "color4": "#77BAC2",
+        "color5": "#90AFB2",
+        "color6": "#82BEC4",
+        "color7": "#bed8db",
+        "color8": "#859799",
+        "color9": "#308C9E",
+        "color10": "#56A1AD",
+        "color11": "#6AB3BC",
+        "color12": "#77BAC2",
+        "color13": "#90AFB2",
+        "color14": "#82BEC4",
+        "color15": "#bed8db"
+    }
+}

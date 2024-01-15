@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-eykryl.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050711",
+        "foreground": "#e294eb",
+        "cursor": "#e294eb"
+    },
+    "colors": {
+        "color0": "#050711",
+        "color1": "#500D67",
+        "color2": "#085855",
+        "color3": "#610D9E",
+        "color4": "#4F0DAA",
+        "color5": "#9219AD",
+        "color6": "#A31BD3",
+        "color7": "#e294eb",
+        "color8": "#9e67a4",
+        "color9": "#500D67",
+        "color10": "#085855",
+        "color11": "#610D9E",
+        "color12": "#4F0DAA",
+        "color13": "#9219AD",
+        "color14": "#A31BD3",
+        "color15": "#e294eb"
+    }
+}

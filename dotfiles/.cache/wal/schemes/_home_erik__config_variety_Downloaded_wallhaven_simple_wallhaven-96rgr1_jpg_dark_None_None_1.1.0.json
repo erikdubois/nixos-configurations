@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-96rgr1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#3a070f",
+        "foreground": "#efe0e2",
+        "cursor": "#efe0e2"
+    },
+    "colors": {
+        "color0": "#3a070f",
+        "color1": "#A14F5D",
+        "color2": "#CD586B",
+        "color3": "#B67983",
+        "color4": "#D97687",
+        "color5": "#E79DAA",
+        "color6": "#E7B7BF",
+        "color7": "#efe0e2",
+        "color8": "#a79c9e",
+        "color9": "#A14F5D",
+        "color10": "#CD586B",
+        "color11": "#B67983",
+        "color12": "#D97687",
+        "color13": "#E79DAA",
+        "color14": "#E7B7BF",
+        "color15": "#efe0e2"
+    }
+}

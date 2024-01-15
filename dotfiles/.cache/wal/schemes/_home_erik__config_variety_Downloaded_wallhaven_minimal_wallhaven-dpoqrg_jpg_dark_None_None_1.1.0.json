@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-dpoqrg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#001C1D",
+        "foreground": "#91aaaa",
+        "cursor": "#91aaaa"
+    },
+    "colors": {
+        "color0": "#001C1D",
+        "color1": "#2E605F",
+        "color2": "#2D5F60",
+        "color3": "#336564",
+        "color4": "#336566",
+        "color5": "#336667",
+        "color6": "#346665",
+        "color7": "#91aaaa",
+        "color8": "#657676",
+        "color9": "#2E605F",
+        "color10": "#2D5F60",
+        "color11": "#336564",
+        "color12": "#336566",
+        "color13": "#336667",
+        "color14": "#346665",
+        "color15": "#91aaaa"
+    }
+}

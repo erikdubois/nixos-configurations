@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-8opm7o.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1217",
+        "foreground": "#d4d9dd",
+        "cursor": "#d4d9dd"
+    },
+    "colors": {
+        "color0": "#0E1217",
+        "color1": "#376189",
+        "color2": "#577592",
+        "color3": "#708AA1",
+        "color4": "#74A3C7",
+        "color5": "#9BA0A1",
+        "color6": "#9DB2C9",
+        "color7": "#d4d9dd",
+        "color8": "#94979a",
+        "color9": "#376189",
+        "color10": "#577592",
+        "color11": "#708AA1",
+        "color12": "#74A3C7",
+        "color13": "#9BA0A1",
+        "color14": "#9DB2C9",
+        "color15": "#d4d9dd"
+    }
+}

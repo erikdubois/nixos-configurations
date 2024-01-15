@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-wymwpx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A090B",
+        "foreground": "#d7c5b2",
+        "cursor": "#d7c5b2"
+    },
+    "colors": {
+        "color0": "#0A090B",
+        "color1": "#454D4F",
+        "color2": "#8E1F1B",
+        "color3": "#BC3028",
+        "color4": "#C63228",
+        "color5": "#C75A3E",
+        "color6": "#F96B47",
+        "color7": "#d7c5b2",
+        "color8": "#96897c",
+        "color9": "#454D4F",
+        "color10": "#8E1F1B",
+        "color11": "#BC3028",
+        "color12": "#C63228",
+        "color13": "#C75A3E",
+        "color14": "#F96B47",
+        "color15": "#d7c5b2"
+    }
+}

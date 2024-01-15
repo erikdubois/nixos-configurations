@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-gp5z7q.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#01091E",
+        "foreground": "#c7e3ed",
+        "cursor": "#c7e3ed"
+    },
+    "colors": {
+        "color0": "#01091E",
+        "color1": "#0072C7",
+        "color2": "#98748F",
+        "color3": "#11A2DE",
+        "color4": "#4CB0DD",
+        "color5": "#5FCCEC",
+        "color6": "#D5A5AE",
+        "color7": "#c7e3ed",
+        "color8": "#8b9ea5",
+        "color9": "#0072C7",
+        "color10": "#98748F",
+        "color11": "#11A2DE",
+        "color12": "#4CB0DD",
+        "color13": "#5FCCEC",
+        "color14": "#D5A5AE",
+        "color15": "#c7e3ed"
+    }
+}

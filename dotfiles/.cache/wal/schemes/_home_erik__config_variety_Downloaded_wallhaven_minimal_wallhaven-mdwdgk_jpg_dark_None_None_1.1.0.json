@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-mdwdgk.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1015",
+        "foreground": "#c5e2e2",
+        "cursor": "#c5e2e2"
+    },
+    "colors": {
+        "color0": "#0F1015",
+        "color1": "#169CEA",
+        "color2": "#4DB5DB",
+        "color3": "#6DCCE1",
+        "color4": "#BAAFA8",
+        "color5": "#B6D4B7",
+        "color6": "#D0D098",
+        "color7": "#c5e2e2",
+        "color8": "#899e9e",
+        "color9": "#169CEA",
+        "color10": "#4DB5DB",
+        "color11": "#6DCCE1",
+        "color12": "#BAAFA8",
+        "color13": "#B6D4B7",
+        "color14": "#D0D098",
+        "color15": "#c5e2e2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-xl56rv.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#261c2f",
+        "foreground": "#ab99ba",
+        "cursor": "#ab99ba"
+    },
+    "colors": {
+        "color0": "#261c2f",
+        "color1": "#EA5255",
+        "color2": "#F66F56",
+        "color3": "#FF815F",
+        "color4": "#4B3C87",
+        "color5": "#643E83",
+        "color6": "#5A4286",
+        "color7": "#ab99ba",
+        "color8": "#776b82",
+        "color9": "#EA5255",
+        "color10": "#F66F56",
+        "color11": "#FF815F",
+        "color12": "#4B3C87",
+        "color13": "#643E83",
+        "color14": "#5A4286",
+        "color15": "#ab99ba"
+    }
+}

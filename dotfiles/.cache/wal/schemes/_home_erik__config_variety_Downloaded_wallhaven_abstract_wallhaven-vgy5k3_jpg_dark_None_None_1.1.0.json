@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-vgy5k3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#00173C",
+        "foreground": "#a0d0ef",
+        "cursor": "#a0d0ef"
+    },
+    "colors": {
+        "color0": "#00173C",
+        "color1": "#652C97",
+        "color2": "#3454C2",
+        "color3": "#9E2599",
+        "color4": "#DB2A9C",
+        "color5": "#BA53C3",
+        "color6": "#079CEF",
+        "color7": "#a0d0ef",
+        "color8": "#7091a7",
+        "color9": "#652C97",
+        "color10": "#3454C2",
+        "color11": "#9E2599",
+        "color12": "#DB2A9C",
+        "color13": "#BA53C3",
+        "color14": "#079CEF",
+        "color15": "#a0d0ef"
+    }
+}

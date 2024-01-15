@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-exwgv8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0e15",
+        "foreground": "#aebed1",
+        "cursor": "#aebed1"
+    },
+    "colors": {
+        "color0": "#0c0e15",
+        "color1": "#4B5670",
+        "color2": "#8B6D75",
+        "color3": "#3C5689",
+        "color4": "#556A8E",
+        "color5": "#647491",
+        "color6": "#917A86",
+        "color7": "#aebed1",
+        "color8": "#798592",
+        "color9": "#4B5670",
+        "color10": "#8B6D75",
+        "color11": "#3C5689",
+        "color12": "#556A8E",
+        "color13": "#647491",
+        "color14": "#917A86",
+        "color15": "#aebed1"
+    }
+}

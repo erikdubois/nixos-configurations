@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-dgkvkj.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06030D",
+        "foreground": "#f1cacc",
+        "cursor": "#f1cacc"
+    },
+    "colors": {
+        "color0": "#06030D",
+        "color1": "#9B265E",
+        "color2": "#BD4E53",
+        "color3": "#F38B76",
+        "color4": "#5F1399",
+        "color5": "#4F26AD",
+        "color6": "#C638C8",
+        "color7": "#f1cacc",
+        "color8": "#a88d8e",
+        "color9": "#9B265E",
+        "color10": "#BD4E53",
+        "color11": "#F38B76",
+        "color12": "#5F1399",
+        "color13": "#4F26AD",
+        "color14": "#C638C8",
+        "color15": "#f1cacc"
+    }
+}

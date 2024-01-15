@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-md28w8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000100",
+        "foreground": "#c3b8ce",
+        "cursor": "#c3b8ce"
+    },
+    "colors": {
+        "color0": "#000100",
+        "color1": "#693954",
+        "color2": "#3C4A5B",
+        "color3": "#4B475A",
+        "color4": "#54566A",
+        "color5": "#AF495B",
+        "color6": "#685D94",
+        "color7": "#c3b8ce",
+        "color8": "#888090",
+        "color9": "#693954",
+        "color10": "#3C4A5B",
+        "color11": "#4B475A",
+        "color12": "#54566A",
+        "color13": "#AF495B",
+        "color14": "#685D94",
+        "color15": "#c3b8ce"
+    }
+}

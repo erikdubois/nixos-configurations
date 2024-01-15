@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-o59vjp.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A1829",
+        "foreground": "#a0bbc4",
+        "cursor": "#a0bbc4"
+    },
+    "colors": {
+        "color0": "#0A1829",
+        "color1": "#2F4853",
+        "color2": "#28596B",
+        "color3": "#4D5154",
+        "color4": "#606667",
+        "color5": "#917161",
+        "color6": "#377589",
+        "color7": "#a0bbc4",
+        "color8": "#708289",
+        "color9": "#2F4853",
+        "color10": "#28596B",
+        "color11": "#4D5154",
+        "color12": "#606667",
+        "color13": "#917161",
+        "color14": "#377589",
+        "color15": "#a0bbc4"
+    }
+}

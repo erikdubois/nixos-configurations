@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-ox678m.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090708",
+        "foreground": "#d9cecb",
+        "cursor": "#d9cecb"
+    },
+    "colors": {
+        "color0": "#090708",
+        "color1": "#8C7267",
+        "color2": "#9D847A",
+        "color3": "#718F92",
+        "color4": "#AC9690",
+        "color5": "#A79A96",
+        "color6": "#B8ABA9",
+        "color7": "#d9cecb",
+        "color8": "#97908e",
+        "color9": "#8C7267",
+        "color10": "#9D847A",
+        "color11": "#718F92",
+        "color12": "#AC9690",
+        "color13": "#A79A96",
+        "color14": "#B8ABA9",
+        "color15": "#d9cecb"
+    }
+}

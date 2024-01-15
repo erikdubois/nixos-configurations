@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8w17k.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121637",
+        "foreground": "#f3bec1",
+        "cursor": "#f3bec1"
+    },
+    "colors": {
+        "color0": "#121637",
+        "color1": "#EAB648",
+        "color2": "#036696",
+        "color3": "#7C6AAE",
+        "color4": "#7C6FC1",
+        "color5": "#DA758B",
+        "color6": "#1AABB6",
+        "color7": "#f3bec1",
+        "color8": "#aa8587",
+        "color9": "#EAB648",
+        "color10": "#036696",
+        "color11": "#7C6AAE",
+        "color12": "#7C6FC1",
+        "color13": "#DA758B",
+        "color14": "#1AABB6",
+        "color15": "#f3bec1"
+    }
+}

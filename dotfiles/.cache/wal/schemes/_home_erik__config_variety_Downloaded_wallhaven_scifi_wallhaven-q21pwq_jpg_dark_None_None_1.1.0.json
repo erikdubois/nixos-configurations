@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-q21pwq.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0a0a",
+        "foreground": "#acb2ba",
+        "cursor": "#acb2ba"
+    },
+    "colors": {
+        "color0": "#0b0a0a",
+        "color1": "#3B444C",
+        "color2": "#394C6A",
+        "color3": "#484D52",
+        "color4": "#5D626A",
+        "color5": "#9E6439",
+        "color6": "#AB9678",
+        "color7": "#acb2ba",
+        "color8": "#787c82",
+        "color9": "#3B444C",
+        "color10": "#394C6A",
+        "color11": "#484D52",
+        "color12": "#5D626A",
+        "color13": "#9E6439",
+        "color14": "#AB9678",
+        "color15": "#acb2ba"
+    }
+}

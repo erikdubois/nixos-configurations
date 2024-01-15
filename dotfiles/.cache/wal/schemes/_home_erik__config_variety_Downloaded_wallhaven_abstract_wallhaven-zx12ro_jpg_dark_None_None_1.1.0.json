@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-zx12ro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#5d3024",
+        "foreground": "#bfcedd",
+        "cursor": "#bfcedd"
+    },
+    "colors": {
+        "color0": "#5d3024",
+        "color1": "#5D83B0",
+        "color2": "#7398A7",
+        "color3": "#688CB7",
+        "color4": "#388ECB",
+        "color5": "#769AC9",
+        "color6": "#D5C1B4",
+        "color7": "#bfcedd",
+        "color8": "#85909a",
+        "color9": "#5D83B0",
+        "color10": "#7398A7",
+        "color11": "#688CB7",
+        "color12": "#388ECB",
+        "color13": "#769AC9",
+        "color14": "#D5C1B4",
+        "color15": "#bfcedd"
+    }
+}

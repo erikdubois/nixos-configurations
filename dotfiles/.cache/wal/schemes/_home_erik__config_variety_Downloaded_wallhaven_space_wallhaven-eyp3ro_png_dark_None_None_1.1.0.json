@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-eyp3ro.png",
+    "alpha": "100",
+    "special": {
+        "background": "#160b10",
+        "foreground": "#e5a08a",
+        "cursor": "#e5a08a"
+    },
+    "colors": {
+        "color0": "#160b10",
+        "color1": "#402A42",
+        "color2": "#583044",
+        "color3": "#8E2F2D",
+        "color4": "#9C2121",
+        "color5": "#AD3629",
+        "color6": "#B34334",
+        "color7": "#e5a08a",
+        "color8": "#a07060",
+        "color9": "#402A42",
+        "color10": "#583044",
+        "color11": "#8E2F2D",
+        "color12": "#9C2121",
+        "color13": "#AD3629",
+        "color14": "#B34334",
+        "color15": "#e5a08a"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/arcolinux/dlanham-threadtroll-3200x2000.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#00101F",
+        "foreground": "#95bfe0",
+        "cursor": "#95bfe0"
+    },
+    "colors": {
+        "color0": "#00101F",
+        "color1": "#AE807C",
+        "color2": "#164C8C",
+        "color3": "#205DA1",
+        "color4": "#2A6AB2",
+        "color5": "#6067A1",
+        "color6": "#3179C4",
+        "color7": "#95bfe0",
+        "color8": "#68859c",
+        "color9": "#AE807C",
+        "color10": "#164C8C",
+        "color11": "#205DA1",
+        "color12": "#2A6AB2",
+        "color13": "#6067A1",
+        "color14": "#3179C4",
+        "color15": "#95bfe0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-lm2ymq.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0c0e",
+        "foreground": "#c7c8c4",
+        "cursor": "#c7c8c4"
+    },
+    "colors": {
+        "color0": "#0d0c0e",
+        "color1": "#96684A",
+        "color2": "#A5916D",
+        "color3": "#484088",
+        "color4": "#6B6F8B",
+        "color5": "#7A8280",
+        "color6": "#798892",
+        "color7": "#c7c8c4",
+        "color8": "#8b8c89",
+        "color9": "#96684A",
+        "color10": "#A5916D",
+        "color11": "#484088",
+        "color12": "#6B6F8B",
+        "color13": "#7A8280",
+        "color14": "#798892",
+        "color15": "#c7c8c4"
+    }
+}

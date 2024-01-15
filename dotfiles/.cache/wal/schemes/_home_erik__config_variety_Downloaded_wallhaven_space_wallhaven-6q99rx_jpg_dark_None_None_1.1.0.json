@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-6q99rx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d040e",
+        "foreground": "#e4d29f",
+        "cursor": "#e4d29f"
+    },
+    "colors": {
+        "color0": "#0d040e",
+        "color1": "#9C3038",
+        "color2": "#E53231",
+        "color3": "#F05635",
+        "color4": "#B35840",
+        "color5": "#9F6346",
+        "color6": "#99B064",
+        "color7": "#e4d29f",
+        "color8": "#9f936f",
+        "color9": "#9C3038",
+        "color10": "#E53231",
+        "color11": "#F05635",
+        "color12": "#B35840",
+        "color13": "#9F6346",
+        "color14": "#99B064",
+        "color15": "#e4d29f"
+    }
+}

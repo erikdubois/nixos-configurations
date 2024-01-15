@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-733kpv.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000C1C",
+        "foreground": "#eedfd0",
+        "cursor": "#eedfd0"
+    },
+    "colors": {
+        "color0": "#000C1C",
+        "color1": "#3B626B",
+        "color2": "#4C6C70",
+        "color3": "#61797A",
+        "color4": "#697F80",
+        "color5": "#738685",
+        "color6": "#9D9E93",
+        "color7": "#eedfd0",
+        "color8": "#a69c91",
+        "color9": "#3B626B",
+        "color10": "#4C6C70",
+        "color11": "#61797A",
+        "color12": "#697F80",
+        "color13": "#738685",
+        "color14": "#9D9E93",
+        "color15": "#eedfd0"
+    }
+}

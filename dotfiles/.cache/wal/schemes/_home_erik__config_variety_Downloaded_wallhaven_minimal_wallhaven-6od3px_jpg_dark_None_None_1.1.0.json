@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6od3px.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0311",
+        "foreground": "#d3a5c2",
+        "cursor": "#d3a5c2"
+    },
+    "colors": {
+        "color0": "#0f0311",
+        "color1": "#9E3A3C",
+        "color2": "#DB623A",
+        "color3": "#E36F45",
+        "color4": "#EE8241",
+        "color5": "#F99A5C",
+        "color6": "#762383",
+        "color7": "#d3a5c2",
+        "color8": "#937387",
+        "color9": "#9E3A3C",
+        "color10": "#DB623A",
+        "color11": "#E36F45",
+        "color12": "#EE8241",
+        "color13": "#F99A5C",
+        "color14": "#762383",
+        "color15": "#d3a5c2"
+    }
+}

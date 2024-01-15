@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-282doy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#081314",
+        "foreground": "#98c4bb",
+        "cursor": "#98c4bb"
+    },
+    "colors": {
+        "color0": "#081314",
+        "color1": "#0B6458",
+        "color2": "#226858",
+        "color3": "#177064",
+        "color4": "#267566",
+        "color5": "#2E8776",
+        "color6": "#3B9385",
+        "color7": "#98c4bb",
+        "color8": "#6a8982",
+        "color9": "#0B6458",
+        "color10": "#226858",
+        "color11": "#177064",
+        "color12": "#267566",
+        "color13": "#2E8776",
+        "color14": "#3B9385",
+        "color15": "#98c4bb"
+    }
+}

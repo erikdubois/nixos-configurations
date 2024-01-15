@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-zx829v.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0404",
+        "foreground": "#e9ba99",
+        "cursor": "#e9ba99"
+    },
+    "colors": {
+        "color0": "#0a0404",
+        "color1": "#794334",
+        "color2": "#982722",
+        "color3": "#964D35",
+        "color4": "#DE4236",
+        "color5": "#E86236",
+        "color6": "#A96248",
+        "color7": "#e9ba99",
+        "color8": "#a3826b",
+        "color9": "#794334",
+        "color10": "#982722",
+        "color11": "#964D35",
+        "color12": "#DE4236",
+        "color13": "#E86236",
+        "color14": "#A96248",
+        "color15": "#e9ba99"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-xl19lv.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d10",
+        "foreground": "#cdc7c5",
+        "cursor": "#cdc7c5"
+    },
+    "colors": {
+        "color0": "#0f0d10",
+        "color1": "#545C69",
+        "color2": "#6E6D73",
+        "color3": "#8D6D5E",
+        "color4": "#777983",
+        "color5": "#878081",
+        "color6": "#928B8D",
+        "color7": "#cdc7c5",
+        "color8": "#8f8b89",
+        "color9": "#545C69",
+        "color10": "#6E6D73",
+        "color11": "#8D6D5E",
+        "color12": "#777983",
+        "color13": "#878081",
+        "color14": "#928B8D",
+        "color15": "#cdc7c5"
+    }
+}

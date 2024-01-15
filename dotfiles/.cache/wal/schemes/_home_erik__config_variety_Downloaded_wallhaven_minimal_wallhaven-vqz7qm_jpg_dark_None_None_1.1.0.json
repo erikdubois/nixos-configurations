@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-vqz7qm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1119",
+        "foreground": "#9c9fad",
+        "cursor": "#9c9fad"
+    },
+    "colors": {
+        "color0": "#0f1119",
+        "color1": "#353A54",
+        "color2": "#363B55",
+        "color3": "#363B58",
+        "color4": "#3E4259",
+        "color5": "#3E4462",
+        "color6": "#42435A",
+        "color7": "#9c9fad",
+        "color8": "#6d6f79",
+        "color9": "#353A54",
+        "color10": "#363B55",
+        "color11": "#363B58",
+        "color12": "#3E4259",
+        "color13": "#3E4462",
+        "color14": "#42435A",
+        "color15": "#9c9fad"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-r2dl1w.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#031934",
+        "foreground": "#d9b6c3",
+        "cursor": "#d9b6c3"
+    },
+    "colors": {
+        "color0": "#031934",
+        "color1": "#504A74",
+        "color2": "#685278",
+        "color3": "#375285",
+        "color4": "#69638A",
+        "color5": "#79778F",
+        "color6": "#8C6F94",
+        "color7": "#d9b6c3",
+        "color8": "#977f88",
+        "color9": "#504A74",
+        "color10": "#685278",
+        "color11": "#375285",
+        "color12": "#69638A",
+        "color13": "#79778F",
+        "color14": "#8C6F94",
+        "color15": "#d9b6c3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-l8kjp2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090d0d",
+        "foreground": "#e0e0df",
+        "cursor": "#e0e0df"
+    },
+    "colors": {
+        "color0": "#090d0d",
+        "color1": "#4F6567",
+        "color2": "#617F7F",
+        "color3": "#2A848A",
+        "color4": "#6E8F92",
+        "color5": "#9BACAE",
+        "color6": "#B6C3C4",
+        "color7": "#e0e0df",
+        "color8": "#9c9c9c",
+        "color9": "#4F6567",
+        "color10": "#617F7F",
+        "color11": "#2A848A",
+        "color12": "#6E8F92",
+        "color13": "#9BACAE",
+        "color14": "#B6C3C4",
+        "color15": "#e0e0df"
+    }
+}

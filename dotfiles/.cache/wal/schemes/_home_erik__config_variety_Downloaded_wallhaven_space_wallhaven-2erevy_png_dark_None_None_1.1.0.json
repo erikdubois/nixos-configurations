@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-2erevy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1937",
+        "foreground": "#a1bfbf",
+        "cursor": "#a1bfbf"
+    },
+    "colors": {
+        "color0": "#0F1937",
+        "color1": "#585963",
+        "color2": "#986C69",
+        "color3": "#BF9774",
+        "color4": "#0D7486",
+        "color5": "#597487",
+        "color6": "#0C939B",
+        "color7": "#a1bfbf",
+        "color8": "#708585",
+        "color9": "#585963",
+        "color10": "#986C69",
+        "color11": "#BF9774",
+        "color12": "#0D7486",
+        "color13": "#597487",
+        "color14": "#0C939B",
+        "color15": "#a1bfbf"
+    }
+}

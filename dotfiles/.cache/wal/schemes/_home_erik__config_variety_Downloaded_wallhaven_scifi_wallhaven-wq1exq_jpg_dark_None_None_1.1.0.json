@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-wq1exq.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1216",
+        "foreground": "#afccdf",
+        "cursor": "#afccdf"
+    },
+    "colors": {
+        "color0": "#0E1216",
+        "color1": "#474E58",
+        "color2": "#596570",
+        "color3": "#9B5062",
+        "color4": "#3A6287",
+        "color5": "#627787",
+        "color6": "#758893",
+        "color7": "#afccdf",
+        "color8": "#7a8e9c",
+        "color9": "#474E58",
+        "color10": "#596570",
+        "color11": "#9B5062",
+        "color12": "#3A6287",
+        "color13": "#627787",
+        "color14": "#758893",
+        "color15": "#afccdf"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-j3m7xw.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040E12",
+        "foreground": "#cfc0ab",
+        "cursor": "#cfc0ab"
+    },
+    "colors": {
+        "color0": "#040E12",
+        "color1": "#173846",
+        "color2": "#324C4E",
+        "color3": "#275564",
+        "color4": "#596156",
+        "color5": "#8B5D3C",
+        "color6": "#996E58",
+        "color7": "#cfc0ab",
+        "color8": "#908677",
+        "color9": "#173846",
+        "color10": "#324C4E",
+        "color11": "#275564",
+        "color12": "#596156",
+        "color13": "#8B5D3C",
+        "color14": "#996E58",
+        "color15": "#cfc0ab"
+    }
+}

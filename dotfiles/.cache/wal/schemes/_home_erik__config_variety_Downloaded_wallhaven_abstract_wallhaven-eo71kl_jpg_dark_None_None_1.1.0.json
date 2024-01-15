@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-eo71kl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0A16",
+        "foreground": "#9bc8ce",
+        "cursor": "#9bc8ce"
+    },
+    "colors": {
+        "color0": "#0B0A16",
+        "color1": "#214C72",
+        "color2": "#2E4875",
+        "color3": "#4B5D72",
+        "color4": "#80837E",
+        "color5": "#2E638D",
+        "color6": "#4B6C92",
+        "color7": "#9bc8ce",
+        "color8": "#6c8c90",
+        "color9": "#214C72",
+        "color10": "#2E4875",
+        "color11": "#4B5D72",
+        "color12": "#80837E",
+        "color13": "#2E638D",
+        "color14": "#4B6C92",
+        "color15": "#9bc8ce"
+    }
+}

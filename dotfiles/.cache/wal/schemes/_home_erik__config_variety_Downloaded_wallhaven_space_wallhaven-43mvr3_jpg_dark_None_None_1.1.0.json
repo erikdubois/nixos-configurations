@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-43mvr3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#07090C",
+        "foreground": "#e3e0e0",
+        "cursor": "#e3e0e0"
+    },
+    "colors": {
+        "color0": "#07090C",
+        "color1": "#484C57",
+        "color2": "#545964",
+        "color3": "#696A72",
+        "color4": "#7D7C82",
+        "color5": "#A19C9F",
+        "color6": "#C8BCB9",
+        "color7": "#e3e0e0",
+        "color8": "#9e9c9c",
+        "color9": "#484C57",
+        "color10": "#545964",
+        "color11": "#696A72",
+        "color12": "#7D7C82",
+        "color13": "#A19C9F",
+        "color14": "#C8BCB9",
+        "color15": "#e3e0e0"
+    }
+}

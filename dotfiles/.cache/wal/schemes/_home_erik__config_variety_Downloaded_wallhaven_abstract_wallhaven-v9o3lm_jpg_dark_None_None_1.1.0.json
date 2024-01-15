@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-v9o3lm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0F0F",
+        "foreground": "#f4f4f4",
+        "cursor": "#f4f4f4"
+    },
+    "colors": {
+        "color0": "#0F0F0F",
+        "color1": "#6F6F6F",
+        "color2": "#8F8F8F",
+        "color3": "#AFAFAF",
+        "color4": "#D0D0D0",
+        "color5": "#E8E8E8",
+        "color6": "#F4F4F4",
+        "color7": "#f4f4f4",
+        "color8": "#aaaaaa",
+        "color9": "#6F6F6F",
+        "color10": "#8F8F8F",
+        "color11": "#AFAFAF",
+        "color12": "#D0D0D0",
+        "color13": "#E8E8E8",
+        "color14": "#F4F4F4",
+        "color15": "#f4f4f4"
+    }
+}

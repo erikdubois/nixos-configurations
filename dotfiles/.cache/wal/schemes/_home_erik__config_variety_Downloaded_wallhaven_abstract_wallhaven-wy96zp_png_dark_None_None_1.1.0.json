@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-wy96zp.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010C1A",
+        "foreground": "#7fc6df",
+        "cursor": "#7fc6df"
+    },
+    "colors": {
+        "color0": "#010C1A",
+        "color1": "#294C6A",
+        "color2": "#50434F",
+        "color3": "#05538A",
+        "color4": "#07649A",
+        "color5": "#0770AA",
+        "color6": "#1477BB",
+        "color7": "#7fc6df",
+        "color8": "#588a9c",
+        "color9": "#294C6A",
+        "color10": "#50434F",
+        "color11": "#05538A",
+        "color12": "#07649A",
+        "color13": "#0770AA",
+        "color14": "#1477BB",
+        "color15": "#7fc6df"
+    }
+}

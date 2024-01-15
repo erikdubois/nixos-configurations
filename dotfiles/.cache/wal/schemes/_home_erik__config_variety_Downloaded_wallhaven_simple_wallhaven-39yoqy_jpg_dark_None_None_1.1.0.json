@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-39yoqy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#160a08",
+        "foreground": "#f4e2de",
+        "cursor": "#f4e2de"
+    },
+    "colors": {
+        "color0": "#160a08",
+        "color1": "#6E7386",
+        "color2": "#B6758C",
+        "color3": "#B999AA",
+        "color4": "#DA9B98",
+        "color5": "#F0A599",
+        "color6": "#FCC7B6",
+        "color7": "#f4e2de",
+        "color8": "#aa9e9b",
+        "color9": "#6E7386",
+        "color10": "#B6758C",
+        "color11": "#B999AA",
+        "color12": "#DA9B98",
+        "color13": "#F0A599",
+        "color14": "#FCC7B6",
+        "color15": "#f4e2de"
+    }
+}

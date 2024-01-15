@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-p8j56e.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#08080B",
+        "foreground": "#cc9ebd",
+        "cursor": "#cc9ebd"
+    },
+    "colors": {
+        "color0": "#08080B",
+        "color1": "#265463",
+        "color2": "#4C4775",
+        "color3": "#973165",
+        "color4": "#B34073",
+        "color5": "#1D867C",
+        "color6": "#416E88",
+        "color7": "#cc9ebd",
+        "color8": "#8e6e84",
+        "color9": "#265463",
+        "color10": "#4C4775",
+        "color11": "#973165",
+        "color12": "#B34073",
+        "color13": "#1D867C",
+        "color14": "#416E88",
+        "color15": "#cc9ebd"
+    }
+}

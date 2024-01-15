@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-nkdoqm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0729",
+        "foreground": "#eccb9b",
+        "cursor": "#eccb9b"
+    },
+    "colors": {
+        "color0": "#0A0729",
+        "color1": "#AC572F",
+        "color2": "#D16E31",
+        "color3": "#CB565D",
+        "color4": "#648C50",
+        "color5": "#F29736",
+        "color6": "#A8A250",
+        "color7": "#eccb9b",
+        "color8": "#a58e6c",
+        "color9": "#AC572F",
+        "color10": "#D16E31",
+        "color11": "#CB565D",
+        "color12": "#648C50",
+        "color13": "#F29736",
+        "color14": "#A8A250",
+        "color15": "#eccb9b"
+    }
+}

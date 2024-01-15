@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-yxgx6l.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#08070A",
+        "foreground": "#cbccda",
+        "cursor": "#cbccda"
+    },
+    "colors": {
+        "color0": "#08070A",
+        "color1": "#5C4D65",
+        "color2": "#9F646B",
+        "color3": "#2A579D",
+        "color4": "#3359B4",
+        "color5": "#5A699D",
+        "color6": "#5D9DD7",
+        "color7": "#cbccda",
+        "color8": "#8e8e98",
+        "color9": "#5C4D65",
+        "color10": "#9F646B",
+        "color11": "#2A579D",
+        "color12": "#3359B4",
+        "color13": "#5A699D",
+        "color14": "#5D9DD7",
+        "color15": "#cbccda"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-2el5w9.png",
+    "alpha": "100",
+    "special": {
+        "background": "#09110B",
+        "foreground": "#c2df98",
+        "cursor": "#c2df98"
+    },
+    "colors": {
+        "color0": "#09110B",
+        "color1": "#388812",
+        "color2": "#38A507",
+        "color3": "#4A950F",
+        "color4": "#56A713",
+        "color5": "#6BB221",
+        "color6": "#79C22B",
+        "color7": "#c2df98",
+        "color8": "#879c6a",
+        "color9": "#388812",
+        "color10": "#38A507",
+        "color11": "#4A950F",
+        "color12": "#56A713",
+        "color13": "#6BB221",
+        "color14": "#79C22B",
+        "color15": "#c2df98"
+    }
+}

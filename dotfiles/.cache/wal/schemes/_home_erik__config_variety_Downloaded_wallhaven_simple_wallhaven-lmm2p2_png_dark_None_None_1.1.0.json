@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-lmm2p2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#111315",
+        "foreground": "#e3cfbe",
+        "cursor": "#e3cfbe"
+    },
+    "colors": {
+        "color0": "#111315",
+        "color1": "#6A4D48",
+        "color2": "#9D5F52",
+        "color3": "#B55F47",
+        "color4": "#B3896F",
+        "color5": "#D2966E",
+        "color6": "#967D81",
+        "color7": "#e3cfbe",
+        "color8": "#9e9085",
+        "color9": "#6A4D48",
+        "color10": "#9D5F52",
+        "color11": "#B55F47",
+        "color12": "#B3896F",
+        "color13": "#D2966E",
+        "color14": "#967D81",
+        "color15": "#e3cfbe"
+    }
+}

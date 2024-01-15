@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-39exm3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#933d33",
+        "foreground": "#c3ebeb",
+        "cursor": "#c3ebeb"
+    },
+    "colors": {
+        "color0": "#933d33",
+        "color1": "#37CCD5",
+        "color2": "#36CDE4",
+        "color3": "#57D8DB",
+        "color4": "#6CE5E4",
+        "color5": "#D1B3BF",
+        "color6": "#E8A8AF",
+        "color7": "#c3ebeb",
+        "color8": "#88a4a4",
+        "color9": "#37CCD5",
+        "color10": "#36CDE4",
+        "color11": "#57D8DB",
+        "color12": "#6CE5E4",
+        "color13": "#D1B3BF",
+        "color14": "#E8A8AF",
+        "color15": "#c3ebeb"
+    }
+}

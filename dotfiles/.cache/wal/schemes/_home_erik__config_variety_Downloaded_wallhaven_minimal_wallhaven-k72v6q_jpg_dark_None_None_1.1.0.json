@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-k72v6q.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030B1E",
+        "foreground": "#8bc4dd",
+        "cursor": "#8bc4dd"
+    },
+    "colors": {
+        "color0": "#030B1E",
+        "color1": "#E7817E",
+        "color2": "#484DAB",
+        "color3": "#A22898",
+        "color4": "#BB45AF",
+        "color5": "#E553AC",
+        "color6": "#F05ECB",
+        "color7": "#8bc4dd",
+        "color8": "#61899a",
+        "color9": "#E7817E",
+        "color10": "#484DAB",
+        "color11": "#A22898",
+        "color12": "#BB45AF",
+        "color13": "#E553AC",
+        "color14": "#F05ECB",
+        "color15": "#8bc4dd"
+    }
+}

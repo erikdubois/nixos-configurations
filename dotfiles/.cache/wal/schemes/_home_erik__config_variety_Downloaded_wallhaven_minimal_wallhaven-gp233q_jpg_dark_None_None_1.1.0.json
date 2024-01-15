@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-gp233q.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#e7cce0",
+        "cursor": "#e7cce0"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#5B5DA6",
+        "color2": "#9C65A6",
+        "color3": "#D4709E",
+        "color4": "#7784C9",
+        "color5": "#ED99A6",
+        "color6": "#9F98D2",
+        "color7": "#e7cce0",
+        "color8": "#a18e9c",
+        "color9": "#5B5DA6",
+        "color10": "#9C65A6",
+        "color11": "#D4709E",
+        "color12": "#7784C9",
+        "color13": "#ED99A6",
+        "color14": "#9F98D2",
+        "color15": "#e7cce0"
+    }
+}

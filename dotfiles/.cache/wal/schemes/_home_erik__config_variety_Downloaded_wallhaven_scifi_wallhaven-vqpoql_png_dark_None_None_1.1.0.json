@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_scifi/wallhaven-vqpoql.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080F12",
+        "foreground": "#f5d6bd",
+        "cursor": "#f5d6bd"
+    },
+    "colors": {
+        "color0": "#080F12",
+        "color1": "#2E454D",
+        "color2": "#4E4949",
+        "color3": "#6E5750",
+        "color4": "#A56C54",
+        "color5": "#B88463",
+        "color6": "#EE9F6D",
+        "color7": "#f5d6bd",
+        "color8": "#ab9584",
+        "color9": "#2E454D",
+        "color10": "#4E4949",
+        "color11": "#6E5750",
+        "color12": "#A56C54",
+        "color13": "#B88463",
+        "color14": "#EE9F6D",
+        "color15": "#f5d6bd"
+    }
+}

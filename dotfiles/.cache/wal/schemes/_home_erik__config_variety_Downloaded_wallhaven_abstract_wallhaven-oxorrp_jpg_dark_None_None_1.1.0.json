@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-oxorrp.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#33224a",
+        "foreground": "#8dc2de",
+        "cursor": "#8dc2de"
+    },
+    "colors": {
+        "color0": "#33224a",
+        "color1": "#FEA91A",
+        "color2": "#355EA5",
+        "color3": "#9E2A84",
+        "color4": "#D40C86",
+        "color5": "#BF679A",
+        "color6": "#1199D8",
+        "color7": "#8dc2de",
+        "color8": "#62879b",
+        "color9": "#FEA91A",
+        "color10": "#355EA5",
+        "color11": "#9E2A84",
+        "color12": "#D40C86",
+        "color13": "#BF679A",
+        "color14": "#1199D8",
+        "color15": "#8dc2de"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Favorites/wallhaven-q2kx2l.png",
+    "alpha": "100",
+    "special": {
+        "background": "#111a22",
+        "foreground": "#98b0bb",
+        "cursor": "#98b0bb"
+    },
+    "colors": {
+        "color0": "#111a22",
+        "color1": "#5A5F5A",
+        "color2": "#887359",
+        "color3": "#C8A85B",
+        "color4": "#F6D56E",
+        "color5": "#355E80",
+        "color6": "#3A6A83",
+        "color7": "#98b0bb",
+        "color8": "#6a7b82",
+        "color9": "#5A5F5A",
+        "color10": "#887359",
+        "color11": "#C8A85B",
+        "color12": "#F6D56E",
+        "color13": "#355E80",
+        "color14": "#3A6A83",
+        "color15": "#98b0bb"
+    }
+}

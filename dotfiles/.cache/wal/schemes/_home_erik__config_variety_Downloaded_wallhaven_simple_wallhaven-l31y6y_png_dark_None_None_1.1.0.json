@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-l31y6y.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#cdcdcd",
+        "cursor": "#cdcdcd"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#5C5E65",
+        "color2": "#757575",
+        "color3": "#9F4E4E",
+        "color4": "#D54C4C",
+        "color5": "#7A8081",
+        "color6": "#979797",
+        "color7": "#cdcdcd",
+        "color8": "#8f8f8f",
+        "color9": "#5C5E65",
+        "color10": "#757575",
+        "color11": "#9F4E4E",
+        "color12": "#D54C4C",
+        "color13": "#7A8081",
+        "color14": "#979797",
+        "color15": "#cdcdcd"
+    }
+}

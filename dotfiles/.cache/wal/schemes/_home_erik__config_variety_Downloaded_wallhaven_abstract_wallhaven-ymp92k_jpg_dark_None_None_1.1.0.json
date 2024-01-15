@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_abstract/wallhaven-ymp92k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010D12",
+        "foreground": "#e78a96",
+        "cursor": "#e78a96"
+    },
+    "colors": {
+        "color0": "#010D12",
+        "color1": "#383649",
+        "color2": "#840E1F",
+        "color3": "#940F23",
+        "color4": "#A9132A",
+        "color5": "#CB1B32",
+        "color6": "#D82339",
+        "color7": "#e78a96",
+        "color8": "#a16069",
+        "color9": "#383649",
+        "color10": "#840E1F",
+        "color11": "#940F23",
+        "color12": "#A9132A",
+        "color13": "#CB1B32",
+        "color14": "#D82339",
+        "color15": "#e78a96"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-393omd.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040B11",
+        "foreground": "#b1c8d9",
+        "cursor": "#b1c8d9"
+    },
+    "colors": {
+        "color0": "#040B11",
+        "color1": "#33506E",
+        "color2": "#466177",
+        "color3": "#C77F70",
+        "color4": "#365C89",
+        "color5": "#50708F",
+        "color6": "#6D8EA6",
+        "color7": "#b1c8d9",
+        "color8": "#7b8c97",
+        "color9": "#33506E",
+        "color10": "#466177",
+        "color11": "#C77F70",
+        "color12": "#365C89",
+        "color13": "#50708F",
+        "color14": "#6D8EA6",
+        "color15": "#b1c8d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-gp9yql.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050712",
+        "foreground": "#c2cdde",
+        "cursor": "#c2cdde"
+    },
+    "colors": {
+        "color0": "#050712",
+        "color1": "#4D5470",
+        "color2": "#254D9C",
+        "color3": "#576F94",
+        "color4": "#88729E",
+        "color5": "#6B8DAF",
+        "color6": "#699CC6",
+        "color7": "#c2cdde",
+        "color8": "#878f9b",
+        "color9": "#4D5470",
+        "color10": "#254D9C",
+        "color11": "#576F94",
+        "color12": "#88729E",
+        "color13": "#6B8DAF",
+        "color14": "#699CC6",
+        "color15": "#c2cdde"
+    }
+}

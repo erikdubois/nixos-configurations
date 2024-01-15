@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-m95xmm.png",
+    "alpha": "100",
+    "special": {
+        "background": "#01010A",
+        "foreground": "#77e0f5",
+        "cursor": "#77e0f5"
+    },
+    "colors": {
+        "color0": "#01010A",
+        "color1": "#016FFE",
+        "color2": "#0098B7",
+        "color3": "#03A7D2",
+        "color4": "#0391FE",
+        "color5": "#02ADFE",
+        "color6": "#00D8DC",
+        "color7": "#77e0f5",
+        "color8": "#539cab",
+        "color9": "#016FFE",
+        "color10": "#0098B7",
+        "color11": "#03A7D2",
+        "color12": "#0391FE",
+        "color13": "#02ADFE",
+        "color14": "#00D8DC",
+        "color15": "#77e0f5"
+    }
+}

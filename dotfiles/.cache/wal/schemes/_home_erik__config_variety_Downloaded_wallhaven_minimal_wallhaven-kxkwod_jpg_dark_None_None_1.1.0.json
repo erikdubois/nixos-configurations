@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-kxkwod.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0c",
+        "foreground": "#d7d6d7",
+        "cursor": "#d7d6d7"
+    },
+    "colors": {
+        "color0": "#0d0d0c",
+        "color1": "#9D4532",
+        "color2": "#DD5135",
+        "color3": "#ED6447",
+        "color4": "#85827E",
+        "color5": "#8B8A8A",
+        "color6": "#AEAEAE",
+        "color7": "#d7d6d7",
+        "color8": "#969596",
+        "color9": "#9D4532",
+        "color10": "#DD5135",
+        "color11": "#ED6447",
+        "color12": "#85827E",
+        "color13": "#8B8A8A",
+        "color14": "#AEAEAE",
+        "color15": "#d7d6d7"
+    }
+}

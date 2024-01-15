@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/arcolinux-candy/candy-02.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a1c",
+        "foreground": "#d098bd",
+        "cursor": "#d098bd"
+    },
+    "colors": {
+        "color0": "#0c0a1c",
+        "color1": "#8F3B79",
+        "color2": "#AD4379",
+        "color3": "#D74A74",
+        "color4": "#763386",
+        "color5": "#973A91",
+        "color6": "#D03FA0",
+        "color7": "#d098bd",
+        "color8": "#916a84",
+        "color9": "#8F3B79",
+        "color10": "#AD4379",
+        "color11": "#D74A74",
+        "color12": "#763386",
+        "color13": "#973A91",
+        "color14": "#D03FA0",
+        "color15": "#d098bd"
+    }
+}

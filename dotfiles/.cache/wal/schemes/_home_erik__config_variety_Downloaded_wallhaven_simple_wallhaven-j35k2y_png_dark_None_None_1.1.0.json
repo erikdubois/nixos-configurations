@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-j35k2y.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121212",
+        "foreground": "#f3e198",
+        "cursor": "#f3e198"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#813F20",
+        "color2": "#8F4820",
+        "color3": "#A85921",
+        "color4": "#B76622",
+        "color5": "#C77623",
+        "color6": "#DE9927",
+        "color7": "#f3e198",
+        "color8": "#aa9d6a",
+        "color9": "#813F20",
+        "color10": "#8F4820",
+        "color11": "#A85921",
+        "color12": "#B76622",
+        "color13": "#C77623",
+        "color14": "#DE9927",
+        "color15": "#f3e198"
+    }
+}

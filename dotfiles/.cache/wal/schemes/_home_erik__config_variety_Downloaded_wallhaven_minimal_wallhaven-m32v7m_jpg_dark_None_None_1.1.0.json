@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-m32v7m.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111010",
+        "foreground": "#e7cdc0",
+        "cursor": "#e7cdc0"
+    },
+    "colors": {
+        "color0": "#111010",
+        "color1": "#4C4C52",
+        "color2": "#605E60",
+        "color3": "#A16859",
+        "color4": "#C08D73",
+        "color5": "#7C7A8E",
+        "color6": "#9F9490",
+        "color7": "#e7cdc0",
+        "color8": "#a18f86",
+        "color9": "#4C4C52",
+        "color10": "#605E60",
+        "color11": "#A16859",
+        "color12": "#C08D73",
+        "color13": "#7C7A8E",
+        "color14": "#9F9490",
+        "color15": "#e7cdc0"
+    }
+}

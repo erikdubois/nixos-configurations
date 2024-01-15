@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-r7977j.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010101",
+        "foreground": "#ddd1c1",
+        "cursor": "#ddd1c1"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#8B633B",
+        "color2": "#8E755A",
+        "color3": "#A58D6E",
+        "color4": "#C7A274",
+        "color5": "#737E86",
+        "color6": "#A99E8D",
+        "color7": "#ddd1c1",
+        "color8": "#9a9287",
+        "color9": "#8B633B",
+        "color10": "#8E755A",
+        "color11": "#A58D6E",
+        "color12": "#C7A274",
+        "color13": "#737E86",
+        "color14": "#A99E8D",
+        "color15": "#ddd1c1"
+    }
+}

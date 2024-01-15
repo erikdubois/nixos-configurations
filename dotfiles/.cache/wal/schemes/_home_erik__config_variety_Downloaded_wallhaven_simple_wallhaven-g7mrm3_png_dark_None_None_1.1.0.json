@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_simple/wallhaven-g7mrm3.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101115",
+        "foreground": "#c4bbcc",
+        "cursor": "#c4bbcc"
+    },
+    "colors": {
+        "color0": "#101115",
+        "color1": "#83687E",
+        "color2": "#5B7294",
+        "color3": "#8C7795",
+        "color4": "#658CAA",
+        "color5": "#688BB1",
+        "color6": "#79A9C4",
+        "color7": "#c4bbcc",
+        "color8": "#89828e",
+        "color9": "#83687E",
+        "color10": "#5B7294",
+        "color11": "#8C7795",
+        "color12": "#658CAA",
+        "color13": "#688BB1",
+        "color14": "#79A9C4",
+        "color15": "#c4bbcc"
+    }
+}

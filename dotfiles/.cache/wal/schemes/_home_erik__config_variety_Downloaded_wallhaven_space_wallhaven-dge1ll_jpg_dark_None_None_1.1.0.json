@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_space/wallhaven-dge1ll.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0A03",
+        "foreground": "#ece9e3",
+        "cursor": "#ece9e3"
+    },
+    "colors": {
+        "color0": "#0D0A03",
+        "color1": "#937055",
+        "color2": "#AA8A6E",
+        "color3": "#D39B6E",
+        "color4": "#65808A",
+        "color5": "#D6AE94",
+        "color6": "#D1BBA4",
+        "color7": "#ece9e3",
+        "color8": "#a5a39e",
+        "color9": "#937055",
+        "color10": "#AA8A6E",
+        "color11": "#D39B6E",
+        "color12": "#65808A",
+        "color13": "#D6AE94",
+        "color14": "#D1BBA4",
+        "color15": "#ece9e3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/erik/.config/variety/Downloaded/wallhaven_minimal/wallhaven-dp58zg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#051936",
+        "foreground": "#e1d6d2",
+        "cursor": "#e1d6d2"
+    },
+    "colors": {
+        "color0": "#051936",
+        "color1": "#A35867",
+        "color2": "#EF5F5B",
+        "color3": "#FA8D6E",
+        "color4": "#A1748A",
+        "color5": "#598096",
+        "color6": "#F5AB8E",
+        "color7": "#e1d6d2",
+        "color8": "#9d9593",
+        "color9": "#A35867",
+        "color10": "#EF5F5B",
+        "color11": "#FA8D6E",
+        "color12": "#A1748A",
+        "color13": "#598096",
+        "color14": "#F5AB8E",
+        "color15": "#e1d6d2"
+    }
+}
