@@ -2,4 +2,4 @@
 theme=ArcDark#
 
 [Applications]
-KvGnomeDark%23=virtualbox, virtualboxvm
+KvGnomeDark%23=virtualbox, virtualboxvm,simplescreenrecorder
