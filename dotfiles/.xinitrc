@@ -114,6 +114,7 @@ exec bspwm
 # esac
 
 
+
 # https://wiki.archlinux.org/title/Xinit
 
 # Autostart X at login
