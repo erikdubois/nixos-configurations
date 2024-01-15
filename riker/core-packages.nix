@@ -73,6 +73,7 @@
     simplescreenrecorder
     spotify
     sublime4
+    swaybg
     telegram-desktop
     variety
     vivaldi
