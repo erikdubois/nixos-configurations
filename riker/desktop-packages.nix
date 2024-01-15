@@ -21,6 +21,7 @@
     lolcat
     lxappearance
     materia-kde-theme
+    micro
     nitrogen
     ocs-url
     pavucontrol
