@@ -26,6 +26,7 @@
     ocs-url
     pavucontrol
     picom
+    pywal
     rofi
     sddm-kcm
     swaybg
