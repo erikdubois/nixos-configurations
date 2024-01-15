@@ -29,7 +29,7 @@ volumeicon &
 sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
 
 #feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-#feh --randomize --bg-fill /home/erik/Insync/Apps/Wallhaven/*
+feh --randomize --bg-fill /home/erik/.local/share/wallpapers/*
 #feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm.jpg &
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 
