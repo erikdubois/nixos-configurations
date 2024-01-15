@@ -35,9 +35,7 @@ sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
 
 #sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
 
-echo "What session to start?"
-echo "awesome,bspwm,chadwm,dwm,i3?"
-read session
+session="dwm"
 
 #exec chadwm  > ~/.xsession-errors 2>&1
 case $session in
