@@ -10,7 +10,7 @@
 
   nixpkgs.overlays = [
     (final: prev: { 
-      dwm = prev.dwm.overrideAttrs (old: { src = /home/erik/.config/arco-dwm/dwm;});
+      dwm = prev.dwm.overrideAttrs (old: { src = "/home/erik/.config/arco-dwm/dwm"; });
       }
     )
 
