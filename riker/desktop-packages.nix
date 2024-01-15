@@ -25,6 +25,7 @@
     materia-kde-theme
     micro
     nitrogen
+    obs-studio-plugins.wlrobs
     ocs-url
     pavucontrol
     picom
