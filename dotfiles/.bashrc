@@ -177,8 +177,8 @@ alias ssn="sudo shutdown now"
 alias sr="reboot"
 
 #give the list of all installed desktops - xsessions desktops
-alias xd="ls /usr/share/xsessions"
-alias xdw="ls /usr/share/wayland-sessions"
+alias xd="ls /run/current-system/sw/share/xsessions"
+alias xdw="ls /run/current-system/sw/share/wayland-sessions"
 
 #give a list of the kernels installed
 alias kernel="ls /usr/lib/modules"
