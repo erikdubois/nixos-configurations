@@ -114,11 +114,6 @@
       enable = true;
   };
 
-  # kitty no prompt on Hyprland
-  programs.bash.promptInit = ''
-      PS1="\n\[\033[01;32m\]\u $\[\033[00m\]\[\033[01;36m\] \w >\[\033[00m\]"
-  '';
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
