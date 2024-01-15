@@ -31,6 +31,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
+path="/home/erik/Documents/nixos-configurations/"
 
 host=$(hostname)
 
@@ -43,7 +44,7 @@ if [ $host == "nixos-riker" ]; then
 	tput sgr0
 	echo
 
-	cd riker
+	cd $path/riker
 	bash ./copy.sh
 	cd ..
 fi
@@ -57,7 +58,7 @@ if [ $host == "nixos-data" ]; then
 	tput sgr0
 	echo
 
-	cd data
+	cd $path/data
 	bash ./copy.sh
 	cd ..
 fi
@@ -72,7 +73,7 @@ if [ $host == "nixos-worf" ]; then
 	tput sgr0
 	echo
 
-	cd worf
+	cd $path/worf
 	bash ./copy.sh
 	cd ..
 fi
@@ -87,7 +88,7 @@ if [ $host == "nixos-picard" ]; then
 	tput sgr0
 	echo
 
-	cd picard
+	cd $path/picard
 	bash ./copy.sh
 	cd ..
 fi
