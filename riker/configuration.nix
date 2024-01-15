@@ -52,6 +52,7 @@
   # Enable the X11 windowing system.
   #services.xserver.enable = true;
   # Disabling X11 - go for startx
+  services.xserver.autorun = false;
   services.xserver.displayManager.startx.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
