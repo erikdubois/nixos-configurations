@@ -16,7 +16,7 @@
 nm-applet &
 variety &
 blueberry-tray &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 picom -b  --config ~/.config/arco-chadwm/picom/picom.conf &
 numlockx on
 volumeicon &
@@ -33,29 +33,22 @@ sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
 #feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm.jpg &
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 
-sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
+#sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
+
+echo "What session to start?"
+echo "awesome,bspwm,chadwm,dwm,i3?"
+read session
 
 #exec chadwm  > ~/.xsession-errors 2>&1
-
-exec i3
-
-# copy/paste from the internet as reference for future installation 
-# did not try out
-
-
-# Here Xfce is kept as default
-# session=${1:-chadwm}
-
-# case $session in
-#     chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
-#     i3|i3wm           ) exec i3;;
-#     kde               ) exec startplasma-x11;;
-#     xfce|xfce4        ) exec startxfce4;;
-#     bsp|bspwm         ) exec bspwm ;;
-#     awesome           ) exec awesome ;;
-#     # No known session, try to run it as command
-#     *                 ) exec $1;;
-# esac
+case $session in
+ awesome           ) exec awesome ;;
+ bsp|bspwm         ) exec bspwm ;;
+ chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
+ dwm               ) exec dwm ;;
+ i3|i3wm           ) exec i3;;
+ # No known session, try to run it as command
+ *                 ) exec $1;;
+esac
 
 # exec enlightenment_start
 # exec mate-session
