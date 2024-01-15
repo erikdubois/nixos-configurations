@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Send the header so that i3bar knows we want to use JSON:
 echo '{"version":1}'

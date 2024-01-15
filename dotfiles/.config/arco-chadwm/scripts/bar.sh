@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/usr/bin/env bash
 
 # ^c$var^ = fg color
 # ^b$var^ = bg color

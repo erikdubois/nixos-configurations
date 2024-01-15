@@ -1,5 +1,4 @@
-#! /bin/sh
-
+#!/usr/bin/env bash
 fwid=$(bspc query -N -n focused.automatic)
 wid=$1
 class=$2
