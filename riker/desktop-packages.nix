@@ -8,6 +8,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #obs-studio-plugins.wlrobs
     arc-kde-theme
     btop
     dash
@@ -25,7 +26,6 @@
     materia-kde-theme
     micro
     nitrogen
-    obs-studio-plugins.wlrobs
     ocs-url
     pavucontrol
     picom
