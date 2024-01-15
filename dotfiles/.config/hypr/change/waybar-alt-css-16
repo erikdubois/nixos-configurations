@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 rm -r ~/.config/hypr/waybar/*.css
 cp -r ~/.config/hypr/waybar-alt-8/style/style-16.css ~/.config/hypr/waybar/style.css

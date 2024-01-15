@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #wallpaper fetcher and wallpaper rotator
 #type "var" in a terminal to change settings - example

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 cachedir=~/.cache/rbn
 cachefile=${0##*/}-$1

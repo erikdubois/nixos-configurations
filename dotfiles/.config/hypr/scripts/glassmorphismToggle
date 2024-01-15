@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 STATE=$(hyprctl -j getoption decoration:blur:passes | jq ".int")
 

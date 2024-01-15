@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 CONFIG="$HOME/.config/hypr/waybar/config.ini"
 STYLE="$HOME/.config/hypr/waybar/style.css"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 CONFIG="$HOME/.config/hypr/wofifull/config"
 STYLE="$HOME/.config/hypr/wofifull/style.css"

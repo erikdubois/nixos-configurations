@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 yad --title "Desktop Help" --form --width=325 --height=400 --text="<b>Choose Waybar</b>" --image "dialog-question" --image-on-top \
 --field="<b>Waybar alt-1</b>":fbtn "./.config/hypr/change/waybar-alt-1" \
 --field="<b>Waybar alt-2</b>":fbtn "./.config/hypr/change/waybar-alt-2" \

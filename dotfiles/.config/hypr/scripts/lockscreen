@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Colors
 bg='1e1e2e' bgl='313244' fg='d9e0ee'

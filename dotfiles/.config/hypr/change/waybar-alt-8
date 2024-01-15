@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 rm -r ~/.config/hypr/waybar/*
 cp -r ~/.config/hypr/waybar-alt-8/* ~/.config/hypr/waybar/

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 DIR=$HOME/.config/hypr/bg
 random_wallpaper=$(find $DIR -type f | sort -R | head -1)
