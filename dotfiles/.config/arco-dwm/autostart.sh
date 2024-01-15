@@ -1,8 +1,4 @@
-#!/bin/sh
-
-#xrdb merge ~/.Xresources 
-#xbacklight -set 10 &
-#xset r rate 200 50 &
+#!/usr/bin/env bash
 
 function run {
  if ! pgrep $1 ;
@@ -10,9 +6,6 @@ function run {
     $@&
   fi
 }
-
-#run "xrandr --output DVI-D-0 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output None-1-1 --off"
-
 run "dex $HOME/.config/autostart/arcolinux-welcome-app.desktop"
 #run "xrandr --output VGA-1 --primary --mode 1360x768 --pos 0x0 --rotate normal"
 #run "xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off"
@@ -23,32 +16,24 @@ run "dex $HOME/.config/autostart/arcolinux-welcome-app.desktop"
 #run xrandr --output DVI-D-1 --right-of DVI-I-1 --auto
 #run xrandr --output HDMI2 --right-of HDMI1 --auto
 #autorandr horizontal
-#run "autorandr horizontal"
+
 run "nm-applet"
-#run "pamac-tray"
-#run "variety"
+run "pamac-tray"
+run "variety"
 run "xfce4-power-manager"
 run "blueberry-tray"
 run "/usr/lib/xfce4/notifyd/xfce4-notifyd"
 run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-picom -b  --config ~/.config/arco-chadwm/picom/picom.conf &
+picom -b  --config ~/.config/arco-dwm/picom.conf &
 run "numlockx on"
 run "volumeicon"
-#run "pa-applet"
-sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
+run slstatus &
+sxhkd -c ~/.config/arco-dwm/sxhkd/sxhkdrc &
 #run "nitrogen --restore"
-run "conky -c $HOME/.config/arco-chadwm/conky/system-overview"
+run "conky -c $HOME/.config/arco-dwm/system-overview"
 #you can set wallpapers in themes as well
-#feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-#feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-#feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm.jpg &
-feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm1.png &
-#feh --randomize --bg-fill /home/erik/Insync/Apps/Wallhaven/*
-
-
-#nitrogen --set-zoom-fill --random /home/erik/Insync/Apps/Desktoppr/ --head=0
-#nitrogen --set-zoom-fill --random /home/erik/Insync/Apps/Desktoppr/ --head=1
-
+feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
+feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
 #wallpaper for other Arch based systems
 #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 #run applications from startup
@@ -58,10 +43,3 @@ feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm1.png &
 #run "ckb-next -b"
 #run "discord"
 #run "telegram-desktop"
-#run "dropbox"
-#run "/usr/bin/octopi-notifier"
-
-
-pkill bar.sh
-~/.config/arco-chadwm/scripts/bar.sh &
-while type chadwm >/dev/null; do chadwm && continue || break; done

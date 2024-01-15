@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+#!/bin/sh
 alacritty -e micro ~/.config/arco-chadwm/cheatsheet.md
