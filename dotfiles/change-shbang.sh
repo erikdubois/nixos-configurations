@@ -14,6 +14,6 @@
 FIND="#!\/bin\/bash"
 REPLACE="#!\/usr\/bin\/env bash"
 
-#find .  -type f -exec sed -i "s/$FIND/$REPLACE/g" {} \;
+find .  -type f -executable -exec sed -i "s/$FIND/$REPLACE/g" {} \;
 
-echo "check script - not correct"
+echo "Done"
