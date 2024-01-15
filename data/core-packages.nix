@@ -8,6 +8,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #ckb-next
     #google-chrome
     #wpsoffice
     alacritty
@@ -22,6 +23,7 @@
     btop
     chromium
     curl
+    dex
     discord
     dropbox
     duf
@@ -56,6 +58,7 @@
     mlocate
     most
     neofetch
+    networkmanagerapplet
     nomacs
     numlockx
     obs-studio
@@ -74,6 +77,7 @@
     vivaldi
     vivaldi-ffmpeg-codecs
     vlc
+    volumeicon
     vscode
     wget
     widevine-cdm

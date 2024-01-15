@@ -375,10 +375,10 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec --no-startup-id pamac-tray
 
 # bluetooth
-# exec --no-startup-id blueberry-tray
+exec --no-startup-id blueberry-tray
 
 # network
-exec --no-startup-id nm-applet
+exec --no-startup-id network-manager-applet
 
 # num lock activated
 exec_always --no-startup-id numlockx on
