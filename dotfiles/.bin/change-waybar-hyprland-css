@@ -1,0 +1,28 @@
+#!/bin/bash
+yad --title "Desktop Help" --form --width=325 --height=400 --text="<b>Choose Waybar-css</b>" --columns=3 --image "dialog-question" --image-on-top \
+--field="<b>Waybar alt-1-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-1" \
+--field="<b>Waybar alt-2-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-2" \
+--field="<b>Waybar alt-3-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-3" \
+--field="<b>Waybar alt-4-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-4" \
+--field="<b>Waybar alt-5-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-5" \
+--field="<b>Waybar alt-6-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-6" \
+--field="<b>Waybar alt-7-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-7" \
+--field="<b>Waybar alt-8-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-8" \
+--field="<b>Waybar alt-9-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-9" \
+--field="<b>Waybar alt-10-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-10" \
+--field="<b>Waybar alt-11-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-11" \
+--field="<b>Waybar alt-12-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-12" \
+--field="<b>Waybar alt-13-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-13" \
+--field="<b>Waybar alt-14-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-14" \
+--field="<b>Waybar alt-15-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-15" \
+--field="<b>Waybar alt-16-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-16" \
+--field="<b>Waybar alt-17-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-17" \
+--field="<b>Waybar alt-18-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-18" \
+--field="<b>Waybar alt-19-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-19" \
+--field="<b>Waybar alt-20-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-20" \
+--field="<b>Waybar alt-21-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-21" \
+--field="<b>Waybar alt-22-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-22" \
+--field="<b>Waybar alt-23-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-23" \
+--field="<b>Waybar alt-24-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-23" \
+--field="<b>Back to Default-css</b>":fbtn "./.config/hypr/change/waybar-alt-css-arco" \
+--button=Cancel!gtk-cancel:1

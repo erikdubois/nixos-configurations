@@ -1,0 +1,14 @@
+#!/bin/bash
+
+CONFIG="$HOME/.config/hypr/waybar/config.ini"
+STYLE="$HOME/.config/hypr/waybar/style.css"
+
+# Terminate already running bar instances
+killall -q waybar
+
+# Wait until the processes have been shut down
+while pgrep -x waybar >/dev/null; do sleep 1; done
+
+if [[ ! $(pidof waybar) ]]; then
+	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE}
+fi

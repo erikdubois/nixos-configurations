@@ -1,0 +1,14 @@
+#!/bin/bash
+yad --title "Desktop Help" --form --width=325 --height=400 --text="<b>Choose Waybar</b>" --image "dialog-question" --image-on-top \
+--field="<b>Waybar alt-1</b>":fbtn "./.config/hypr/change/waybar-alt-1" \
+--field="<b>Waybar alt-2</b>":fbtn "./.config/hypr/change/waybar-alt-2" \
+--field="<b>Waybar alt-3</b>":fbtn "./.config/hypr/change/waybar-alt-3" \
+--field="<b>Waybar alt-4</b>":fbtn "./.config/hypr/change/waybar-alt-4" \
+--field="<b>Waybar alt-5</b>":fbtn "./.config/hypr/change/waybar-alt-5" \
+--field="<b>Waybar alt-6</b>":fbtn "./.config/hypr/change/waybar-alt-6" \
+--field="<b>Waybar alt-7</b>":fbtn "./.config/hypr/change/waybar-alt-7" \
+--field="<b>Waybar alt-8 css choices</b>":fbtn "./.config/hypr/change/waybar-alt-8" \
+--field="<b>Waybar alt-9 pywal</b>":fbtn "./.config/hypr/change/waybar-alt-9" \
+--field="<b>Waybar alt-10 mono</b>":fbtn "./.config/hypr/change/waybar-alt-10" \
+--field="<b>Back to Default</b>":fbtn "./.config/hypr/change/waybar-arco" \
+--button=Cancel!gtk-cancel:1

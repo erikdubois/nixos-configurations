@@ -19,6 +19,7 @@
       ./desktops/awesome.nix
       ./desktops/i3wm.nix
       ./desktops/bspwm.nix
+      ./desktops/hyprland.nix
     ];
 
   # Bootloader.
