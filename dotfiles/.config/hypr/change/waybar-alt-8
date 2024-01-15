@@ -4,18 +4,18 @@ rm -r ~/.config/hypr/waybar/*
 cp -r ~/.config/hypr/waybar-alt-8/* ~/.config/hypr/waybar/
 
 # kill first
-if [[ $(pidof waybar) ]]; then
-	killall -q waybar
+if [[ $(pidof .waybar-wrapped) ]]; then
+	killall -q .waybar-wrapped
 fi
 
-while pgrep -u $UID -x waybar > /dev/null;do sleep 1;done
+while pgrep -u $UID -x .waybar-wrapped > /dev/null;do sleep 1;done
  
 
 # start up again
 CONFIG="$HOME/.config/hypr/waybar/config.ini"
 STYLE="$HOME/.config/hypr/waybar/style.css"
 
-if [[ ! $(pidof waybar) ]]; then
+if [[ ! $(pidof .waybar-wrapped) ]]; then
 	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE} &
 fi
 
