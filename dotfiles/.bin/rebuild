@@ -31,38 +31,61 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 ##################################################################################################################
 
-
-echo
-tput setaf 2
-echo "################################################################"
-echo "################### Copy over config"
-echo "################################################################"
-tput sgr0
-echo
-
 host=$(hostname)
 
-if $host == "nixos-riker"; then
+if [ $host == "nixos-riker" ]; then
+	echo
+	tput setaf 2
+	echo "################################################################"
+	echo "################### Copy over config for "$host
+	echo "################################################################"
+	tput sgr0
+	echo
+
 	cd riker
 	bash ./copy.sh
 	cd ..
 fi
 
-if $host == "nixos-data"; then
+if [ $host == "nixos-data" ]; then
+	echo
+	tput setaf 2
+	echo "################################################################"
+	echo "################### Copy over config for "$host
+	echo "################################################################"
+	tput sgr0
+	echo
+
 	cd data
 	bash ./copy.sh
 	cd ..
 fi
 
 
-if $host == "nixos-worf"; then
+if [ $host == "nixos-worf" ]; then
+	echo
+	tput setaf 2
+	echo "################################################################"
+	echo "################### Copy over config for "$host
+	echo "################################################################"
+	tput sgr0
+	echo
+
 	cd worf
 	bash ./copy.sh
 	cd ..
 fi
 
 
-if $host == "nixos-picard"; then
+if [ $host == "nixos-picard" ]; then
+	echo
+	tput setaf 2
+	echo "################################################################"
+	echo "################### Copy over config for "$host
+	echo "################################################################"
+	tput sgr0
+	echo
+
 	cd picard
 	bash ./copy.sh
 	cd ..
@@ -70,13 +93,3 @@ fi
 
 cd dotfiles
 bash ./copy.sh
-
-echo
-echo
-tput setaf 6
-echo "################################################################"
-echo "################### Done"
-echo "################################################################"
-tput sgr0
-echo
-
