@@ -35,6 +35,14 @@ path="/home/erik/Documents/nixos-configurations/"
 
 cd $path
 
+echo
+tput setaf 2
+echo "################################################################"
+echo "################### Git pull on "$host
+echo "################################################################"
+tput sgr0
+echo
+
 git pull
 
 host=$(hostname)
