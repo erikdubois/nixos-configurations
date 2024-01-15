@@ -20,6 +20,7 @@
       ./desktops/i3wm.nix
       ./desktops/bspwm.nix
       ./desktops/hyprland.nix
+      ./desktops/dwm.nix
     ];
 
   # Bootloader.
