@@ -37,25 +37,24 @@ sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
 
 #exec chadwm  > ~/.xsession-errors 2>&1
 
-exec bspwm
-
 # copy/paste from the internet as reference for future installation 
 # did not try out
 
 
-# Here Xfce is kept as default
-# session=${1:-chadwm}
+# Here chadwm is kept as default
+ session=${1:-chadwm}
 
-# case $session in
-#     chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
-#     i3|i3wm           ) exec i3;;
-#     kde               ) exec startplasma-x11;;
-#     xfce|xfce4        ) exec startxfce4;;
-#     bsp|bspwm         ) exec bspwm ;;
-#     awesome           ) exec awesome ;;
-#     # No known session, try to run it as command
-#     *                 ) exec $1;;
-# esac
+case $session in
+ chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
+ i3|i3wm           ) exec i3;;
+ kde               ) exec startplasma-x11;;
+ xfce|xfce4        ) exec startxfce4;;
+ bsp|bspwm         ) exec bspwm ;;
+ awesome           ) exec awesome ;;
+ dwm               ) exec dwm ;;
+ # No known session, try to run it as command
+ *                 ) exec $1;;
+ esac
 
 # exec enlightenment_start
 # exec mate-session
