@@ -18,6 +18,7 @@
     bash-completion
     bat
     bibata-cursors
+    blueberry
     btop
     chromium
     curl
