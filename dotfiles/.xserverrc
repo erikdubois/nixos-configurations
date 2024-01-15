@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec /run/current-system/sw/bin/Xorg -nolisten tcp -nolisten local "$@" "vt""$XDG_VTNR"

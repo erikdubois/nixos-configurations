@@ -35,7 +35,9 @@ sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
 
 sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
 
-exec chadwm  > ~/.xsession-errors 2>&1
+#exec chadwm  > ~/.xsession-errors 2>&1
+
+exec bspwm
 
 # copy/paste from the internet as reference for future installation 
 # did not try out
