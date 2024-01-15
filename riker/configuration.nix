@@ -125,7 +125,7 @@
 
   # List services that you want to enable:
 
-  services.locate = {
+  services.locate.package = {
     enable = true;
     locate = pkgs.mlocate;
     interval = "hourly";
