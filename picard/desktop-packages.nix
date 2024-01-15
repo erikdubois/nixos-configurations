@@ -15,26 +15,32 @@
     feh
     font-awesome
     gnumake
+    grim
     imlib2
     jetbrains-mono
     kate
     lolcat
     lxappearance
+    mako
     materia-kde-theme
+    micro
     nitrogen
     ocs-url
     pavucontrol
     picom
+    pywal
     rofi
     sddm-kcm
     swaybg
     sxhkd
     waybar
+    wdisplays
     wofi
     xfce.thunar
     xfce.thunar-archive-plugin
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama
+    yad
 ];
 }

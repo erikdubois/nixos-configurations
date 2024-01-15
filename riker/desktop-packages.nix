@@ -15,11 +15,13 @@
     feh
     font-awesome
     gnumake
+    grim
     imlib2
     jetbrains-mono
     kate
     lolcat
     lxappearance
+    mako
     materia-kde-theme
     micro
     nitrogen
@@ -32,6 +34,7 @@
     swaybg
     sxhkd
     waybar
+    wdisplays
     wofi
     xfce.thunar
     xfce.thunar-archive-plugin

@@ -19,6 +19,7 @@
       #./desktops/awesome.nix
       #./desktops/i3wm.nix
       #./desktops/bspwm.nix
+      #./desktops/hyprland.nix
     ];
 
   # Bootloader.
@@ -28,6 +29,9 @@
 
   # Swappiness
   boot.kernel.sysctl = { "vm.swappiness" = 10;};
+
+  # Kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = "nixos-worf"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.

@@ -66,6 +66,7 @@
     qbittorrent-qt5
     platinum-searcher
     polybar
+    qt6Packages.qtstyleplugin-kvantum
     ripgrep
     rxvt-unicode
     scrot
