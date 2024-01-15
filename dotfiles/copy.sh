@@ -46,6 +46,7 @@ cp -rf .bin ~
 cp .bashrc ~
 cp .bashrc-personal ~
 cp .Xresources ~
+cp .x* ~
 
 echo
 echo
