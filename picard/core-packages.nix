@@ -56,6 +56,7 @@
     most
     neofetch
     nomacs
+    numlockx
     obs-studio
     ookla-speedtest
     qbittorrent-qt5
