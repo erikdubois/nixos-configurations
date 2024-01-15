@@ -4,7 +4,7 @@
 
 { config, pkgs, ... }:
 
-# Plasma + Chadwm
+# Plasma + Awesome, Bspwm, i3wm and more
 
 {
   environment.systemPackages = with pkgs; [
