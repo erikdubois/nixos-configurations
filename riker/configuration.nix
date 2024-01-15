@@ -92,7 +92,7 @@
   users.users.erik = {
     isNormalUser = true;
     description = "erik";
-    extraGroups = [ "networkmanager" "wheel" "samba" "vboxusers" ];
+    extraGroups = [ "mlocate" "networkmanager" "wheel" "samba" "vboxusers" ];
     packages = with pkgs; [
       firefox
     ];
@@ -123,6 +123,12 @@
   # };
 
   # List services that you want to enable:
+
+  services.locate = {
+    enable = true;
+    locate = pkgs.mlocate;
+    interval = "hourly";
+  };
 
   services.avahi = {
     enable = true;
