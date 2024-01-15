@@ -15,7 +15,7 @@ while pgrep -u $UID -x waybar > /dev/null;do sleep 1;done
 CONFIG="$HOME/.config/hypr/waybar/config.ini"
 STYLE="$HOME/.config/hypr/waybar/style.css"
 
-if [[ ! $(pidof waybar) ]]; then
+if [[ ! $(pidof .waybar-wrapped) ]]; then
 	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE} &
 fi
 
