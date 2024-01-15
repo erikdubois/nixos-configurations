@@ -80,6 +80,7 @@
     vlc
     volumeicon
     vscode
+    waybar
     wget
     widevine-cdm
     xorg.xkill
