@@ -37,5 +37,6 @@
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama
+    yad
 ];
 }
