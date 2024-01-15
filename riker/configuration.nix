@@ -50,7 +50,7 @@
   i18n.defaultLocale = "en_US.UTF-8";
 
   # Enable the X11 windowing system.
-  #services.xserver.enable = true;
+  services.xserver.enable = true;
   # Disabling X11 - go for startx
   services.xserver.autorun = false;
   services.xserver.displayManager.startx.enable = true;
