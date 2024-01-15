@@ -28,7 +28,7 @@ else
 fi
 
 run variety &
-run network-manager-applet &
+run nm-applet &
 numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/bspwm/picom.conf &
