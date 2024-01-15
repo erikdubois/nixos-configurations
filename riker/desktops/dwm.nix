@@ -8,8 +8,8 @@
   #services.xserver.displayManager.defaultSession = "none+dwm";
   services.xserver.windowManager.dwm.enable = true;
 
-  services.xserver.windowManager.dwm.package = pkgs.dwm.override {
-    conf = /home/erik/.config/arco-dwm/config.def.h;
+  services.xserver.windowManager.dwm.package = pkgs.dwm.overrideAttrs {
+    src = /home/erik/.config/arco-dwm/;
   };
 }
 
