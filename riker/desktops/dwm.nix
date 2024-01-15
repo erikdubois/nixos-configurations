@@ -8,12 +8,7 @@
   #services.xserver.displayManager.defaultSession = "none+dwm";
   services.xserver.windowManager.dwm.enable = true;
 
-  nixpkgs.overlays = [
-    (final: prev: { 
-      dwm = prev.dwm.overrideAttrs (old: { src = "/home/erik/.config/arco-dwm/dwm"; });
-      }
-    )
-
-  ];
+  services.xserver.windowManager.dwm.package = pkgs.dwm.override {
+    conf = /home/erik/.config/arco-dwm/config.def.h;
 }
 
