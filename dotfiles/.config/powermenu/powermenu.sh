@@ -70,7 +70,8 @@ run_cmd() {
 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
-			if [ $(echo $XDG_CURRENT_DESKTOP) == "Hyprland" ]; then
+			desktop=$(echo  $XDG_CURRENT_DESKTOP)
+			if [ $desktop == "Hyprland" ]; then
 				hyprctl dispatch exit
 			else
 				loginctl kill-user $USER
