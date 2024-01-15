@@ -10,5 +10,6 @@
 
   services.xserver.windowManager.dwm.package = pkgs.dwm.override {
     conf = /home/erik/.config/arco-dwm/config.def.h;
+  };
 }
 
