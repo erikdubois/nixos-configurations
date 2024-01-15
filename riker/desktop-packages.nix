@@ -27,7 +27,10 @@
     picom
     rofi
     sddm-kcm
+    swaybg
     sxhkd
+    waybar
+    wofi
     xfce.thunar
     xfce.thunar-archive-plugin
     xorg.libX11.dev

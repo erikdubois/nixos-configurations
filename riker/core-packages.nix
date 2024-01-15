@@ -73,7 +73,6 @@
     simplescreenrecorder
     spotify
     sublime4
-    swaybg
     telegram-desktop
     variety
     vivaldi
@@ -81,7 +80,6 @@
     vlc
     volumeicon
     vscode
-    waybar
     wget
     widevine-cdm
     xorg.xkill
