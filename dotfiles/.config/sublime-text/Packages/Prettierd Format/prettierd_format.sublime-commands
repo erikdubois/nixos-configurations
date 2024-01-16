@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "Prettierd: Format",
+        "command": "prettierd_format"
+    },
+    {
+        "caption": "Prettierd: Save without formatting",
+        "command": "prettierd_save_without_format"
+    },
+    {
+        "caption": "Preferences: Prettierd Format",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Prettierd Format/prettierd_format.sublime-settings",
+            "default": "// Settings in here override those in \"prettierd_format/prettierd_format.sublime-settings\"\n{\n\t$0\n}\n"
+        }
+    }
+]

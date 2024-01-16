@@ -1,0 +1,10 @@
+{
+    // Whether to format on save.
+    "format_on_save": true,
+    // Any additional extension enabled via plugin that should be processed.
+    "additional_extensions": [],
+    // What extensions to disable when formatting on save.
+    "disabled_extensions_on_save": [],
+    // Directories to disable formatting on save.
+    "disabled_directories_on_save": ["*/node_modules/*"]
+}

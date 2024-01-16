@@ -7,5 +7,7 @@
 	[
 		"ColorHints",
 		"Nix",
+		"Package Control",
+		"Prettierd Format",
 	],
 }

@@ -1,0 +1,25 @@
+[
+      {
+            "id": "preferences",
+            "children": [
+                  {
+                        "id": "package-settings",
+                        "children": [
+                              {
+                                    "caption": "Prettierd Format",
+                                    "children": [
+                                          {
+                                                "caption": "Settings",
+                                                "command": "edit_settings",
+                                                "args": {
+                                                      "base_file": "${packages}/Prettierd Format/prettierd_format.sublime-settings",
+                                                      "default": "// Settings in here override those in \"prettierd_format/prettierd_format.sublime-settings\"\n{\n\t$0\n}\n"
+                                                }
+                                          }
+                                    ]
+                              }
+                        ]
+                  }
+            ]
+      }
+]
