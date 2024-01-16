@@ -4,7 +4,7 @@
 
 { config, pkgs, ... }:
 
-# never put virtualbox in this list
+# never put virtualbox,mlocate in this list
 
 {
   environment.systemPackages = with pkgs; [
@@ -55,7 +55,6 @@
     lollypop
     lshw
     meld
-    mlocate
     most
     neofetch
     networkmanagerapplet

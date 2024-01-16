@@ -8,6 +8,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    #obs-studio-plugins.wlrobs
     arc-kde-theme
     btop
     dash
@@ -30,6 +31,8 @@
     picom
     pywal
     rofi
+    slstatus
+    st
     sddm-kcm
     swaybg
     sxhkd
@@ -38,6 +41,7 @@
     wofi
     xfce.thunar
     xfce.thunar-archive-plugin
+    xfce.xfce4-terminal
     xorg.libX11.dev
     xorg.libXft
     xorg.libXinerama

@@ -20,6 +20,9 @@
       #./desktops/i3wm.nix
       #./desktops/bspwm.nix
       #./desktops/hyprland.nix
+      #./desktops/dwm.nix
+      #./desktops/chadwm.nix
+      #./desktops/qtile.nix
     ];
 
   # Bootloader.
@@ -51,6 +54,10 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
+
+  # Disabling X11 - go for startx
+  #services.xserver.autorun = false;
+  #services.xserver.displayManager.startx.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
@@ -93,7 +100,7 @@
   users.users.erik = {
     isNormalUser = true;
     description = "erik";
-    extraGroups = [ "networkmanager" "wheel" "samba" ];
+    extraGroups = [ "mlocate" "networkmanager" "wheel" "samba" "vboxusers" ];
     packages = with pkgs; [
       firefox
     ];
@@ -124,6 +131,11 @@
   # };
 
   # List services that you want to enable:
+
+  services.locate = {
+    enable = true;
+    interval = "hourly";
+  };
 
   services.avahi = {
     enable = true;
