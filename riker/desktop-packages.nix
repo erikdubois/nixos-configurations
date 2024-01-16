@@ -31,12 +31,12 @@
     ocs-url
     pavucontrol
     picom
+    python311Packages.sparklines
     pywal
     rofi
     slstatus
     st
     sddm-kcm
-    sparklines
     swaybg
     sxhkd
     waybar
