@@ -11,6 +11,8 @@
     #obs-studio-plugins.wlrobs
     arc-kde-theme
     btop
+    cava
+    cmatrix
     dash
     eww
     feh
@@ -34,6 +36,7 @@
     slstatus
     st
     sddm-kcm
+    sparklines
     swaybg
     sxhkd
     waybar
