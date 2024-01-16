@@ -11,7 +11,7 @@
 #
 ##################################################################################################################
 
-FIND="powerm"
+FIND="archlinux-logout"
 REPLACE="powerm"
 
 find .  -type f -executable -exec sed -i "s/$FIND/$REPLACE/g" {} \;
