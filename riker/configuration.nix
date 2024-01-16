@@ -68,8 +68,13 @@
     xkbVariant = "";
   };
 
-  # Configure console keymap
-  console.keyMap = "be-latin1";
+  # Select internationalisation properties.
+  console = {
+    console.keyMap = "be-latin1";
+    packages=[ pkgs.terminus_font ];
+    font="${pkgs.terminus_font}/share/consolefonts/ter-i22b.psf.gz";
+    useXkbConfig = true; # use xkbOptions in tty.
+  };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -168,13 +173,6 @@
   services.xserver.displayManager.setupCommands = ''
     ${pkgs.xorg.xrandr}/bin/xrandr --output Virtual1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
   '';
-
-  # Select internationalisation properties.
-  console = {
-    packages=[ pkgs.terminus_font ];
-    font="${pkgs.terminus_font}/share/consolefonts/ter-i22b.psf.gz";
-    useXkbConfig = true; # use xkbOptions in tty.
-  };
 
   security.polkit.enable = true;
   systemd = {
