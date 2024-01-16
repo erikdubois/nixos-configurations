@@ -17,7 +17,7 @@
     font-awesome
     gnumake
     grim
-    imlib2-nox
+    imlib
     jetbrains-mono
     kate
     lolcat
