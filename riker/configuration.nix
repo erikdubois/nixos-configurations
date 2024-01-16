@@ -70,7 +70,7 @@
 
   # Select internationalisation properties.
   console = {
-    console.keyMap = "be-latin1";
+    keyMap = "be-latin1";
     packages=[ pkgs.terminus_font ];
     font="${pkgs.terminus_font}/share/consolefonts/ter-i22b.psf.gz";
     useXkbConfig = true; # use xkbOptions in tty.
