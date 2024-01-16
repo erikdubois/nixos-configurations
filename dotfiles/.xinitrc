@@ -13,40 +13,40 @@
 
 #sudo loadkeys be-latin1
 
-nm-applet &
-variety &
-blueberry-tray &
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-picom -b  --config ~/.config/arco-chadwm/picom/picom.conf &
-numlockx on
-volumeicon &
-#insync start &
-#spotify &
-#ckb-next -b &
-#discord &
-#telegram-desktop &
+# nm-applet &
+# variety &
+# blueberry-tray &
+# #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+# picom -b  --config ~/.config/arco-chadwm/picom/picom.conf &
+# numlockx on
+# volumeicon &
+# #insync start &
+# #spotify &
+# #ckb-next -b &
+# #discord &
+# #telegram-desktop &
 
-sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
+# sxhkd -c ~/.config/arco-chadwm/sxhkd/sxhkdrc &
 
-#feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-feh --randomize --bg-fill /home/erik/.local/share/wallpapers/*
-#feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm.jpg &
-#feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
+# #feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
+# feh --randomize --bg-fill /home/erik/.local/share/wallpapers/*
+# #feh --bg-fill ~/.config/arco-chadwm/wallpaper/chadwm.jpg &
+# #feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
 
-#sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
+# #sh /home/erik/.config/arco-chadwm/scripts/bar.sh &
 
-session="dwm"
+# session="dwm"
 
-#exec chadwm  > ~/.xsession-errors 2>&1
-case $session in
- awesome           ) exec awesome ;;
- bsp|bspwm         ) exec bspwm ;;
- chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
- dwm               ) exec dwm ;;
- i3|i3wm           ) exec i3;;
- # No known session, try to run it as command
- *                 ) exec $1;;
-esac
+# #exec chadwm  > ~/.xsession-errors 2>&1
+# case $session in
+#  awesome           ) exec awesome ;;
+#  bsp|bspwm         ) exec bspwm ;;
+#  chadwm            ) exec /home/erik/config/arco-chadwm/scripts/run.sh;;
+#  dwm               ) exec dwm ;;
+#  i3|i3wm           ) exec i3;;
+#  # No known session, try to run it as command
+#  *                 ) exec $1;;
+# esac
 
 # exec enlightenment_start
 # exec mate-session
@@ -115,11 +115,11 @@ esac
 #  exec startx
 #fi
 
-if test -z "$DBUS_SESSION_BUS_ADDRESS"; then
-  eval $(dbus-launch --exit-with-session --sh-syntax)
-fi
-systemctl --user import-environment DISPLAY XAUTHORITY
+# if test -z "$DBUS_SESSION_BUS_ADDRESS"; then
+#   eval $(dbus-launch --exit-with-session --sh-syntax)
+# fi
+# systemctl --user import-environment DISPLAY XAUTHORITY
 
-if command -v dbus-update-activation-environment >/dev/null 2>&1; then
-        dbus-update-activation-environment DISPLAY XAUTHORITY
-fi
+# if command -v dbus-update-activation-environment >/dev/null 2>&1; then
+#         dbus-update-activation-environment DISPLAY XAUTHORITY
+# fi
