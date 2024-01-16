@@ -46,7 +46,8 @@ echo
 
 git pull
 
-
+cd dotfiles
+bash ./copy.sh
 
 if [ $host == "nixos-riker" ]; then
 	echo
@@ -106,5 +107,3 @@ if [ $host == "nixos-picard" ]; then
 	cd ..
 fi
 
-cd dotfiles
-bash ./copy.sh
