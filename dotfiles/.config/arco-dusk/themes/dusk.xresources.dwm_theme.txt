@@ -1,0 +1,143 @@
+/* dwm theme */
+#define gray1 #222222
+#define gray2 #444444
+#define gray3 #bbbbbb
+#define gray4 #eeeeee
+#define cyan  #005577
+#define yellow #EBCB8B
+
+! == dusk background colors ===
+dusk.normbgcolor:                  gray1
+dusk.selbgcolor:                   cyan
+dusk.titlenormbgcolor:             gray1
+dusk.titleselbgcolor:              gray1
+dusk.wsnormbgcolor:                gray1
+dusk.wsvisbgcolor:                 cyan
+dusk.wsselbgcolor:                 cyan
+dusk.wsoccbgcolor:                 gray1
+dusk.hidnormbgcolor:               gray1
+dusk.hidselbgcolor:                cyan
+dusk.urgbgcolor:                   gray3
+dusk.markedbgcolor:                yellow
+dusk.scratchnormbgcolor:           cyan
+dusk.scratchselbgcolor:            cyan
+dusk.actTTBbgcolor:                gray1
+dusk.actLTRbgcolor:                gray1
+dusk.actMONObgcolor:               gray1
+dusk.actGRIDbgcolor:               gray1
+dusk.actGRIDCbgcolor:              gray1
+dusk.actGRD1bgcolor:               gray1
+dusk.actGRD2bgcolor:               gray1
+dusk.actGRDMbgcolor:               gray1
+dusk.actHGRDbgcolor:               gray1
+dusk.actDWDLbgcolor:               gray1
+dusk.actDWDLCbgcolor:              gray1
+dusk.actSPRLbgcolor:               gray1
+dusk.actSPRLCbgcolor:              gray1
+dusk.actTTMIbgcolor:               gray1
+dusk.actTTMICbgcolor:              gray1
+dusk.actfloatbgcolor:              gray1
+dusk.normTTBbgcolor:               gray1
+dusk.normLTRbgcolor:               gray1
+dusk.normMONObgcolor:              gray1
+dusk.normGRIDbgcolor:              gray1
+dusk.normGRIDCbgcolor:             gray1
+dusk.normGRD1bgcolor:              gray1
+dusk.normGRD2bgcolor:              gray1
+dusk.normGRDMbgcolor:              gray1
+dusk.normHGRDbgcolor:              gray1
+dusk.normDWDLbgcolor:              gray1
+dusk.normDWDLCbgcolor:             gray1
+dusk.normSPRLbgcolor:              gray1
+dusk.normSPRLCbgcolor:             gray1
+dusk.normTTMIbgcolor:              gray1
+dusk.normTTMICbgcolor:             gray1
+dusk.normfloatbgcolor:             gray1
+dusk.selTTBbgcolor:                cyan
+dusk.selLTRbgcolor:                cyan
+dusk.selMONObgcolor:               cyan
+dusk.selGRIDCbgcolor:              cyan
+dusk.selGRIDbgcolor:               cyan
+dusk.selGRD1bgcolor:               cyan
+dusk.selGRD2bgcolor:               cyan
+dusk.selGRDMbgcolor:               cyan
+dusk.selHGRDbgcolor:               cyan
+dusk.selDWDLbgcolor:               cyan
+dusk.selDWDLCbgcolor:              cyan
+dusk.selSPRLbgcolor:               cyan
+dusk.selSPRLCbgcolor:              cyan
+dusk.selTTMIbgcolor:               cyan
+dusk.selTTMICbgcolor:              cyan
+dusk.selfloatbgcolor:              cyan
+
+! == dusk border colors ===
+dusk.urgbordercolor:               gray1
+dusk.markedbordercolor:            yellow
+dusk.scratchnormbordercolor:       gray1
+dusk.scratchselbordercolor:        cyan
+dusk.titlenormbordercolor:         gray1
+dusk.titleselbordercolor:          gray1
+
+! == dusk foreground colors ===
+dusk.normfgcolor:                  gray3
+dusk.selfgcolor:                   gray4
+dusk.titlenormfgcolor:             gray1
+dusk.titleselfgcolor:              gray1
+dusk.wsnormfgcolor:                gray3
+dusk.wsvisfgcolor:                 gray3
+dusk.wsselfgcolor:                 gray4
+dusk.wsoccfgcolor:                 gray3
+dusk.hidnormfgcolor:               gray3
+dusk.hidselfgcolor:                gray4
+dusk.urgfgcolor:                   gray1
+dusk.markedfgcolor:                gray1
+dusk.scratchnormfgcolor:           gray3
+dusk.scratchselfgcolor:            gray4
+dusk.actTTBfgcolor:                gray4
+dusk.actLTRfgcolor:                gray4
+dusk.actMONOfgcolor:               gray4
+dusk.actGRIDfgcolor:               gray4
+dusk.actGRIDCfgcolor:              gray4
+dusk.actGRD1fgcolor:               gray4
+dusk.actGRD2fgcolor:               gray4
+dusk.actGRDMfgcolor:               gray4
+dusk.actHGRDfgcolor:               gray4
+dusk.actDWDLfgcolor:               gray4
+dusk.actDWDLCfgcolor:              gray4
+dusk.actSPRLfgcolor:               gray4
+dusk.actSPRLCfgcolor:              gray4
+dusk.actTTMIfgcolor:               gray4
+dusk.actTTMICfgcolor:              gray4
+dusk.actfloatfgcolor:              gray4
+dusk.normTTBfgcolor:               gray3
+dusk.normLTRfgcolor:               gray3
+dusk.normMONOfgcolor:              gray3
+dusk.normGRIDfgcolor:              gray3
+dusk.normGRIDCfgcolor:             gray3
+dusk.normGRD1fgcolor:              gray3
+dusk.normGRD2fgcolor:              gray3
+dusk.normGRDMfgcolor:              gray3
+dusk.normHGRDfgcolor:              gray3
+dusk.normDWDLfgcolor:              gray3
+dusk.normDWDLCfgcolor:             gray3
+dusk.normSPRLfgcolor:              gray3
+dusk.normSPRLCfgcolor:             gray3
+dusk.normTTMIfgcolor:              gray3
+dusk.normTTMICfgcolor:             gray3
+dusk.normfloatfgcolor:             gray3
+dusk.selTTBfgcolor:                gray4
+dusk.selLTRfgcolor:                gray4
+dusk.selMONOfgcolor:               gray4
+dusk.selGRIDCfgcolor:              gray4
+dusk.selGRIDfgcolor:               gray4
+dusk.selGRD1fgcolor:               gray4
+dusk.selGRD2fgcolor:               gray4
+dusk.selGRDMfgcolor:               gray4
+dusk.selHGRDfgcolor:               gray4
+dusk.selDWDLfgcolor:               gray4
+dusk.selDWDLCfgcolor:              gray4
+dusk.selSPRLfgcolor:               gray4
+dusk.selSPRLCfgcolor:              gray4
+dusk.selTTMIfgcolor:               gray4
+dusk.selTTMICfgcolor:              gray4
+dusk.selfloatfgcolor:              gray4

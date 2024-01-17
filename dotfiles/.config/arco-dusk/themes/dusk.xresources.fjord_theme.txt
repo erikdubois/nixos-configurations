@@ -1,0 +1,226 @@
+/* Fjord Theme */
+#define fjord0 #282923
+#define fjord1 #333333
+#define fjord2 #2D1E2C
+#define fjord3 #212121
+#define fjord4 #D8DEE9
+#define fjord5 #8F6141
+#define fjord6 #733446
+#define fjord7 #6780AA
+#define fjord8 #d7cb64
+#define fjord9 #81A1C1
+#define fjord10 #533A51
+#define fjord11 #9F414A
+#define fjord12 #D08770
+#define fjord13 #CBAB6B
+#define fjord14 #A3BE8C
+#define fjord15 #B48EAD
+
+#define fjorda0 #282923
+#define fjorda1 #333333
+#define fjorda2 #3D2E3C
+#define fjorda3 #212121
+#define fjorda4 #C8CED9
+#define fjorda5 #9F7151
+#define fjorda6 #834456
+#define fjorda7 #7790BA
+#define fjorda8 #e7db74
+#define fjorda9 #7191B1
+#define fjorda10 #634A61
+#define fjorda11 #AF515A
+#define fjorda12 #C07760
+#define fjorda13 #DBBB7B
+#define fjorda14 #93AE7C
+#define fjorda15 #A47E9D
+
+#define fjordb0 #282923
+#define fjordb1 #333333
+#define fjordb2 #4D3E4C
+#define fjordb3 #212121
+#define fjordb4 #B8BEC9
+#define fjordb5 #AF8161
+#define fjordb6 #935466
+#define fjordb7 #87A0CA
+#define fjordb8 #f7eb84
+#define fjordb9 #6181A1
+#define fjordb10 #735A71
+#define fjordb11 #BF616A
+#define fjordb12 #B06750
+#define fjordb13 #EBCB8B
+#define fjordb14 #839E6C
+#define fjordb15 #946E8D
+
+! == dusk terminal colors ===
+dusk.color0: fjorda0
+dusk.color1: fjorda1
+dusk.color2: fjorda2
+dusk.color3: fjorda3
+dusk.color4: fjorda4
+dusk.color5: fjorda5
+dusk.color6: fjord11
+dusk.color7: fjorda5
+dusk.color8: fjorda11
+dusk.color9: fjorda11
+dusk.color10: fjorda10
+dusk.color11: fjorda11
+dusk.color12: fjorda12
+dusk.color13: fjorda13
+dusk.color14: fjorda11
+dusk.color15: fjorda15
+
+! == dusk background colors ===
+dusk.normbgcolor:                  fjord3
+dusk.selbgcolor:                   fjordb2
+dusk.titlenormbgcolor:             fjord0
+dusk.titleselbgcolor:              fjord0
+dusk.wsnormbgcolor:                fjord0
+dusk.wsvisbgcolor:                 fjord11
+dusk.wsselbgcolor:                 fjordb11
+dusk.wsoccbgcolor:                 fjord1
+dusk.hidnormbgcolor:               fjordb3
+dusk.hidselbgcolor:                fjord3
+dusk.urgbgcolor:                   fjord12
+dusk.markedbgcolor:                fjordb13
+dusk.scratchnormbgcolor:           fjordb15
+dusk.scratchselbgcolor:            fjord15
+
+! -- optional no colour for window titles when inactive --
+!dusk.normTTBbgcolor:               fjord3
+!dusk.normLTRbgcolor:               fjord3
+!dusk.normMONObgcolor:              fjord3
+!dusk.normGRIDbgcolor:              fjord3
+!dusk.normGRIDCbgcolor:             fjord3
+!dusk.normGRD1bgcolor:              fjord3
+!dusk.normGRD2bgcolor:              fjord3
+!dusk.normGRDMbgcolor:              fjord3
+!dusk.normHGRDbgcolor:              fjord3
+!dusk.normDWDLbgcolor:              fjord3
+!dusk.normDWDLCbgcolor:             fjord3
+!dusk.normSPRLbgcolor:              fjord3
+!dusk.normSPRLCbgcolor:             fjord3
+!dusk.normTTMIbgcolor:              fjord3
+!dusk.normTTMICbgcolor:             fjord3
+!dusk.normfloatbgcolor:             fjord3
+
+dusk.normTTBbgcolor:               fjord2
+dusk.normLTRbgcolor:               fjord10
+dusk.normMONObgcolor:              fjord5
+dusk.normGRIDbgcolor:              fjord7
+dusk.normGRIDCbgcolor:             fjord7
+dusk.normGRD1bgcolor:              fjord7
+dusk.normGRD2bgcolor:              fjord7
+dusk.normGRDMbgcolor:              fjord7
+dusk.normHGRDbgcolor:              fjord7
+dusk.normDWDLbgcolor:              fjorda14
+dusk.normDWDLCbgcolor:             fjorda14
+dusk.normSPRLbgcolor:              fjorda14
+dusk.normSPRLCbgcolor:             fjorda14
+dusk.normTTMIbgcolor:              fjord11
+dusk.normTTMICbgcolor:             fjord11
+dusk.normfloatbgcolor:             fjord10
+
+dusk.actTTBbgcolor:                fjorda2
+dusk.actLTRbgcolor:                fjorda10
+dusk.actMONObgcolor:               fjorda5
+dusk.actGRIDbgcolor:               fjorda7
+dusk.actGRIDCbgcolor:              fjorda7
+dusk.actGRD1bgcolor:               fjorda7
+dusk.actGRD2bgcolor:               fjorda7
+dusk.actGRDMbgcolor:               fjorda7
+dusk.actHGRDbgcolor:               fjorda7
+dusk.actDWDLbgcolor:               fjordb14
+dusk.actDWDLCbgcolor:              fjordb14
+dusk.actSPRLbgcolor:               fjordb14
+dusk.actSPRLCbgcolor:              fjordb14
+dusk.actTTMIbgcolor:               fjorda11
+dusk.actTTMICbgcolor:              fjorda11
+dusk.actfloatbgcolor:              fjorda7
+
+dusk.selTTBbgcolor:                fjordb2
+dusk.selLTRbgcolor:                fjordb10
+dusk.selMONObgcolor:               fjordb5
+dusk.selGRIDCbgcolor:              fjordb7
+dusk.selGRIDbgcolor:               fjordb7
+dusk.selGRD1bgcolor:               fjordb7
+dusk.selGRD2bgcolor:               fjordb7
+dusk.selGRDMbgcolor:               fjordb7
+dusk.selHGRDbgcolor:               fjordb7
+dusk.selDWDLbgcolor:               fjord14
+dusk.selDWDLCbgcolor:              fjord14
+dusk.selSPRLbgcolor:               fjord14
+dusk.selSPRLCbgcolor:              fjord14
+dusk.selTTMIbgcolor:               fjordb11
+dusk.selTTMICbgcolor:              fjordb11
+dusk.selfloatbgcolor:              fjordb12
+
+! == dusk border colors ===
+dusk.urgbordercolor:               fjord12
+dusk.markedbordercolor:            fjordb13
+dusk.scratchnormbordercolor:       fjordb15
+dusk.scratchselbordercolor:        fjord15
+dusk.titlenormbordercolor:         fjord10
+dusk.titleselbordercolor:          fjord0
+
+! == dusk foreground colors ===
+dusk.normfgcolor:                  fjord4
+dusk.selfgcolor:                   fjord4
+dusk.titlenormfgcolor:             fjord4
+dusk.titleselfgcolor:              fjord4
+dusk.wsnormfgcolor:                fjordb4
+dusk.wsvisfgcolor:                 fjorda4
+dusk.wsselfgcolor:                 fjord4
+dusk.wsoccfgcolor:                 fjordb4
+dusk.hidnormfgcolor:               fjord4
+dusk.hidselfgcolor:                fjord7
+dusk.urgfgcolor:                   fjord10
+dusk.markedfgcolor:                fjord11
+dusk.scratchnormfgcolor:           fjord4
+dusk.scratchselfgcolor:            fjord4
+dusk.normTTBfgcolor:               fjord4
+dusk.normLTRfgcolor:               fjord4
+dusk.normMONOfgcolor:              fjord4
+dusk.normGRIDfgcolor:              fjord4
+dusk.normGRIDCfgcolor:             fjord4
+dusk.normGRD1fgcolor:              fjord4
+dusk.normGRD2fgcolor:              fjord4
+dusk.normGRDMfgcolor:              fjord4
+dusk.normHGRDfgcolor:              fjord4
+dusk.normDWDLfgcolor:              fjord0
+dusk.normDWDLCfgcolor:             fjord0
+dusk.normSPRLfgcolor:              fjord0
+dusk.normSPRLCfgcolor:             fjord0
+dusk.normTTMIfgcolor:              fjord4
+dusk.normTTMICfgcolor:             fjord4
+dusk.normfloatfgcolor:             fjord4
+dusk.actTTBfgcolor:                fjord4
+dusk.actLTRfgcolor:                fjord4
+dusk.actMONOfgcolor:               fjord4
+dusk.actGRIDfgcolor:               fjord4
+dusk.actGRIDCfgcolor:              fjord4
+dusk.actGRD1fgcolor:               fjord4
+dusk.actGRD2fgcolor:               fjord4
+dusk.actGRDMfgcolor:               fjord4
+dusk.actHGRDfgcolor:               fjord4
+dusk.actDWDLfgcolor:               fjord0
+dusk.actDWDLCfgcolor:              fjord0
+dusk.actSPRLfgcolor:               fjord0
+dusk.actSPRLCfgcolor:              fjord0
+dusk.actTTMIfgcolor:               fjord4
+dusk.actTTMICfgcolor:              fjord4
+dusk.actfloatfgcolor:              fjord4
+dusk.selTTBfgcolor:                fjord4
+dusk.selLTRfgcolor:                fjord4
+dusk.selMONOfgcolor:               fjord4
+dusk.selGRIDCfgcolor:              fjord4
+dusk.selGRIDfgcolor:               fjord4
+dusk.selGRD1fgcolor:               fjord4
+dusk.selGRD2fgcolor:               fjord4
+dusk.selGRDMfgcolor:               fjord4
+dusk.selHGRDfgcolor:               fjord4
+dusk.selDWDLfgcolor:               fjord0
+dusk.selDWDLCfgcolor:              fjord0
+dusk.selSPRLfgcolor:               fjord0
+dusk.selSPRLCfgcolor:              fjord0
+dusk.selTTMIfgcolor:               fjord4
+dusk.selTTMICfgcolor:              fjord4
+dusk.selfloatfgcolor:              fjord4

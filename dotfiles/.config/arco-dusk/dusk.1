@@ -1,0 +1,302 @@
+.TH DUSK 1 dusk\-VERSION
+.SH NAME
+dusk \- just another dwm (dynamic window manager) fork
+.SH SYNOPSIS
+.B dusk
+.RB [ \-v ]
+.SH DESCRIPTION
+dusk is a dynamic window manager for X. It manages windows in a variety of
+tiled, monocle and floating layouts. Layout can be applied dynamically,
+optimising the environment for the application in use and the task performed.
+.P
+In tiled layouts windows are generally managed in a master and one or two
+stacking areas. The master area contains, by default, one window while the
+stacking areas contain the remaining windows. The number of windows in the
+master area can be changed dynamically during runtime. In a monocle layout all
+windows are maximised to the screen size. In floating layout windows can be
+resized and moved freely. Dialog windows are always managed floating, regardless
+of the layout applied.
+.P
+Unlike dwm, windows in dusk are grouped by workspaces. A window can only belong
+to one workspace and the set of workspaces can be displayed freely on the
+monitors available. A workspace can also be pinned to a given monitor.
+.P
+Each screen contains a small status bar which displays all available workspaces,
+the layout, the titles of the opened windows, and the text read from the root
+window name property. The position of each module on the bar can be changed via
+configuration. By default a floating window is indicated with an empty square
+and a maximised floating window is indicated with a filled square on the left
+hand side of the window title.
+The selected workspaces are indicated with a different color. By default the
+workspace of the focused window are indicated with a filled square in the top
+left corner. The workspaces which contain one or more windows are indicated
+with an empty square in the top left corner.
+The indicators used in these contexts are configurable.
+.P
+dusk draws a small border around windows to indicate the focus state.
+.SH OPTIONS
+.TP
+.B \-v
+prints version information to stderr, then exits.
+.SH USAGE
+.SS Status bar
+.TP
+.B Statuses
+Multiple statuses are supported and they can be set with the following command:
+.br
+$ duskc run_command setstatus 7 "$(date +%T)"
+.br
+where 7 is the status to set followed by the status text.
+.TP
+.B Button1
+Click on a workspace label to move windows to that workspace, click on the
+layout label toggles between the current and previous layout.
+.TP
+.B Button3
+Click on a workspace label toggles the display that workspace in addition to the
+currently displayed workspaces.
+.TP
+.B Mod\-Button1
+Click on a workspace label moves the focused window to that workspace.
+.TP
+.B Scrollwheel
+Scroll on the layout symbol to cycle through layouts.
+.br
+Scroll on the workspace symbols to cycle through occupied workspaces.
+.SS Keyboard commands
+The default Mod key in dusk is the Super key (a.k.a. the Windows key).
+.TP
+.B Mod\-Return
+Spawn a terminal (
+.BR st(1)
+).
+.TP
+.B Mod\-d
+Spawn
+.BR dmenu(1)
+for launching other programs.
+.TP
+.B Mod\-[w,e,r]
+Spawns, or shows, the designated scratchpad (or hides it if already shown).
+.TP
+.B Mod\-Ctrl\-[w,e,r]
+Assigns a window to the designated scratchpad.
+.TP
+.B Mod\-Ctrl\-Shift\-[w,e,r]
+Removes a window from the designated scratchpad.
+.TP
+.B Mod\-[Left,Right,Up,Down]
+Focus on client in a given direction (workspace borders wraps around).
+.TP
+.B Mod\-Shift\-,
+Focus previous screen, if any.
+.TP
+.B Mod\-Shift\-.
+Focus next screen, if any.
+.TP
+.B Mod\-Shift\-Tab
+Move to the previous workspace (on the current monitor) that has windows on it.
+.TP
+.B Mod\-Tab
+Move to the next workspace (on the current monitor) that has windows on it.
+.TP
+.B Mod\-Alt\-,
+Send focused window to previous screen, if any.
+.TP
+.B Mod\-Alt\-.
+Send focused window to next screen, if any.
+.TP
+.B Mod\-Shift\-Alt\-,
+Send all window on current workspace to previous screen, if any.
+.TP
+.B Mod\-Shift\-Alt\-.
+Send all window on current workspace focused window to next screen, if any.
+.TP
+.B Mod\-j
+Focus next window in the stack.
+.TP
+.B Mod\-k
+Focus previous window in the stack.
+.TP
+.B Mod\-Alt\-Shift\-j
+Focus next window in the stack (including hidden clients).
+.TP
+.B Mod\-Alt\-Shift\-k
+Focus previous window in the stack (including hidden clients).
+.TP
+.B Mod\-Ctrl\-j
+Push the currently selected window down the stack.
+.TP
+.B Mod\-Ctrl\-k
+Push the currently selected window up the stack.
+.TP
+.B Mod\-i
+Increase number of windows in master area.
+.TP
+.B Mod\-u
+Decrease number of windows in master area.
+.TP
+.B Mod\-Ctrl\-i
+Increase number of windows in primary stack area.
+.TP
+.B Mod\-Ctrl\-u
+Decrease number of windows in primary stack area.
+.TP
+.B Mod\-l
+Increase master area size.
+.TP
+.B Mod\-h
+Decrease master area size.
+.TP
+.B Mod\-Shift\-l
+Increase client size respective to other windows within the same area.
+.TP
+.B Mod\-Shift\-h
+Decrease client size respective to other windows within the same area.
+.TP
+.B Mod\-Shift\-o
+Reset client size respective to other windows within the same area to default.
+.TP
+.B Mod\-m
+Zooms/cycles focused window to/from master area (tiled layouts only).
+.TP
+.B Mod\-[plus,minus]
+Increase / decrease the client opacity (for compositors that support
+_NET_WM_OPACITY).
+.TP
+.B Mod\-q
+Close focused window.
+.TP
+.B Mod\-f
+Toggles fullscreen for the selected window.
+.TP
+.B Mod\-Shift\-f
+Toggles "fake" fullscreen for the selected window (i.e. window goes fullscreen
+within the dimensions currently given to it).
+.TP
+.B Mod\-g
+Toggle focused window between tiled and floating state.
+.TP
+.B Mod\-Ctrl\-g
+Make a client floating, centered, and take up 80% of the screen.
+.TP
+.B Ctrl\-Alt\-Tab
+Disables or enables keybindings that are not accompanied by any modifier keys
+for a client. An example use case could be to use extra mouse buttons to move
+or resize a client window without the need for holding down a modifier key on
+the keyboard. Such features can be enabled or disabled on a per client basis.
+.TP
+.B Mod\-Shift\-[1..n]
+Move focused window to the nth workspace.
+.TP
+.B Mod\-Ctrl\-[1..n]
+Swap all clients on the current workspace with all clients on the nth workspace.
+.TP
+.B Mod\-Alt\-[1..n]
+Toggle the nth workspace into view in addition to the currently viewed workspaces.
+.TP
+.B Mod\-[1..n]
+View the nth workspace.
+.TP
+.B Mod\-[0]
+View all workspaces on the current monitor that has clients.
+.TP
+.B Mod\-Ctrl\-[0]
+View all workspaces on the current monitor.
+.TP
+.B Mod\-o
+View the selected client's workspace (only relevant when viewing multiple workspaces).
+.TP
+.B Mod\-backslash
+Toggle pinning of the current workspace.
+.TP
+.B Mod\-[bracketleft,bracketright]
+Cycle through the available layout splits (horizontal, vertical, centered, no
+split, etc.).
+.TP
+.B Mod\-Alt\-[bracketleft,bracketright]
+Cycle through the available tiling arrangements for the master area.
+.TP
+.B Mod\-Shift\-[bracketleft,bracketright]
+Cycle through the available tiling arrangements for the primary stack area.
+.TP
+.B Mod\-Ctrl\-[bracketleft,bracketright]
+Cycle through the available tiling arrangements for the secondary stack area.
+.TP
+.B Mod\-Ctrl\-m
+The master and stack areas swap places (mirror layout).
+.TP
+.B Mod\-space
+Toggles between current and previous layout.
+.TP
+.B Mod\-Shift\-q
+Restart dusk.
+.TP
+.B Mod\-Ctrl\-Shift\-q
+Quit dusk.
+.SS Mouse commands
+.TP
+.B Mod\-Button1
+Move focused window while dragging. Tiled windows will be toggled to floating
+state.
+.TP
+.B Mod\-Button2
+Moves the currently focused window to/from the master area (for tiled layouts).
+.TP
+.B Mod\-Alt\-Button2
+Toggles focused window between floating and tiled state.
+.TP
+.B Mod\-Button3
+Resize focused window while dragging. Tiled windows will be toggled to the
+floating state.
+.TP
+.B Button8
+For mice with extra keys use the previous button to move windows while dragging.
+Tiled windows will be toggled to floating state.
+.TP
+.B Button9
+For mice with extra keys use the next button to resize windows while dragging.
+Tiled windows will be toggled to floating state.
+.TP
+.B Mod\-Shift\-Button1
+Dynamically change the size of the master area compared to the stack areas.
+.TP
+.B Mod\-Shift\-Button3
+Dynamically change a client's size respective to other windows within the same
+area.
+.TP
+.B Mod\-Button[4,5]
+Rotate clients within the respective area (master, primary stack, secondary
+stack) using the scrollwheel.
+.TP
+.B Mod\-Shift\-Button[4,5]
+Rotate all clients using the scrollwheel.
+.SH CUSTOMIZATION
+dusk is customized by creating a custom config.h and (re)compiling the source
+code. This keeps it fast, secure and simple.
+
+There are additional functionality that do not have preconfigured keybindings.
+.br
+These can be set up on a per need basis, but are otherwise accessible via the
+.B duskc
+(dusk client) command.
+.SH SEE ALSO
+.BR dmenu (1),
+.BR st (1)
+.SH ISSUES
+Java applications which use the XToolkit/XAWT backend may draw grey windows
+only. The XToolkit/XAWT backend breaks ICCCM-compliance in recent JDK 1.5 and
+early JDK 1.6 versions, because it assumes a reparenting window manager.
+Possible workarounds are using JDK 1.4 (which doesn't contain the XToolkit/XAWT
+backend) or setting the environment variable
+.BR AWT_TOOLKIT=MToolkit
+(to use the older Motif backend instead) or running
+.B xprop -root -f _NET_WM_NAME 32a -set _NET_WM_NAME LG3D
+or
+.B wmname LG3D
+(to pretend that a non-reparenting window manager is running that the
+XToolkit/XAWT backend can recognize) or when using OpenJDK setting the
+environment variable
+.BR _JAVA_AWT_WM_NONREPARENTING=1 .
+.SH BUGS
+Send all bug reports with a patch to https://github.com/bakkeby/dusk/issues/

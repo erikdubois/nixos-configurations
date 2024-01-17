@@ -1,0 +1,187 @@
+/* Dracula Theme */
+#define dracula0 #171929
+#define dracula1 #df3535
+#define dracula2 #30da5b
+#define dracula3 #dfc44c
+#define dracula4 #9d73d9
+#define dracula5 #df59a6
+#define dracula6 #6bc9dd
+#define dracula7 #9f9f9f
+#define dracula8 #2d2d2d
+#define dracula9 #df4e47
+#define dracula10 #3ad76e
+#define dracula11 #d4d97d
+#define dracula12 #aa89da
+#define dracula13 #df72b0
+#define dracula14 #7acdde
+#define dracula15 #c6c6c6
+
+#define draculaa0 #272939
+#define draculaa1 #ef4545
+#define draculaa2 #40ea6b
+#define draculaa3 #efd45c
+#define draculaa4 #ad83e9
+#define draculaa5 #ef69b6
+#define draculaa6 #7bd9ed
+#define draculaa7 #afafaf
+#define draculaa8 #3d3d3d
+#define draculaa9 #ef5e57
+#define draculaa10 #4ae77e
+#define draculaa11 #e4e98d
+#define draculaa12 #ba99ea
+#define draculaa13 #ef82c0
+#define draculaa14 #8addee
+#define draculaa15 #d6d6d6
+
+#define draculab0 #373949
+#define draculab1 #ff5555
+#define draculab2 #50fa7b
+#define draculab3 #ffe46c
+#define draculab4 #bd93f9
+#define draculab5 #ff79c6
+#define draculab6 #8be9fd
+#define draculab7 #bfbfbf
+#define draculab8 #4d4d4d
+#define draculab9 #ff6e67
+#define draculab10 #5af78e
+#define draculab11 #f4f99d
+#define draculab12 #caa9fa
+#define draculab13 #ff92d0
+#define draculab14 #9aedfe
+#define draculab15 #e6e6e6
+
+! == dusk background colors ===
+dusk.normbgcolor:                  draculaa0
+dusk.selbgcolor:                   dracula3
+dusk.wsnormbgcolor:                draculaa3
+dusk.titlenormbgcolor:             dracula0
+dusk.titleselbgcolor:              dracula0
+dusk.wsvisbgcolor:                 draculaa12
+dusk.wsselbgcolor:                 dracula12
+dusk.wsoccbgcolor:                 draculaa3
+dusk.hidnormbgcolor:               dracula8
+dusk.hidselbgcolor:                draculab8
+dusk.urgbgcolor:                   dracula12
+dusk.markedbgcolor:                draculaa6
+dusk.scratchnormbgcolor:           draculab13
+dusk.scratchselbgcolor:            dracula13
+dusk.actTTBbgcolor:                draculab12
+dusk.actLTRbgcolor:                draculab4
+dusk.actMONObgcolor:               dracula13
+dusk.actGRIDbgcolor:               draculab10
+dusk.actGRIDCbgcolor:              draculab10
+dusk.actGRD1bgcolor:               draculab10
+dusk.actGRD2bgcolor:               draculab10
+dusk.actGRDMbgcolor:               draculab10
+dusk.actHGRDbgcolor:               draculab10
+dusk.actDWDLbgcolor:               draculab5
+dusk.actDWDLCbgcolor:              draculab5
+dusk.actSPRLbgcolor:               draculab5
+dusk.actSPRLCbgcolor:              draculab5
+dusk.actTTMIbgcolor:               draculab3
+dusk.actTTMICbgcolor:              draculab3
+dusk.actfloatbgcolor:              draculab9
+dusk.normTTBbgcolor:               draculaa12
+dusk.normLTRbgcolor:               draculaa4
+dusk.normMONObgcolor:              dracula13
+dusk.normGRIDbgcolor:              draculaa10
+dusk.normGRIDCbgcolor:             draculaa10
+dusk.normGRD1bgcolor:              draculaa10
+dusk.normGRD2bgcolor:              draculaa10
+dusk.normGRDMbgcolor:              draculaa10
+dusk.normHGRDbgcolor:              draculaa10
+dusk.normDWDLbgcolor:              draculaa5
+dusk.normDWDLCbgcolor:             draculaa5
+dusk.normSPRLbgcolor:              draculaa5
+dusk.normSPRLCbgcolor:             draculaa5
+dusk.normTTMIbgcolor:              draculaa3
+dusk.normTTMICbgcolor:             draculaa3
+dusk.normfloatbgcolor:             draculaa9
+dusk.selTTBbgcolor:                dracula12
+dusk.selLTRbgcolor:                dracula4
+dusk.selMONObgcolor:               dracula13
+dusk.selGRIDCbgcolor:              dracula10
+dusk.selGRIDbgcolor:               dracula10
+dusk.selGRD1bgcolor:               dracula10
+dusk.selGRD2bgcolor:               dracula10
+dusk.selGRDMbgcolor:               dracula10
+dusk.selHGRDbgcolor:               dracula10
+dusk.selDWDLbgcolor:               dracula5
+dusk.selDWDLCbgcolor:              dracula5
+dusk.selSPRLbgcolor:               dracula5
+dusk.selSPRLCbgcolor:              dracula5
+dusk.selTTMIbgcolor:               dracula3
+dusk.selTTMICbgcolor:              dracula3
+dusk.selfloatbgcolor:              dracula9
+
+! == dusk border colors ===
+dusk.urgbordercolor:               dracula12
+dusk.markedbordercolor:            draculaa6
+dusk.scratchnormbordercolor:       draculab13
+dusk.scratchselbordercolor:        dracula13
+dusk.titlenormbordercolor:         draculaa0
+dusk.titleselbordercolor:          draculaa0
+
+! == dusk foreground colors ===
+dusk.normfgcolor:                  #f8f8f2
+dusk.selfgcolor:                   dracula0
+dusk.wsnormfgcolor:                dracula4
+dusk.titlenormfgcolor:             dracula0
+dusk.titleselfgcolor:              dracula0
+dusk.wsvisfgcolor:                 draculab11
+dusk.wsselfgcolor:                 draculab11
+dusk.wsoccfgcolor:                 dracula4
+dusk.hidnormfgcolor:               dracula15
+dusk.hidselfgcolor:                dracula15
+dusk.urgfgcolor:                   dracula0
+dusk.markedfgcolor:                dracula0
+dusk.scratchnormfgcolor:           draculab8
+dusk.scratchselfgcolor:            dracula8
+dusk.actTTBfgcolor:                dracula0
+dusk.actLTRfgcolor:                dracula0
+dusk.actMONOfgcolor:               dracula0
+dusk.actGRIDfgcolor:               dracula0
+dusk.actGRIDCfgcolor:              dracula0
+dusk.actGRD1fgcolor:               dracula0
+dusk.actGRD2fgcolor:               dracula0
+dusk.actGRDMfgcolor:               dracula0
+dusk.actHGRDfgcolor:               dracula0
+dusk.actDWDLfgcolor:               dracula0
+dusk.actDWDLCfgcolor:              dracula0
+dusk.actSPRLfgcolor:               dracula0
+dusk.actSPRLCfgcolor:              dracula0
+dusk.actTTMIfgcolor:               dracula0
+dusk.actTTMICfgcolor:              dracula0
+dusk.actfloatfgcolor:              dracula0
+dusk.normTTBfgcolor:               draculab0
+dusk.normLTRfgcolor:               draculab0
+dusk.normMONOfgcolor:              draculab0
+dusk.normGRIDfgcolor:              draculab0
+dusk.normGRIDCfgcolor:             draculab0
+dusk.normGRD1fgcolor:              draculab0
+dusk.normGRD2fgcolor:              draculab0
+dusk.normGRDMfgcolor:              draculab0
+dusk.normHGRDfgcolor:              draculab0
+dusk.normDWDLfgcolor:              draculab0
+dusk.normDWDLCfgcolor:             draculab0
+dusk.normSPRLfgcolor:              draculab0
+dusk.normSPRLCfgcolor:             draculab0
+dusk.normTTMIfgcolor:              draculab0
+dusk.normTTMICfgcolor:             draculab0
+dusk.normfloatfgcolor:             draculab0
+dusk.selTTBfgcolor:                dracula0
+dusk.selLTRfgcolor:                dracula0
+dusk.selMONOfgcolor:               dracula0
+dusk.selGRIDCfgcolor:              dracula0
+dusk.selGRIDfgcolor:               dracula0
+dusk.selGRD1fgcolor:               dracula0
+dusk.selGRD2fgcolor:               dracula0
+dusk.selGRDMfgcolor:               dracula0
+dusk.selHGRDfgcolor:               dracula0
+dusk.selDWDLfgcolor:               dracula0
+dusk.selDWDLCfgcolor:              dracula0
+dusk.selSPRLfgcolor:               dracula0
+dusk.selSPRLCfgcolor:              dracula0
+dusk.selTTMIfgcolor:               dracula0
+dusk.selTTMICfgcolor:              dracula0
+dusk.selfloatfgcolor:              dracula0

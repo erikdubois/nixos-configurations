@@ -1,0 +1,187 @@
+/* Nord Theme */
+#define nord0 #2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
+
+#define norda0 #1E2430
+#define norda1 #2B3242
+#define norda2 #333C4E
+#define norda3 #3C465A
+#define norda4 #C8CED9
+#define norda5 #D5D9E0
+#define norda6 #DCDFE4
+#define norda7 #7FCCAB
+#define norda8 #78B0C0
+#define norda9 #7191B1
+#define norda10 #4E719C
+#define norda11 #AF515A
+#define norda12 #C07760
+#define norda13 #DBBB7B
+#define norda14 #93AE7C
+#define norda15 #A47E9D
+
+#define nordb0 #0E1420
+#define nordb1 #1B2232
+#define nordb2 #232C3E
+#define nordb3 #2C364A
+#define nordb4 #B8BEC9
+#define nordb5 #C5C9D0
+#define nordb6 #CCCFD4
+#define nordb7 #6FBC9B
+#define nordb8 #68A0B0
+#define nordb9 #6181A1
+#define nordb10 #3E618C
+#define nordb11 #9F414A
+#define nordb12 #B06750
+#define nordb13 #CBAB6B
+#define nordb14 #839E6C
+#define nordb15 #946E8D
+
+! == dusk background colors ===
+dusk.normbgcolor:                  nord0
+dusk.selbgcolor:                   nordb2
+dusk.titlenormbgcolor:             nord0
+dusk.titleselbgcolor:              nord0
+dusk.wsnormbgcolor:                nord0
+dusk.wsvisbgcolor:                 nord11
+dusk.wsselbgcolor:                 nordb11
+dusk.wsoccbgcolor:                 nord1
+dusk.hidnormbgcolor:               nordb3
+dusk.hidselbgcolor:                nord3
+dusk.urgbgcolor:                   nord12
+dusk.markedbgcolor:                norda13
+dusk.scratchnormbgcolor:           nordb15
+dusk.scratchselbgcolor:            nord15
+dusk.actTTBbgcolor:                nordb2
+dusk.actLTRbgcolor:                nordb3
+dusk.actMONObgcolor:               nordb2
+dusk.actGRIDbgcolor:               nordb10
+dusk.actGRIDCbgcolor:              nordb10
+dusk.actGRD1bgcolor:               nordb10
+dusk.actGRD2bgcolor:               nordb10
+dusk.actGRDMbgcolor:               nordb10
+dusk.actHGRDbgcolor:               nordb10
+dusk.actDWDLbgcolor:               nordb14
+dusk.actDWDLCbgcolor:              nordb14
+dusk.actSPRLbgcolor:               nordb14
+dusk.actSPRLCbgcolor:              nordb14
+dusk.actTTMIbgcolor:               nordb11
+dusk.actTTMICbgcolor:              nordb11
+dusk.actfloatbgcolor:              nordb3
+dusk.normTTBbgcolor:               norda2
+dusk.normLTRbgcolor:               norda3
+dusk.normMONObgcolor:              norda2
+dusk.normGRIDbgcolor:              norda10
+dusk.normGRIDCbgcolor:             norda10
+dusk.normGRD1bgcolor:              norda10
+dusk.normGRD2bgcolor:              norda10
+dusk.normGRDMbgcolor:              norda10
+dusk.normHGRDbgcolor:              norda10
+dusk.normDWDLbgcolor:              norda14
+dusk.normDWDLCbgcolor:             norda14
+dusk.normSPRLbgcolor:              norda14
+dusk.normSPRLCbgcolor:             norda14
+dusk.normTTMIbgcolor:              norda11
+dusk.normTTMICbgcolor:             norda11
+dusk.normfloatbgcolor:             norda3
+dusk.selTTBbgcolor:                nord2
+dusk.selLTRbgcolor:                nord3
+dusk.selMONObgcolor:               nord2
+dusk.selGRIDCbgcolor:              nord10
+dusk.selGRIDbgcolor:               nord10
+dusk.selGRD1bgcolor:               nord10
+dusk.selGRD2bgcolor:               nord10
+dusk.selGRDMbgcolor:               nord10
+dusk.selHGRDbgcolor:               nord10
+dusk.selDWDLbgcolor:               nord14
+dusk.selDWDLCbgcolor:              nord14
+dusk.selSPRLbgcolor:               nord14
+dusk.selSPRLCbgcolor:              nord14
+dusk.selTTMIbgcolor:               nord11
+dusk.selTTMICbgcolor:              nord11
+dusk.selfloatbgcolor:              nord3
+
+! == dusk border colors ===
+dusk.urgbordercolor:               nord12
+dusk.markedbordercolor:            norda13
+dusk.scratchnormbordercolor:       nordb15
+dusk.scratchselbordercolor:        nord15
+dusk.titlenormbordercolor:         nord0
+dusk.titleselbordercolor:          nord0
+
+! == dusk foreground colors ===
+dusk.normfgcolor:                  nord4
+dusk.selfgcolor:                   nord4
+dusk.titlenormfgcolor:             nord4
+dusk.titleselfgcolor:              nord4
+dusk.wsnormfgcolor:                nord4
+dusk.wsvisfgcolor:                 nord4
+dusk.wsselfgcolor:                 nord5
+dusk.wsoccfgcolor:                 nord4
+dusk.hidnormfgcolor:               nord6
+dusk.hidselfgcolor:                nord4
+dusk.urgfgcolor:                   nord4
+dusk.markedfgcolor:                nord4
+dusk.scratchnormfgcolor:           nord6
+dusk.scratchselfgcolor:            nord4
+dusk.actTTBfgcolor:                nord6
+dusk.actLTRfgcolor:                nord6
+dusk.actMONOfgcolor:               nord6
+dusk.actGRIDfgcolor:               nord6
+dusk.actGRIDCfgcolor:              nord6
+dusk.actGRD1fgcolor:               nord6
+dusk.actGRD2fgcolor:               nord6
+dusk.actGRDMfgcolor:               nord6
+dusk.actHGRDfgcolor:               nord6
+dusk.actDWDLfgcolor:               nord6
+dusk.actDWDLCfgcolor:              nord6
+dusk.actSPRLfgcolor:               nord6
+dusk.actSPRLCfgcolor:              nord6
+dusk.actTTMIfgcolor:               nord6
+dusk.actTTMICfgcolor:              nord6
+dusk.actfloatfgcolor:              nord6
+dusk.normTTBfgcolor:               nord4
+dusk.normLTRfgcolor:               nord4
+dusk.normMONOfgcolor:              nord4
+dusk.normGRIDfgcolor:              nord4
+dusk.normGRIDCfgcolor:             nord4
+dusk.normGRD1fgcolor:              nord4
+dusk.normGRD2fgcolor:              nord4
+dusk.normGRDMfgcolor:              nord4
+dusk.normHGRDfgcolor:              nord4
+dusk.normDWDLfgcolor:              nord4
+dusk.normDWDLCfgcolor:             nord4
+dusk.normSPRLfgcolor:              nord4
+dusk.normSPRLCfgcolor:             nord4
+dusk.normTTMIfgcolor:              nord4
+dusk.normTTMICfgcolor:             nord4
+dusk.normfloatfgcolor:             nord6
+dusk.selTTBfgcolor:                nord6
+dusk.selLTRfgcolor:                nord6
+dusk.selMONOfgcolor:               nord6
+dusk.selGRIDCfgcolor:              nord6
+dusk.selGRIDfgcolor:               nord6
+dusk.selGRD1fgcolor:               nord6
+dusk.selGRD2fgcolor:               nord6
+dusk.selGRDMfgcolor:               nord6
+dusk.selHGRDfgcolor:               nord6
+dusk.selDWDLfgcolor:               nord6
+dusk.selDWDLCfgcolor:              nord6
+dusk.selSPRLfgcolor:               nord6
+dusk.selSPRLCfgcolor:              nord6
+dusk.selTTMIfgcolor:               nord6
+dusk.selTTMICfgcolor:              nord6
+dusk.selfloatfgcolor:              nord6

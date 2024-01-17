@@ -1,0 +1,187 @@
+/* Gruvbox Theme */
+#define gruv0 #0d1011
+#define gruv1 #181818
+#define gruv2 #2c2826
+#define gruv3 #403935
+#define gruv4 #c5b491
+#define gruv5 #dbcba2
+#define gruv6 #dbd1a7
+#define gruv7 #c4ae88
+#define gruv8 #6d9e93
+#define gruv9 #c3768b
+#define gruv10 #483935
+#define gruv11 #ba3932
+#define gruv12 #d65d0e
+#define gruv13 #c89647
+#define gruv14 #c4ae88
+#define gruv15 #79a472
+
+#define gruva0 #1d2021
+#define gruva1 #282828
+#define gruva2 #3c3836
+#define gruva3 #504945
+#define gruva4 #d5c4a1
+#define gruva5 #ebdbb2
+#define gruva6 #ebe1b7
+#define gruva7 #d4be98
+#define gruva8 #7daea3
+#define gruva9 #d3869b
+#define gruva10 #584945
+#define gruva11 #ca4942
+#define gruva12 #e66d1e
+#define gruva13 #d8a657
+#define gruva14 #d4be98
+#define gruva15 #89b482
+
+#define gruvb0 #2d3031
+#define gruvb1 #383838
+#define gruvb2 #4c4846
+#define gruvb3 #605955
+#define gruvb4 #e5d4b1
+#define gruvb5 #fbebc2
+#define gruvb6 #fbf1c7
+#define gruvb7 #e4cea8
+#define gruvb8 #8dbeb3
+#define gruvb9 #e396ab
+#define gruvb10 #685955
+#define gruvb11 #da5952
+#define gruvb12 #f67d2e
+#define gruvb13 #e8b667
+#define gruvb14 #e4cea8
+#define gruvb15 #99c492
+
+! == dusk background colors ===
+dusk.normbgcolor:                  gruv2
+dusk.selbgcolor:                   gruv3
+dusk.titlenormbgcolor:             gruv0
+dusk.titleselbgcolor:              gruv0
+dusk.wsnormbgcolor:                gruv2
+dusk.wsvisbgcolor:                 gruv11
+dusk.wsselbgcolor:                 gruvb11
+dusk.wsoccbgcolor:                 gruv3
+dusk.hidnormbgcolor:               gruvb3
+dusk.hidselbgcolor:                gruv3
+dusk.urgbgcolor:                   gruv12
+dusk.markedbgcolor:                gruva13
+dusk.scratchnormbgcolor:           gruvb14
+dusk.scratchselbgcolor:            gruv14
+dusk.actTTBbgcolor:                gruvb2
+dusk.actLTRbgcolor:                gruvb3
+dusk.actMONObgcolor:               gruvb2
+dusk.actGRIDbgcolor:               gruvb10
+dusk.actGRIDCbgcolor:              gruvb10
+dusk.actGRD1bgcolor:               gruvb10
+dusk.actGRD2bgcolor:               gruvb10
+dusk.actGRDMbgcolor:               gruvb10
+dusk.actHGRDbgcolor:               gruvb10
+dusk.actDWDLbgcolor:               gruvb1
+dusk.actDWDLCbgcolor:              gruvb1
+dusk.actSPRLbgcolor:               gruvb1
+dusk.actSPRLCbgcolor:              gruvb1
+dusk.actTTMIbgcolor:               gruvb11
+dusk.actTTMICbgcolor:              gruvb11
+dusk.actfloatbgcolor:              gruvb3
+dusk.normTTBbgcolor:               gruva2
+dusk.normLTRbgcolor:               gruva3
+dusk.normMONObgcolor:              gruva2
+dusk.normGRIDbgcolor:              gruva10
+dusk.normGRIDCbgcolor:             gruva10
+dusk.normGRD1bgcolor:              gruva10
+dusk.normGRD2bgcolor:              gruva10
+dusk.normGRDMbgcolor:              gruva10
+dusk.normHGRDbgcolor:              gruva10
+dusk.normDWDLbgcolor:              gruva1
+dusk.normDWDLCbgcolor:             gruva1
+dusk.normSPRLbgcolor:              gruva1
+dusk.normSPRLCbgcolor:             gruva1
+dusk.normTTMIbgcolor:              gruva11
+dusk.normTTMICbgcolor:             gruva11
+dusk.normfloatbgcolor:             gruva3
+dusk.selTTBbgcolor:                gruv2
+dusk.selLTRbgcolor:                gruv3
+dusk.selMONObgcolor:               gruv2
+dusk.selGRIDCbgcolor:              gruv10
+dusk.selGRIDbgcolor:               gruv10
+dusk.selGRD1bgcolor:               gruv10
+dusk.selGRD2bgcolor:               gruv10
+dusk.selGRDMbgcolor:               gruv10
+dusk.selHGRDbgcolor:               gruv10
+dusk.selDWDLbgcolor:               gruv1
+dusk.selDWDLCbgcolor:              gruv1
+dusk.selSPRLbgcolor:               gruv1
+dusk.selSPRLCbgcolor:              gruv1
+dusk.selTTMIbgcolor:               gruv11
+dusk.selTTMICbgcolor:              gruv11
+dusk.selfloatbgcolor:              gruv3
+
+! == dusk border colors ===
+dusk.urgbordercolor:               gruv12
+dusk.markedbordercolor:            gruva13
+dusk.scratchnormbordercolor:       gruvb14
+dusk.scratchselbordercolor:        gruv14
+dusk.titlenormbordercolor:         gruva3
+dusk.titleselbordercolor:          gruva3
+
+! == dusk foreground colors ===
+dusk.normfgcolor:                  gruv4
+dusk.selfgcolor:                   gruv4
+dusk.titlenormfgcolor:             gruv4
+dusk.titleselfgcolor:              gruv4
+dusk.wsnormfgcolor:                gruv4
+dusk.wsvisfgcolor:                 gruv4
+dusk.wsselfgcolor:                 gruv5
+dusk.wsoccfgcolor:                 gruv4
+dusk.hidnormfgcolor:               gruv6
+dusk.hidselfgcolor:                gruv4
+dusk.urgfgcolor:                   gruv4
+dusk.markedfgcolor:                gruv2
+dusk.scratchnormfgcolor:           gruv3
+dusk.scratchselfgcolor:            gruv1
+dusk.actTTBfgcolor:                gruv5
+dusk.actLTRfgcolor:                gruv5
+dusk.actMONOfgcolor:               gruv5
+dusk.actGRIDfgcolor:               gruv5
+dusk.actGRIDCfgcolor:              gruv5
+dusk.actGRD1fgcolor:               gruv5
+dusk.actGRD2fgcolor:               gruv5
+dusk.actGRDMfgcolor:               gruv5
+dusk.actHGRDfgcolor:               gruv5
+dusk.actDWDLfgcolor:               gruv5
+dusk.actDWDLCfgcolor:              gruv5
+dusk.actSPRLfgcolor:               gruv5
+dusk.actSPRLCfgcolor:              gruv5
+dusk.actTTMIfgcolor:               gruv5
+dusk.actTTMICfgcolor:              gruv5
+dusk.actfloatfgcolor:              gruv5
+dusk.normTTBfgcolor:               gruv4
+dusk.normLTRfgcolor:               gruv4
+dusk.normMONOfgcolor:              gruv4
+dusk.normGRIDfgcolor:              gruv4
+dusk.normGRIDCfgcolor:             gruv4
+dusk.normGRD1fgcolor:              gruv4
+dusk.normGRD2fgcolor:              gruv4
+dusk.normGRDMfgcolor:              gruv4
+dusk.normHGRDfgcolor:              gruv4
+dusk.normDWDLfgcolor:              gruv4
+dusk.normDWDLCfgcolor:             gruv4
+dusk.normSPRLfgcolor:              gruv4
+dusk.normSPRLCfgcolor:             gruv4
+dusk.normTTMIfgcolor:              gruv4
+dusk.normTTMICfgcolor:             gruv4
+dusk.normfloatfgcolor:             gruv4
+dusk.selTTBfgcolor:                gruv5
+dusk.selLTRfgcolor:                gruv5
+dusk.selMONOfgcolor:               gruv5
+dusk.selGRIDCfgcolor:              gruv5
+dusk.selGRIDfgcolor:               gruv5
+dusk.selGRD1fgcolor:               gruv5
+dusk.selGRD2fgcolor:               gruv5
+dusk.selGRDMfgcolor:               gruv5
+dusk.selHGRDfgcolor:               gruv5
+dusk.selDWDLfgcolor:               gruv5
+dusk.selDWDLCfgcolor:              gruv5
+dusk.selSPRLfgcolor:               gruv5
+dusk.selSPRLCfgcolor:              gruv5
+dusk.selTTMIfgcolor:               gruv5
+dusk.selTTMICfgcolor:              gruv5
+dusk.selfloatfgcolor:              gruv5

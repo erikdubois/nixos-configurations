@@ -1,0 +1,474 @@
+[[repos]]
+url = "https://raw.githubusercontent.com/leftwm/leftwm-community-themes/master/known.toml"
+name = "community"
+definitions_version = 0
+
+[[repos.themes]]
+name = "Orange Forest"
+repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Coffee"
+repository = "https://github.com/lex148/leftwm-coffee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Soothe"
+repository = "https://github.com/b4skyx/leftwm-soothe/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+relative_directory = "theme/"
+
+[[repos.themes]]
+name = "TNG"
+repository = "https://github.com/lex148/leftwm-tng/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Windows XP"
+repository = "https://github.com/lex148/leftwm-windowsxp/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Dracula Rounded"
+repository = "https://github.com/AethanFoot/leftwm-theme-dracula-rounded/"
+commit = "*"
+version = "0.0.3"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Forest"
+repository = "https://github.com/lex148/forest/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Ground Zero"
+repository = "https://github.com/Qwart376/Ground-Zero/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Red Moon"
+repository = "https://github.com/Qwart376/Red-Moon"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Blue Coffee"
+repository = "https://github.com/Qwart376/Blue-Coffee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "sunflower"
+repository = "https://github.com/mautamu/leftwm-sunflower/"
+commit = "*"
+version = "0.1.2"
+leftwm_versions = "^0.2.11, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Bumblebee"
+repository = "https://github.com/mfdorst/leftwm-bumblebee/"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "^0.2.8, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Changed Sunset"
+repository = "https://github.com/Syudagye/changed-sunset"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "Garden"
+repository = "https://github.com/taylor85345/leftwm-theme-garden"
+commit = "*"
+version = "0.0.4"
+leftwm_versions = ">0.2.7"
+current = false
+
+[[repos.themes]]
+name = "Epitaph"
+repository = "https://github.com/VentGrey/Epitaph"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "Ocean-night"
+repository = "https://github.com/TheRoniOne/ocean-night"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "Flamingo"
+repository = "https://github.com/necaris/leftwm-theme-flamingo"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">0.2.7, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Sunset"
+repository = "https://github.com/Syudagye/leftwm-sunset"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "<0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Amber"
+repository = "https://github.com/di-effe/amber"
+commit = "*"
+version = "0.2.2"
+leftwm_versions = ">0.2.10, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Catppuccin"
+repository = "https://github.com/di-effe/catppuccin"
+commit = "*"
+version = "0.1.1"
+leftwm_versions = ">0.2.10, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Molese"
+repository = "https://github.com/m0lese/leftwm-config"
+commit = "*"
+version = "2.1.0"
+leftwm_versions = ">0.2.10, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "SpaceJelly"
+repository = "https://gitlab.com/leftwmthemes/space_jelly"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = ">0.2.10, <0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Ascent"
+repository = "https://gitlab.com/mWalrus/ascent"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = ">0.2.7"
+current = false
+
+[[repos.themes]]
+name = "arch-one-dark"
+repository = "https://github.com/jamesbaker1901/leftwm-arch-one-dark/"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "minimal-solarized"
+repository = "https://github.com/minda1975/minimal_solarized"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "plan9"
+repository = "https://github.com/seabassapologist/leftwm-theme-plan9"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Serika"
+repository = "https://github.com/VuiMuich/leftwm-theme-serika.git"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Zexanima"
+repository = "https://github.com/calebgasser/zexanima-leftwm-theme/tree/develop"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = ">0.3.0"
+current = false
+
+[[repos.themes]]
+name = "Double Bar"
+repository = "https://github.com/PeterDauwe/doublebar/"
+commit = "*"
+version = "0.0.2"
+leftwm_versions = "^0.3.0"
+current = false
+
+[[repos]]
+url = "localhost"
+name = "LOCAL"
+definitions_version = 0
+
+[[repos.themes]]
+name = "candy"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = true
+
+[[repos]]
+url = "https://raw.githubusercontent.com/arcolinux/arcolinux-leftwm-themes/master/known.toml"
+name = "arcolinux"
+definitions_version = 0
+
+[[repos.themes]]
+name = "docky"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-docky/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "eden"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-eden/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "material"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-material/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "mesh"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-mesh/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "matrix"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-matrix/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "parker"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-parker/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "pi"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-pi/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "shades"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-shades/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "space"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-space/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "starwars"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-starwars/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "smooth"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-smooth/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "forest"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-forest/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "grayblocks"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-grayblocks/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "greyblocks"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-greyblocks/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "halo"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-halo/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db-scifi-star"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-scifi-star/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db-nemesis"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-nemesis/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "arise"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-arise/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "fancy"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-fancy/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db-color-dev"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-color-dev/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db-comic"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-comic/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "db-scifi"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-scifi/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "doublebar"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-doublebar/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "sb-horror"
+repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-sb-horror/"
+commit = "*"
+version = "3.1.1"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos]]
+url = "https://raw.githubusercontent.com/arcolinux/arcolinux-leftwm-themes-community/main/known.toml"
+name = "arcolinux-community"
+definitions_version = 0
+
+[[repos.themes]]
+name = "kittycafe-sm"
+repository = "https://github.com/etrigan63/kittycafe-sm"
+commit = "*"
+version = "2.3.2"
+leftwm_versions = ">=0.3.0"
+current = false
+
+[[repos.themes]]
+name = "kittycafe-dm"
+repository = "https://github.com/etrigan63/kittycafe-dm"
+commit = "*"
+version = "2.3.2"
+leftwm_versions = ">=0.3.0"
+current = false
