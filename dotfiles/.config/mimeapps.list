@@ -1,0 +1,7 @@
+[Added Associations]
+application/x-shellscript=sublime_text.desktop;
+text/plain=sublime_text.desktop;
+
+[Default Applications]
+application/x-shellscript=sublime_text.desktop;
+text/plain=sublime_text.desktop;
