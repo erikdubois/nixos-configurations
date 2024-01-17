@@ -30,7 +30,6 @@
     installPhase = ''
       mkdir $out
       rm config.h -rf
-      echo "${theme}" > themes/dynamic.h
       make dwm
       mv dwm $out
     '';
