@@ -1,0 +1,334 @@
+#+title:Herbstluftwm configuration file
+#+property: header-args :tangle autostart :tangle-mode (identity #o755)
+
+This is my herbstluftwm configuration. HLWM became my principal window manager after I tried =sway= and I wanted more control over my windows. =dwm= is fine, but I don't like how it moves all the windows every time I open a new one HLWM solves this thanks to /frames/, or containers, rectangles that can put windows inside. When you closes a window the rest of the screen remains untouched, because all the action happens inside the frame. Of course, in herbstluftwm you need to explicitely tell where you want the next frame since it doesn't do it for you, that can be a lot of work for some people who want their windows arranged automagically, but if you want more control over your windows, try HLWM.
+
+Herbstluftwm is configured thought a client /á la/ =bspwm=, so you can change settings on the fly from a terminal, and the config file is just a shell script.
+
+* Starting
+First of all, lets create an alias for =herbstclient= so we don't need to retype that painfull command anymore
+#+begin_src bash
+  #!/usr/bin/env bash
+  hc() {
+      herbstclient "$@"
+  }
+
+  hc emit_hook reload
+  xsetroot -solid '#5A8E3A'
+  xsetroot -cursor_name left_ptr 
+
+#+end_src
+
+* Keybindings
+Here I define my keybindings for HLWM. This doesn't include keybindings for launch apps, that is managed by =sxhkd=.
+
+- M=mod4 (windows key)
+- A=mod1 (alt key)
+- S=shift
+- C=control
+
+| Key           | Action                                                       |
+|---------------+--------------------------------------------------------------|
+| M-C-r         | Reload the configuration                                     |
+| M-S-q         | Close the focused window or frame                            |
+| M-C-q         | Remove the container, the windows moves to the parent frame  |
+| M-C-m         | Maximize (monocle) on unmaximize a window                    |
+| M-z           | Send window to the scratchpad                                |
+| M-h,j,k,l     | Focus the window or container in the given direction         |
+| M-A-h,j,k,l   | Focus the container in the given direction                   |
+| M-S-h,j,k,l   | Move the window to the given direction                       |
+| M-A-S-h,j,k,l | Move the window to the container in the given direction      |
+| M-i           | Split the container vertically (down) and focus              |
+| M-o           | Split the container horizontally (right) and focus           |
+| M-C-i         | Split the container vertically (up) and focus                |
+| M-C-o         | Split the container horizontally (left) and focus            |
+| M-C-v         | Split the container vertically (up)                          |
+| M-C-b         | Split the container horizontally (left)                      |
+| M-C-space     | Split the container by the longest side                      |
+| M-A-C-h,j,k,l | Resize (bigger) the container in the given direction         |
+| M-C-h,j,k,l   | Resize (smaller) the container in the given direction        |
+| M-C-l,h       | Focus next tag (skip the one focused on other monitor)       |
+| M-C-j,k       | Cycle windows inside the container (usefull on monocle)      |
+| M-C-F11       | Fullscreen toggle                                            |
+| M-S           | Toggle floating                                              |
+| M-t           | Cycle layouts in focused container (vertical and horizontal) |
+| M-g           | Toggle grid layout                                           |
+| M-m           | Toggle monocle inside the container                          |
+| M-r           | Rotate the frames clockwise                                  |
+| M-,.          | Focus next monitor                                           |
+| M-S-,.        | Move focused window to the next monitor                      |
+
+** Window Manager
+
+#+begin_src bash
+  # remove all existing keybindings
+  hc keyunbind --all
+  Mod=Mod4   
+
+  hc keybind $Mod-Control-r reload
+  hc keybind $Mod-Shift-q close_or_remove
+  hc keybind $Mod-Control-q remove #remove frame, merge client with the next frame
+
+#+end_src
+
+** Basic movement
+#+begin_src bash
+   # basic movement in tiling and floating mode
+   hc keybind $Mod-Control-m spawn ~/.config/herbstluftwm/maximize.sh
+   hc keybind $Mod-z spawn ~/.config/herbstluftwm/scratchpad.sh
+
+   # focusing clients inside the container
+   hc keybind $Mod-h  focus left
+   hc keybind $Mod-j  focus down
+   hc keybind $Mod-k  focus up
+   hc keybind $Mod-l  focus right
+
+   # Focusing containers on the direction
+   hc keybind $Mod-Mod1-h  focus -e left
+   hc keybind $Mod-Mod1-j  focus -e down
+   hc keybind $Mod-Mod1-k  focus -e up
+   hc keybind $Mod-Mod1-l  focus -e right
+
+   # moving clients in tiling and floating mode
+   hc keybind $Mod-Shift-h shift left
+   hc keybind $Mod-Shift-j shift down
+   hc keybind $Mod-Shift-k shift up
+   hc keybind $Mod-Shift-l shift right
+
+   # move client TO OTHER FRAME
+   hc keybind $Mod-Mod1-Shift-h shift -e left
+   hc keybind $Mod-Mod1-Shift-j shift -e down
+   hc keybind $Mod-Mod1-Shift-k shift -e up
+   hc keybind $Mod-Mod1-Shift-l shift -e right
+
+   hc keybind $Mod-Control-j cycle +1
+   hc keybind $Mod-Control-k cycle -1
+#+end_src
+
+** Splits
+#+begin_src bash
+  # splitting frames
+  hc keybind $Mod-i  chain , cycle_layout +1 horizontal vertical , split bottom  0.5 , focus -e down 
+  hc keybind $Mod-o  chain , split right   0.5 , focus -e right
+  hc keybind $Mod-Control-i  chain , split top  0.5 , focus -e up
+  hc keybind $Mod-Control-o  chain , split left   0.5 , focus -e left
+
+  # Split but no focus
+  hc keybind $Mod-Control-v       split   bottom  0.5
+  hc keybind $Mod-Control-b       split   right   0.5
+
+  # Split by half from the longest side
+  hc keybind $Mod-Control-space split explode 
+#+end_src
+
+** Resizing frames
+#+begin_src bash
+  # resizing frames and floating clients
+  resizestep=0.02
+  hc keybind $Mod-Mod1-Control-h resize left +$resizestep
+  hc keybind $Mod-Mod1-Control-l resize right +$resizestep
+  hc keybind $Mod-Mod1-Control-j resize down +$resizestep
+  hc keybind $Mod-Mod1-Control-k resize up +$resizestep
+
+  hc keybind $Mod-Shift-Control-h resize left -$resizestep
+  hc keybind $Mod-Shift-Control-l resize right -$resizestep
+  hc keybind $Mod-Shift-Control-j resize down -$resizestep
+  hc keybind $Mod-Shift-Control-k resize up -$resizestep
+
+#+end_src
+
+** Tags
+#+begin_src bash
+  # cycle through tags
+  hc keybind $Mod-Control-l use_index +1 --skip-visible #next tag
+  hc keybind $Mod-Control-h use_index -1 --skip-visible #prev tag
+
+#+end_src
+
+** Layouts
+HLWM has 4 layouts, the layouts affects how the windows are arranged inside the container. The available layouts are:
+- 0: vertical stack
+- 1: horizontal stack
+- 2: Max, monocle inside the container
+- 3: Grid: A grid, is possible to configure if you want a gapless grid too.
+#+begin_src bash
+  # layouting
+  hc keybind $Mod-F11 fullscreen toggle
+  hc keybind $Mod-s set_attr clients.focus.floating toggle #float focused client
+  #hc keybind $Mod-p pseudotile toggle 
+  hc keybind $Mod-m cycle_layout +1 max vertical #monocle, but inside the frame
+  hc keybind $Mod-r rotate
+
+  hc keybind $Mod-t cycle_layout +1 horizontal vertical #change direction of clients
+  hc keybind $Mod-g set_layout grid #change direction of clients
+
+#+end_src
+** Mouse 
+#+begin_src bash
+  hc mouseunbind --all
+  hc mousebind $Mod-Button1 move
+  hc mousebind $Mod-Button2 zoom
+  hc mousebind $Mod-Button3 resize
+
+
+#+end_src
+** Monitors
+
+#+begin_src bash
+  hc keybind $Mod-comma   cycle_monitor +1
+  hc keybind $Mod-period  cycle_monitor -1
+
+  # move client to othe MONITOR
+  hc keybind $Mod-Shift-comma shift_to_monitor +1
+  hc keybind $Mod-Shift-period shift_to_monitor -1
+#+end_src
+* Tags
+Though HLWM uses the term "tags", they're just normal virtual workspaces. You can asign any number of workspaces. I use the default behaviour, so I have 6 workspaces, shared between my two monitors, if I focus the workspaces on other monitor, then the workspaces are swaped (same behaviour of Xmonad and Qtile)
+
+#+begin_src bash
+  hc set default_frame_layout horizontal
+
+  tag_names=( 󰣇 󰈚 󰈹 󰅬 󰸳 󰎄 )
+  tag_keys=( {1..6} 0 )
+
+  hc rename default "${tag_names[0]}" || true
+  for i in "${!tag_names[@]}" ; do
+      hc add "${tag_names[$i]}"
+      key="${tag_keys[$i]}"
+      if ! [ -z "$key" ] ; then
+          hc keybind "$Mod-$key" use_index "$i"
+          hc keybind "$Mod-Shift-$key" move_index "$i"
+      fi
+  done
+
+#+end_src
+
+* Themes
+Herbstluftwm has a lot of configuration related to colors and styles, and can be difficult to track what exactly does every command, so check the comments in the code to be sure what every command does. HLWM is very customizable in this aspect, your can change (AFAIK):
++ Frame border, inside, outside and background colors for focused and unfocused frames, also width
++ Frame gaps
++ Window borders, outside, inside and normal, window padding, window gaps, window padding from frame, etc.
+#+begin_src bash
+  # Takes colors from Xresources because why not
+  back=$(xrdb -query | grep background | cut -f2- -d'#')
+  border=$(xrdb -query | grep cursorColor | cut -f2- -d'#')
+  color0=$(xrdb -query | grep color0 | cut -f2- -d'#')
+  color1=$(xrdb -query | grep color1: | cut -f2- -d'#')
+  color2=$(xrdb -query | grep color2 | cut -f2- -d'#')
+  color3=$(xrdb -query | grep color3 | cut -f2- -d'#')
+  color4=$(xrdb -query | grep color4 | cut -f2- -d'#')
+  color5=$(xrdb -query | grep color5 | cut -f2- -d'#')
+  color6=$(xrdb -query | grep color6 | cut -f2- -d'#')
+  color7=$(xrdb -query | grep color7 | cut -f2- -d'#')
+
+  hc attr theme.tiling.reset 1
+  hc attr theme.floating.reset 1
+
+# Frames
+hc set frame_border_active_color "#$color1" #Focused frame color
+hc set frame_border_normal_color "#0000004D" #Unfocused frame color
+hc set frame_border_width 1  #border size
+
+hc set frame_bg_active_color "#00000000" #Fill of focused frame
+hc set frame_bg_normal_color "#00000000" #Fill of unfocused frame (needs always show frame)
+hc set frame_bg_transparent off #Removes the filler color of frame
+hc set frame_transparent_width 0 # What part of the filler color should remain?
+
+hc set frame_active_opacity 100 #Focused frame opacity
+hc set frame_normal_opacity 100 # Unfocused frame opacity
+
+hc set frame_border_inner_width 0
+hc set always_show_frame on
+hc set frame_gap 6
+
+# Clients
+hc attr theme.padding_top 0 #Padding at the top of the windows
+hc attr theme.padding_right 0 #Padding 
+hc attr theme.padding_left 0 #Padding 
+hc attr theme.padding_bottom 0 #Padding 
+
+hc attr theme.border_width 3 # WIndows border  s
+hc attr theme.active.color "#$back" #Window border color
+hc attr theme.normal.color "#$back" # Window border color unfocused
+hc attr theme.urgent.color orange
+
+# Color for the inner frame
+hc attr theme.inner_width 3
+hc attr theme.normal.inner_width 0
+hc attr theme.active.inner_color "#$color1"
+hc attr theme.normal.inner_color "#4b5263"
+
+# Color for the outer frame (3 color4s,too much)
+hc attr theme.outer_width 3
+hc attr theme.active.outer_color "#$color1"
+hc attr theme.normal.outer_color "#$back"
+
+# Colors for floating 
+hc attr theme.floating.active.color "#$back"
+hc attr theme.floating.normal.color "#$color5"
+hc attr theme.floating.normal.title_color "#$color5"
+hc attr theme.floating.active.title_color "#$color1"
+
+hc attr theme.floating.outer_width 3
+hc attr theme.floating.normal.outer_color "#$color5"
+hc attr theme.floating.title_height 15
+hc attr theme.floating.border.width 3
+hc attr theme.background_color "#$back"
+
+# Color for the inner frame
+hc attr theme.floating.inner_width 15
+hc attr theme.floating.active.inner_color "#$color1"
+hc attr theme.floating.normal.inner_color "#$color5"
+
+hc set window_gap 2 #Gap between windows
+hc set frame_padding 0 # Gapp between windows and frames
+hc set smart_window_surroundings off
+hc set smart_frame_surroundings on
+hc set mouse_recenter_gap 0
+hc set hide_covered_windows off
+#+end_src
+
+* Rules
+Rules for certain windows.
+#+begin_src bash
+  # rules
+  hc unrule -F
+  #hc rule class=XTerm tag=3 # move all xterms to tag 3
+  hc rule focus=on # normally focus new clients
+  hc rule floatplacement=center
+  hc rule class=Pqiv floating=on
+  hc rule class=conky manage=off
+  hc rule class=Steam floating=on
+  hc rule class=mpv floating=on
+  hc rule class=Lxappareance floating=on
+  hc rule class=Pavucontrol floating=on
+  hc rule class=qt5ct floating=on
+  hc rule class=Sxiv floating=on
+  hc rule class=kruler floating=on
+  hc rule class=zoom floating=on
+  hc rule class=Connman-gtk floating=on
+  hc rule instance=calendar.txt floating=on
+  hc rule class=Emacs title=capture floating=on 
+  hc rule windowtype~'_NET_WM_WINDOW_TYPE_DESKTOP' manage=off
+  hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' floating=on
+  hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
+  hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
+  hc rule windowtype~'_NET_WM_WINDOW_TYPE_DESKTOP' manage=off
+#+end_src
+
+* Misc
+Autodetect monitors and run polybar
+#+begin_src bash
+
+  hc set tree_style '╾│ ├└╼─┐'
+  # unlock, just to be sure
+  hc unlock
+
+  # do multi monitor setup here, e.g.:
+  # hc set_monitors 1280x1024+0+0 1280x1024+1280+0
+  # or simply:
+  hc detect_monitors
+
+  # find the panel
+  polybar -r panel
+#+end_src
