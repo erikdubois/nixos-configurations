@@ -25,7 +25,7 @@
     # sources that will be used for our derivation.
     src = ./config/arco-chadwm/chadwm;
 
-    buildInputs = [imlib2 libX11 libXft libXinerama gnumake acpi];
+    buildInputs = [Imlib2 libX11 libXft libXinerama gnumake acpi];
 
     installPhase = ''
       mkdir $out
