@@ -1,0 +1,112 @@
+#caspian by Smoke
+#### Menu ####
+
+## Title
+menu.title.bg: flat solid
+menu.title.bg.color: #4D565E
+menu.title.text.color: #FDFDFE
+menu.title.text.justify: center
+
+#### Items ####
+
+# Background
+menu.items.bg: flat solid
+menu.items.bg.color: #EFF0F1
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #3DAEE9
+
+# Text
+menu.items.text.color: #636363
+menu.items.active.text.color: #FDFDFE
+menu.items.disabled.text.color: #A7ABAE
+
+# Seperator
+menu.separator.color: #C0C2C4
+menu.separator.width: 1
+menu.separator.padding.width: 4
+menu.separator.padding.height: 6
+
+# Border
+menu.border.width: 2
+menu.border.color:  #EFF0F1
+
+# Overlap
+menu.overlap.x: -8
+menu.overlap.y: 0
+
+#### Window ####
+
+
+
+##Active Title
+window.active.title.bg: flat solid
+window.active.title.bg.color: #4D565E
+window.active.title.bg.shadow: 0
+window.active.label.bg: parentrelative
+window.active.label.text.color: #FDFDFE
+
+## Inactive Title
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color:  #4D565E
+window.inactive.title.bg.shadow: 0
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #989898
+
+## Title Seperator
+window.active.title.separator.color:  #3DAEE9
+window.inactive.title.separator.color: #3DAEE9
+window.title.seperater.width: 1
+
+## Active Window Buttons
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #989898
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #3DAEE9
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #606060
+window.active.button.hover.bg: parentrelative
+window.active.button.hover.image.color: #3DAEE9
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #989898
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.hover.image.color: #3DAEE9
+
+## Inactive Window Buttons
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #989898
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #3DAEE9
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #606060
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #3DAEE9
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.image.color: #989898
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.hover.image.color: #3DAEE9
+
+## Window Borders & padding
+border.color: #EFF0F1
+border.width: 1
+padding.width: 6
+padding.height: 3
+window.handle.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.label.text.justify: center
+
+####OSD (Alt+Tab etc) uses this ####
+
+# Colors
+osd.bg: flat solid
+osd.bg.color:  #EFF0F1
+osd.label.text.color: #636363
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #3DAEE9
+osd.hilight.text.color: #FFFFFF
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #3DAEE9
+
+# Border
+osd.border.width: 1
+osd.border.color:   #EFF0F1

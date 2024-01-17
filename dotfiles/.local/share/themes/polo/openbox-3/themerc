@@ -1,0 +1,70 @@
+
+dewy by Duncan
+
+------------------------------------------------------------------
+# Menu
+
+menu.border.color: #4C555D
+menu.border.width: 1
+
+menu.title.bg: solid flat
+menu.title.bg.color: #1F2024
+menu.title.text.color: #f7f7f7
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #f2f2f2
+menu.items.text.color: #323438
+
+menu.items.active.bg: Flat Solid
+menu.items.active.bg.color: #759BCB
+menu.items.active.text.color: #f7f7f7
+
+
+menu.separator.width: 1
+menu.separator.padding.width: 2
+menu.separator.padding.height: 2
+
+window.*.handle.bg: Flat Solid
+window.*.handle.bg.color: #eaebec
+
+window.*.grip.bg: Flat Solid
+window.*.grip.bg.color: #eaebec
+
+
+window.active.border.color: #4C555D
+window.active.title.separator.color: #759BCB
+
+*.title.bg: Flat Solid
+*.title.bg.color: #1F2024
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #eff0f1
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #eff0f1
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.color: #e1e1e1
+window.active.button.hover.image.color: #66ffaa
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #3DAEE9
+window.active.button.hover.bg.border.color: #1d1e1b
+
+window.inactive.border.color: #8A9197
+window.inactive.title.separator.color: #8A9197
+
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #8A9197
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #CCD4D9
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #CCD4D9
+
+#Shitmix
+border.width: 1
+padding.width: 4
+padding.height: 6
+window.handle.width: 0
+window.client.padding.width: 0
+menu.overlap: 2
+*.justify: center

@@ -1,0 +1,67 @@
+#hibiscus-darker by Duncan
+-----------------------------------------------------------------
+# Menu
+menu.overlap.x: -7
+#Title
+menu.title.bg: raised
+menu.title.bg.color: #181818
+menu.title.text.color: #ffffff
+menu.separator.color: #242424
+menu.title.text.justify: center
+menu.border.color: #000000
+#Inactive
+menu.items.bg: raised
+menu.items.bg.color: #181818
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #707070
+#Active
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #DF375F
+menu.items.active.bg.border.color: #DF375F
+menu.items.active.text.color: #ffffff
+
+# Window
+#Active
+window.active.title.bg: raised
+window.active.title.bg.color: #181818
+window.active.handle.bg: raised
+window.active.handle.bg.color: #181818
+window.active.grip.bg: parentrelative
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.toggled.image.color: #ffffff
+window.active.button.pressed.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #22354D
+window.active.button.hover.bg: Flat Border Solid
+window.active.button.hover.bg.color: #22354D
+window.active.button.hover.image.color: #ffffff
+#Inactive
+window.inactive.title.bg: raised
+window.inactive.title.bg.color: #181818
+window.inactive.handle.bg: raised
+window.inactive.handle.bg.color: #181818
+window.inactive.grip.bg: parentrelative
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #686868
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #ffffff
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.color: #ffffff
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #22354D
+window.inactive.button.hover.bg: Flat Border Solid
+window.inactive.button.hover.bg.color: #22354D
+window.inactive.button.hover.image.color: #ffffff
+# Padding
+padding.width: 1
+padding.height: 6
+border.width: 1
+border.color: #000000
+window.handle.width: 3
+window.client.padding.width: 0
+window.label.text.justify: center

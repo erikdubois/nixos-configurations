@@ -1,0 +1,101 @@
+lewinsky by Duncan
+
+------------------------------------------------------------------
+
+# Menu
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #FFFFFF
+menu.title.bg.colorTo: #FFFFFF
+menu.title.text.color: #00B0AA
+
+menu.items.bg: flat solid
+menu.items.bg.color: #FFFFFF
+
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #000000
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color:  #FFFFFF
+menu.items.active.text.color: #F33558
+
+# Active Windows
+window.active.title.bg: flat border gradient vertical
+window.active.title.bg.color: #FFFFFF
+window.active.title.bg.colorTo: #FFFFFF
+window.active.*.bg.border.color: #ffffff
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #00B0AA
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #000000
+window.active.button.*.bg.border.color: #000000
+
+window.active.button.hover.bg.color: #576773
+window.active.button.hover.bg.border.color: #9aabb9
+window.active.button.hover.image.color: #DA7B75
+window.active.button.pressed.bg.color: #DA7B75
+window.active.button.pressed.bg.colorTo: #DA7B75
+window.active.button.pressed.image.color: #DA7B75
+window.active.button.pressed.bg.border.color: #95a5b2
+window.active.button.unpressed.image.color: #464646
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #E0E0E0
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color:#ffffff
+
+window.*.grip.bg:  flat solid
+window.*.grip.bg.color: #ffffff
+
+
+# Inactive Windows
+window.inactive.title.bg: flat border gradient horizontal
+window.inactive.title.bg.color: #FFFFFF
+window.inactive.title.bg.colorTo: #FFFFFF
+window.inactive.*.bg.border.color: #ffffff
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #DA7A74
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.bg.color: #DA7B75
+window.inactive.button.*.image.color:  #DA7B75
+window.inactive.button.*.bg.border.color: #DA7B75
+
+window.inactive.button.pressed.bg.color: #DA7B75
+window.inactive.button.pressed.bg.border.color: #DA7B75
+window.inactive.button.pressed.image.color: #DA7B75
+window.inactive.button.unpressed.image.color: #464646
+
+window.inactive.button.hover.bg.color: #DA7B75
+window.inactive.button.hover.bg.border.color: #d9dfe4
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #DA7B75
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #f9f7f3
+window.inactive.grip.bg:  parentrelative
+
+#OSD
+osd.hilight.bg: #DA7B75
+
+# Fontstuff
+window.active.label.text.font:HeldustryFTVBasic Demi:pixelsize=9
+window.inactive.label.text.font:HeldustryFTVBasic Demi:pixelsize=9
+menu.items.font: HeldustryFTVBasic Demi:pixelsize=9
+menu.title.text.font: HeldustryFTVBasic Demi:pixelsize=9
+
+# Shitmix
+window.handle.width: 0
+window.handle.width: 0
+window.client.padding.width: 0
+border.Width: 0
+padding.width: 2
+padding.height: 5
+border.color: #ffffff
+menu.overlap: -6
+window.frameColor: #eeeeee
+window.*.client.color: #eeeeee
+*.text.justify: center

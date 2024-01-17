@@ -1,0 +1,4 @@
+#define desk_toggled_width 6
+#define desk_toggled_height 6
+static unsigned char desk_toggled_bits[] = {
+   0x33, 0x33, 0x0c, 0x0c, 0x33, 0x33 };
