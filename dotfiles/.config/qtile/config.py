@@ -534,13 +534,13 @@ dgroups_app_rules = []
 
 main = None
 
-# hides the top bar when the archlinux-logout widget is opened
+# hides the top bar when the powerm widget is opened
 @hook.subscribe.client_new
 def new_client(window):
     if window.name == "ArchLinux Logout":
         qtile.hide_show_bar()
 
-# shows the top bar when the archlinux-logout widget is closed
+# shows the top bar when the powerm widget is closed
 @hook.subscribe.client_killed
 def logout_killed(window):
     if window.name == "ArchLinux Logout":
@@ -590,7 +590,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='Arandr'),
     Match(wm_class='feh'),
     Match(wm_class='Galculator'),
-    Match(wm_class='archlinux-logout'),
+    Match(wm_class='powerm'),
     Match(wm_class='xfce4-terminal'),
 
 ],  fullscreen_border_width = 0, border_width = 0)

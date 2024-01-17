@@ -8,7 +8,7 @@
   Super   Shift  q        *quit* (kill focused window)
   Super          d        *show app menu* (`wofi small`)
   Super   Shift  d        *show app menu* (`wofi large`)
-  Super          x        *show archlinux-logout* (lock/suspend/logout/reboot/shutdown)
+  Super          x        *show powerm* (lock/suspend/logout/reboot/shutdown)
   Super   Shift  r        *reload config files* (`hyprland reload`)
   Super          Escape   *kill application*
 

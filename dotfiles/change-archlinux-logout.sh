@@ -14,6 +14,8 @@
 FIND="archlinux-logout"
 REPLACE="powerm"
 
-find .  -type f -executable -exec sed -i "s/$FIND/$REPLACE/g" {} \;
+find .config/  -type f -executable -exec sed -i "s/$FIND/$REPLACE/g" {} \;
+find .config/  -type f -exec sed -i "s/$FIND/$REPLACE/g" {} \;
+
 
 echo "Done"

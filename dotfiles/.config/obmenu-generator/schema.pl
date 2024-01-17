@@ -87,7 +87,7 @@ our $SCHEMA = [
     {end_cat => undef},
 
     {sep => undef},
-    {item => ['archlinux-logout',                      'Lock Screen',                       'lock']},
-    {item => ['archlinux-logout',                      'Exit Openbox',                      'exit']},
+    {item => ['powerm',                      'Lock Screen',                       'lock']},
+    {item => ['powerm',                      'Exit Openbox',                      'exit']},
 
 ]

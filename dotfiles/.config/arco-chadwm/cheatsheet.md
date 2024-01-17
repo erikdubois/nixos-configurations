@@ -10,7 +10,7 @@
   Super   Shift  q        *quit* (kill focused window)
   Super          d        *show app menu* (`rofi`)
   Super   Shift  d        *show app menu* (`dmenu`)
-  Super          x        *show archlinux-logout* (lock/suspend/logout/reboot/shutdown)
+  Super          x        *show powerm* (lock/suspend/logout/reboot/shutdown)
   Super   Shift  r        *reload config files*
   Super          Escape   *kill application*
 

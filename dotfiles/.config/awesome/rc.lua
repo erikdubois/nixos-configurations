@@ -1047,7 +1047,7 @@ awful.rules.rules = {
           "Font-manager",
           "Kruler",
           "MessageWin",  -- kalarm.
-          "archlinux-logout",
+          "powerm",
           "Peek",
           "Skype",
           "System-config-printer.py",

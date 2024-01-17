@@ -165,13 +165,13 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#archlinux-logout
+#powerm
 ctrl + alt + k
-     archlinux-logout
+     powerm
 
-#archlinux-logout
+#powerm
 ctrl + alt + l
-    archlinux-logout
+    powerm
 
 #Pamac-manager
 ctrl + alt + p
