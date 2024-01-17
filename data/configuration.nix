@@ -21,8 +21,12 @@
       #./desktops/bspwm.nix
       #./desktops/hyprland.nix
       #./desktops/dwm.nix
-      #./desktops/chadwm.nix
-      ./desktops/qtile.nix
+      #./desktops/chadwm.nix              #does not work
+      #./desktops/qtile.nix
+      #./desktops/hlwm.nix                 #does not work
+      #./desktops/openbox.nix
+      #./desktops/leftwm.nix
+      #./desktops/dusk.nix					#does not work
     ];
 
   # Bootloader.

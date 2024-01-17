@@ -25,6 +25,7 @@
     curl
     dex
     discord
+    dmenu
     dropbox
     duf
     edid-decode
@@ -73,6 +74,7 @@
     spotify
     sublime4
     telegram-desktop
+    tree
     variety
     vivaldi
     vivaldi-ffmpeg-codecs
