@@ -1,1 +1,0 @@
-{"version": "0.4.5", "dependencies": [], "platforms": ["*"], "description": "Sublime Text plugin to format files faster using prettierd", "sublime_text": ">=3092", "url": "https://packagecontrol.io/packages/Prettierd%20Format"}

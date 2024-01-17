@@ -1,154 +1,25 @@
 {
 	"file_history":
 	[
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-titus/scripts/autostart.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.xinitrc",
-		"/home/erik/DATA/nixos-configurations/riker/configuration.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenvm",
-		"/home/erik/DATA/nixos-configurations/riker/desktops/dwm.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/variety/scripts/set_wallpaper_arco",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/shell.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/config.py",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/sxhkd/sxhkdrc",
-		"/home/erik/DATA/nixos-configurations/dotfiles/change-archlinux-logout.sh",
-		"/home/erik/DATA/nixos-configurations/picard/core-packages.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktop-packages.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/qtile.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/dwm.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/chadwm.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/bspwm.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/README.md",
-		"/home/erik/DATA/nixos-configurations/dotfiles/copy.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/sxhkd/sxhkdrc",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/bar.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.xserverrc",
-		"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-dwm/usr/share/xsessions/dwm.desktop",
-		"/home/erik/DATA/nixos-configurations/riker/core-packages.nix",
-		"/home/erik/DATA/nixos-configurations/riker/desktop-packages.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/xinitrc",
-		"/home/erik/DATA/arcolinux-nemesis/Personal/settings/xinit/xinitrc",
-		"/home/erik/DATA/nixos-configurations/riker/desktops/hyprland.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland.conf",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-azerty.conf",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-qwerty.conf",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/powermenu.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.Xresources",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaper",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaperdesktop",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar/modules",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/modules",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/style.css",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-10/modules",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-8/modules",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-1",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-9",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-8",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-10",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/config.ini",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/change-waybar-hyprland",
-		"/home/erik/.config/Kvantum/kvantum.kvconfig",
-		"/home/erik/.config/Kvantum/KvGnomeDark#/KvGnomeDark#.kvconfig",
-		"/home/erik/DATA/nixos-configurations/picard/configuration.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/statusbar",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/Kvantum/kvantum.kvconfig",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/awesome.nix",
-		"/home/erik/DATA/nixos-configurations/picard/desktops/i3wm.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/rc.lua",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/bspwmrc",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc-azerty",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/config",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/rebuild",
-		"/home/erik/DATA/nixos-configurations/riker/desktops/bspwm.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/autostart.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/change-shbang.sh",
-		"/home/erik/DATA/nixos-configurations/data/core-packages.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/autostart.sh",
-		"/home/erik/DATA/nixos-configurations/update.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/fetch",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/keyhint",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/picom-toggle.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/run.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/powermenu/powermenu",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/launcher/launcher.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/scripts/picom-toggle.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/start-conky-i3statusbar.sh",
-		"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-v1.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/external_rules_command",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/adjust-new-window",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/move-window",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/picom-toggle.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/pseudo_automatic_mode",
-		"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-in-line-v1.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenss",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc",
-		"/home/erik/ARCO/ARCOLINUXB/arco-sway/archiso/packages.x86_64",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreends",
-		"/home/erik/.screenlayout/erik.sh",
-		"/home/erik/DUMP/erik.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreen",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/config.ini",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/launch.sh",
-		"/home/erik/DATA/nixos-configurations/riker/desktops/i3wm.nix",
-		"/home/erik/DATA/nixos-configurations/riker/desktops/awesome.nix",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/style-1.rasi",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/colors.rasi",
-		"/home/erik/ARCO/ARCOLINUX/arcolinux-rofi/etc/skel/.config/rofi/files/launchers/type-3/shared/colors.rasi",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/fonts.rasi",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-arch-updates.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-aur-updates.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/get_spotify_status.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pavolume.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pub-ip.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/scroll_spotify_status.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/spotify1.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/tempcores.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/weather.py",
-		"/home/erik/DATA/nixos-configurations/riker/copy.sh",
-		"/home/erik/DATA/nixos-configurations/worf/copy.sh",
-		"/home/erik/DATA/nixos-configurations/picard/copy.sh",
-		"/home/erik/DATA/nixos-configurations/up+.sh",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bin/powermenu",
-		"/home/erik/ARCO/ARCOLINUX-ISO/arcolinuxl-iso/archiso/packages.x86_64",
-		"/home/erik/DATA/nixos-configurations/picard/env-vars.nix",
-		"/home/erik/DATA/nixos-configurations/picard/virtualbox.nix",
-		"/home/erik/ARCO/ARCOLINUX-DESKTOP/10-push-to-all-plasma.sh",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/13-build-all-plasma.sh",
-		"/home/erik/Downloads/nixos-config-main/etc-nixos/global-config.nix",
-		"/home/erik/Downloads/nixos-config-main/etc-nixos/flake.nix",
-		"/home/erik/Downloads/nixos-config-main/lib/bash.sh",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-nemesis-git/PKGBUILD",
-		"/home/erik/.bashrc-personal",
-		"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc-personal",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/SPECIAL/arcolinux-spices-git/PKGBUILD",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/PKGBUILD",
-		"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-plasma/etc/skel/.config/dolphinrc",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-git/PKGBUILD",
-		"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/pkg/arcolinux-welcome-app-deepin-git/usr/share/applications/arcolinux-welcome-app.desktop",
-		"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/etc/skel/.config/autostart/arcolinux-welcome-app.desktop",
-		"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/usr/local/bin/arcolinux-welcome-app",
-		"/home/erik/ARCO/ARCOLINUXB/arco-deepin/archiso/packages.x86_64",
-		"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-plasma/etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc"
+		"/home/erik/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/erik/.config/sublime-text/Packages/User/Preferences.sublime-settings"
 	],
 	"folder_history":
 	[
-		"/home/erik/DATA/nixos-configurations",
-		"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-sway",
-		"/home/erik/DATA/arcolinux-nemesis"
 	],
-	"last_version": 4169,
-	"last_window_id": 4,
+	"last_version": 4152,
+	"last_window_id": 2,
 	"log_indexing": false,
-	"next_update_check": 1705514247,
+	"next_update_check": 1705564345,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1009.0,
+		"new_window_height": 638.0,
 		"new_window_maximized": false,
 		"new_window_position":
 		[
-			1932.0,
-			88.0
+			346.0,
+			216.0
 		],
 		"new_window_settings":
 		{
@@ -156,22 +27,6 @@
 			{
 				"selected_items":
 				[
-					[
-						"sur",
-						"Surfn-Plasma-Dark-Tela"
-					],
-					[
-						"s",
-						"Surfn-Plasma-Flow"
-					],
-					[
-						"Su",
-						"Surfn-Plasma-Light"
-					],
-					[
-						"bashr",
-						"bashrc-personal-wayland"
-					]
 				]
 			},
 			"build_system_choices":
@@ -184,6 +39,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
 					[
 						"insta",
 						"Package Control: Install Package"
@@ -209,138 +68,10 @@
 			},
 			"file_history":
 			[
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-dwm/usr/share/xsessions/dwm.desktop",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.xinitrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/config.def.h",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-titus/scripts/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/riker/configuration.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenvm",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/dwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/variety/scripts/set_wallpaper_arco",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/shell.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/config.py",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/change-archlinux-logout.sh",
-				"/home/erik/DATA/nixos-configurations/picard/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktop-packages.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/qtile.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/dwm.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/chadwm.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/bspwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/README.md",
-				"/home/erik/DATA/nixos-configurations/dotfiles/copy.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/bar.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.xserverrc",
-				"/home/erik/DATA/nixos-configurations/riker/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/riker/desktop-packages.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/xinitrc",
-				"/home/erik/DATA/arcolinux-nemesis/Personal/settings/xinit/xinitrc",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/hyprland.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-azerty.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-qwerty.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/powermenu.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.Xresources",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaper",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaperdesktop",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/style.css",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-10/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-8/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-1",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-9",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-8",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-10",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/config.ini",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/change-waybar-hyprland",
-				"/home/erik/.config/Kvantum/kvantum.kvconfig",
-				"/home/erik/.config/Kvantum/KvGnomeDark#/KvGnomeDark#.kvconfig",
-				"/home/erik/DATA/nixos-configurations/picard/configuration.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/statusbar",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/Kvantum/kvantum.kvconfig",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/awesome.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/i3wm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/rc.lua",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/bspwmrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc-azerty",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/config",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/rebuild",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/bspwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/change-shbang.sh",
-				"/home/erik/DATA/nixos-configurations/data/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/update.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/fetch",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/keyhint",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/run.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/powermenu/powermenu",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/launcher/launcher.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/start-conky-i3statusbar.sh",
-				"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-v1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/external_rules_command",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/adjust-new-window",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/move-window",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/pseudo_automatic_mode",
-				"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-in-line-v1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenss",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc",
-				"/home/erik/ARCO/ARCOLINUXB/arco-sway/archiso/packages.x86_64",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreends",
-				"/home/erik/.screenlayout/erik.sh",
-				"/home/erik/DUMP/erik.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreen",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/config.ini",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/launch.sh",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/i3wm.nix",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/awesome.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/style-1.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/colors.rasi",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-rofi/etc/skel/.config/rofi/files/launchers/type-3/shared/colors.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/fonts.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-arch-updates.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-aur-updates.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/get_spotify_status.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pavolume.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pub-ip.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/scroll_spotify_status.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/spotify1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/tempcores.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/weather.py",
-				"/home/erik/DATA/nixos-configurations/riker/copy.sh",
-				"/home/erik/DATA/nixos-configurations/worf/copy.sh",
-				"/home/erik/DATA/nixos-configurations/picard/copy.sh",
-				"/home/erik/DATA/nixos-configurations/up+.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/powermenu",
-				"/home/erik/ARCO/ARCOLINUX-ISO/arcolinuxl-iso/archiso/packages.x86_64",
-				"/home/erik/DATA/nixos-configurations/picard/env-vars.nix",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/10-push-to-all-plasma.sh",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/13-build-all-plasma.sh",
-				"/home/erik/Downloads/nixos-config-main/etc-nixos/global-config.nix",
-				"/home/erik/Downloads/nixos-config-main/etc-nixos/flake.nix",
-				"/home/erik/Downloads/nixos-config-main/lib/bash.sh",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-nemesis-git/PKGBUILD",
-				"/home/erik/.bashrc-personal",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc-personal",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/SPECIAL/arcolinux-spices-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-plasma/etc/skel/.config/dolphinrc",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/pkg/arcolinux-welcome-app-deepin-git/usr/share/applications/arcolinux-welcome-app.desktop",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/etc/skel/.config/autostart/arcolinux-welcome-app.desktop",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/usr/local/bin/arcolinux-welcome-app",
-				"/home/erik/ARCO/ARCOLINUXB/arco-deepin/archiso/packages.x86_64"
 			],
 			"find":
 			{
-				"height": 37.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -354,115 +85,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"console",
-					"keymap",
-					"console",
-					"archlinux-logout",
-					"qtile",
-					"dwm",
-					"archlinux-logout",
-					"autostart",
-					"locate",
-					"kitty",
-					"archlinux-logout",
-					"changew",
-					"run_cmd",
-					"hyprlan",
-					"archlinux-logout",
-					"lock",
-					"archlinux-logout",
-					"autostart",
-					"xd",
-					"bspwm",
-					"pavolume",
-					"i3",
-					"Lock",
-					"nix",
-					"/*",
-					"sudo nixos-rebuild switch --upgrade",
-					"sudo nix-channel --update",
-					"sudo nixos-rebuild switch --upgrade",
-					"boot",
-					"workstation",
-					"pacman",
-					"paru -Syu --noconfirm",
-					"sudo pacman -Syyu",
-					"security",
-					"firewall",
-					"gvfs",
-					"unicode",
-					"input",
-					"hardware",
-					"sway",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolution",
-					"pragh",
-					"pragah",
-					"evoluti",
-					"evolui",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolu",
-					"pragh",
-					"audio",
-					"pragha",
-					"modprobed",
-					"timezone",
-					"profile",
-					"light",
-					"personal",
-					"alacri",
-					"end",
-					"xfce4-task",
-					"xfce4-settings-manager",
-					"btop",
-					"fluen",
-					"conky-collection",
-					"hypr",
-					"hyprland",
-					"pkgname",
-					"sway",
-					"a",
-					"wlprop",
-					"newm",
-					"river",
-					"wayfire",
-					"kitty",
-					"xterm",
-					"sway",
-					"profile",
-					"hyprland",
-					"waycheck",
-					"ttf-jetbrains-mono-nerd",
-					"hyprpicker-git",
-					"clipman",
-					"nomacs",
-					"swaybg",
-					"swayidle",
-					"rofi-lbonn-wayland-only-git",
-					"pamixer",
-					"nwg-drawer-bin",
-					"kitty",
-					"hyprpicker-git",
-					"grimshot",
-					"bashtop",
-					"arcolinux",
-					"dconf",
-					"waybar",
-					"hyprland",
-					"rofi-l",
-					"polkit-gnome",
-					"wayland",
-					"dmDesktop",
-					"hyprland",
-					"NO_at",
-					"bemenu",
-					"Give the pkgversion number like 23.01"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -470,17 +92,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"powerm",
-					"konsole",
-					"powerm",
-					"",
-					"sudo nix-channel --update && sudo nixos-rebuild switch --upgrade",
-					"sudo nixos-rebuild switch --upgrade",
-					"lollypop",
-					"btop",
-					"wayfire",
-					"_pkgname",
-					"newm"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -492,17 +103,13 @@
 			},
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 0.0
 			},
 			"input":
 			{
 				"height": 0.0
 			},
 			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 156.0
-			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -510,7 +117,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 70.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -544,13 +151,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 211.0,
+			"side_bar_width": 159.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1896.0
+		"new_window_width": 850.0
 	},
 	"windows":
 	[
@@ -559,437 +166,10 @@
 			{
 				"selected_items":
 				[
-					[
-						"sur",
-						"Surfn-Plasma-Dark-Tela"
-					],
-					[
-						"s",
-						"Surfn-Plasma-Flow"
-					],
-					[
-						"Su",
-						"Surfn-Plasma-Light"
-					],
-					[
-						"bashr",
-						"bashrc-personal-wayland"
-					]
 				]
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/autostart.sh",
-					"settings":
-					{
-						"buffer_size": 250,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							3,
-							"right_delete",
-							null,
-							"AwAAAEsAAAAAAAAASwAAAAAAAAAdAwAAcnVuICJkZXggJEhPTUUvLmNvbmZpZy9hdXRvc3RhcnQvYXJjb2xpbnV4LXdlbGNvbWUtYXBwLmRlc2t0b3AiCiNydW4gInhyYW5kciAtLW91dHB1dCBWR0EtMSAtLXByaW1hcnkgLS1tb2RlIDEzNjB4NzY4IC0tcG9zIDB4MCAtLXJvdGF0ZSBub3JtYWwiCiNydW4gInhyYW5kciAtLW91dHB1dCBIRE1JMiAtLW1vZGUgMTkyMHgxMDgwIC0tcG9zIDE5MjB4MCAtLXJvdGF0ZSBub3JtYWwgLS1vdXRwdXQgSERNSTEgLS1wcmltYXJ5IC0tbW9kZSAxOTIweDEwODAgLS1wb3MgMHgwIC0tcm90YXRlIG5vcm1hbCAtLW91dHB1dCBWSVJUVUFMMSAtLW9mZiIKI3J1biB4cmFuZHIgLS1vdXRwdXQgZURQLTEgLS1wcmltYXJ5IC0tbW9kZSAxMzY4eDc2OCAtLXBvcyAweDAgLS1yb3RhdGUgbm9ybWFsIC0tb3V0cHV0IERQLTEgLS1vZmYgLS1vdXRwdXQgSERNSS0xIC0tb2ZmIC0tb3V0cHV0IERQLTIgLS1vZmYgLS1vdXRwdXQgSERNSS0yIC0tb2ZmCiNydW4geHJhbmRyIC0tb3V0cHV0IExWRFMxIC0tbW9kZSAxMzY2eDc2OCAtLW91dHB1dCBEUDMgLS1tb2RlIDE5MjB4MTA4MCAtLXJpZ2h0LW9mIExWRFMxCiNydW4geHJhbmRyIC0tb3V0cHV0IERWSS1JLTAgLS1yaWdodC1vZiBIRE1JLTAgLS1hdXRvCiNydW4geHJhbmRyIC0tb3V0cHV0IERWSS0xIC0tcmlnaHQtb2YgRFZJLTAgLS1hdXRvCiNydW4geHJhbmRyIC0tb3V0cHV0IERWSS1ELTEgLS1yaWdodC1vZiBEVkktSS0xIC0tYXV0bwojcnVuIHhyYW5kciAtLW91dHB1dCBIRE1JMiAtLXJpZ2h0LW9mIEhETUkxIC0tYXV0bwojYXV0b3JhbmRyIGhvcml6b250YWxLAAAAAAAAAEsAAAAAAAAAAQAAAApLAAAAAAAAAEsAAAAAAAAAAQAAAAo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAaAMAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							6,
-							2,
-							"right_delete",
-							null,
-							"AgAAAFsAAAAAAAAAWwAAAAAAAAAQAAAAcnVuICJwYW1hYy10cmF5IlsAAAAAAAAAWwAAAAAAAAABAAAACg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAawAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							9,
-							2,
-							"right_delete",
-							null,
-							"AgAAAGkAAAAAAAAAaQAAAAAAAAAZAAAAcnVuICJ4ZmNlNC1wb3dlci1tYW5hZ2VyImkAAAAAAAAAaQAAAAAAAAABAAAACg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAggAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							12,
-							2,
-							"right_delete",
-							null,
-							"AgAAAGkAAAAAAAAAaQAAAAAAAAAUAAAAcnVuICJibHVlYmVycnktdHJheSJpAAAAAAAAAGkAAAAAAAAAAQAAAAo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAfQAAAAAAAABpAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							18,
-							1,
-							"right_delete",
-							null,
-							"AQAAAGkAAAAAAAAAaQAAAAAAAABrAAAAcnVuICIvdXNyL2xpYi94ZmNlNC9ub3RpZnlkL3hmY2U0LW5vdGlmeWQiCnJ1biAiL3Vzci9saWIvcG9sa2l0LWdub21lL3BvbGtpdC1nbm9tZS1hdXRoZW50aWNhdGlvbi1hZ2VudC0xIgo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAaQAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							25,
-							1,
-							"cut",
-							null,
-							"AQAAAM4AAAAAAAAAzgAAAAAAAAAsAAAAc3hoa2QgLWMgfi8uY29uZmlnL2FyY28tZHdtL3N4aGtkL3N4aGtkcmMgJgo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAzgAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							27,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							29,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAA"
-						],
-						[
-							30,
-							1,
-							"paste",
-							null,
-							"AQAAABUAAAAAAAAAQQAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							31,
-							1,
-							"right_delete",
-							null,
-							"AQAAAEEAAAAAAAAAQQAAAAAAAAABAAAACg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							34,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAAAaAAAAI3J1biAibml0cm9nZW4gLS1yZXN0b3JlIgo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAAVAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							37,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAAA2AAAAcnVuICJjb25reSAtYyAkSE9NRS8uY29uZmlnL2FyY28tZHdtL3N5c3RlbS1vdmVydmlldyIK",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAAxAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							40,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAAAqAAAAI3lvdSBjYW4gc2V0IHdhbGxwYXBlcnMgaW4gdGhlbWVzIGFzIHdlbGwK",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAAlAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							44,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAAABAAAAZg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							47,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAABDAAAAZWggLS1iZy1maWxsIC91c3Ivc2hhcmUvYmFja2dyb3VuZHMvYXJjaGxpbnV4L2FyY2gtd2FsbHBhcGVyLmpwZyAmCg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAA+AQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							50,
-							1,
-							"right_delete",
-							null,
-							"AQAAAPsAAAAAAAAA+wAAAAAAAAA3AQAAZmVoIC0tYmctZmlsbCAvdXNyL3NoYXJlL2JhY2tncm91bmRzL2FyY29saW51eC9hcmNvLXdhbGxwYXBlci5qcGcgJgojd2FsbHBhcGVyIGZvciBvdGhlciBBcmNoIGJhc2VkIHN5c3RlbXMKI2ZlaCAtLWJnLWZpbGwgL3Vzci9zaGFyZS9hcmNobGludXgtdHdlYWstdG9vbC9kYXRhL3dhbGxwYXBlci93YWxscGFwZXIucG5nICYKI3J1biBhcHBsaWNhdGlvbnMgZnJvbSBzdGFydHVwCgojcnVuICJpbnN5bmMgc3RhcnQiCiNydW4gInNwb3RpZnkiCiNydW4gImNrYi1uZXh0IC1iIgojcnVuICJkaXNjb3JkIgojcnVuICJ0ZWxlZ3JhbS1kZXNrdG9wIgo",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAAyAgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							51,
-							1,
-							"left_delete",
-							null,
-							"AQAAAPoAAAAAAAAA+gAAAAAAAAABAAAACg",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+wAAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				},
-				{
-					"file": "/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/config.def.h",
-					"settings":
-					{
-						"buffer_size": 10969,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							21,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAOUQAAAAAAAA5hAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA5RAAAAAAAADlEAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							22,
-							1,
-							"paste",
-							null,
-							"AQAAAOYQAAAAAAAAGREAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA5hAAAAAAAADmEAAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							27,
-							1,
-							"insert",
-							{
-								"characters": "terminal"
-							},
-							"CQAAAPkQAAAAAAAA+hAAAAAAAAAAAAAA+hAAAAAAAAD6EAAAAAAAAAcAAABmaWxlY21k+hAAAAAAAAD7EAAAAAAAAAAAAAD7EAAAAAAAAPwQAAAAAAAAAAAAAPwQAAAAAAAA/RAAAAAAAAAAAAAA/RAAAAAAAAD+EAAAAAAAAAAAAAD+EAAAAAAAAP8QAAAAAAAAAAAAAP8QAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAABEQAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA+RAAAAAAAAAAEQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							32,
-							1,
-							"insert",
-							{
-								"characters": "alacritty"
-							},
-							"CgAAAAoRAAAAAAAACxEAAAAAAAAAAAAACxEAAAAAAAALEQAAAAAAAAYAAAB0aHVuYXILEQAAAAAAAAwRAAAAAAAAAAAAAAwRAAAAAAAADREAAAAAAAAAAAAADREAAAAAAAAOEQAAAAAAAAAAAAAOEQAAAAAAAA8RAAAAAAAAAAAAAA8RAAAAAAAAEBEAAAAAAAAAAAAAEBEAAAAAAAAREQAAAAAAAAAAAAAREQAAAAAAABIRAAAAAAAAAAAAABIRAAAAAAAAExEAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAChEAAAAAAAAQEQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							37,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAAMkSAAAAAAAAyhIAAAAAAAAAAAAAyhIAAAAAAADLEgAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAyRIAAAAAAADJEgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							38,
-							1,
-							"left_delete",
-							null,
-							"AQAAAMoSAAAAAAAAyhIAAAAAAAABAAAACQ",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAyxIAAAAAAADLEgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							39,
-							1,
-							"paste",
-							null,
-							"AQAAAMoSAAAAAAAAGBMAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAyhIAAAAAAADKEgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							42,
-							1,
-							"left_delete",
-							null,
-							"AQAAANMSAAAAAAAA0xIAAAAAAAAKAAAAfFNoaWZ0TWFzaw",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA0xIAAAAAAADdEgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							45,
-							1,
-							"insert",
-							{
-								"characters": "\t\t\t"
-							},
-							"AwAAAOESAAAAAAAA4hIAAAAAAAAAAAAA4hIAAAAAAADjEgAAAAAAAAAAAADjEgAAAAAAAOQSAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA4RIAAAAAAADhEgAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							50,
-							1,
-							"insert",
-							{
-								"characters": "terminal"
-							},
-							"CQAAAAUTAAAAAAAABhMAAAAAAAAAAAAABhMAAAAAAAAGEwAAAAAAAAcAAABmaWxlY21kBhMAAAAAAAAHEwAAAAAAAAAAAAAHEwAAAAAAAAgTAAAAAAAAAAAAAAgTAAAAAAAACRMAAAAAAAAAAAAACRMAAAAAAAAKEwAAAAAAAAAAAAAKEwAAAAAAAAsTAAAAAAAAAAAAAAsTAAAAAAAADBMAAAAAAAAAAAAADBMAAAAAAAANEwAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAABRMAAAAAAAAMEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							71,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AQAAAB0RAAAAAAAAHhEAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAHREAAAAAAAAdEQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							72,
-							1,
-							"paste",
-							null,
-							"AQAAAB4RAAAAAAAAVREAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAHhEAAAAAAAAeEQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							77,
-							1,
-							"insert",
-							{
-								"characters": "powerm"
-							},
-							"BwAAADERAAAAAAAAMhEAAAAAAAAAAAAAMhEAAAAAAAAyEQAAAAAAAAgAAAB0ZXJtaW5hbDIRAAAAAAAAMxEAAAAAAAAAAAAAMxEAAAAAAAA0EQAAAAAAAAAAAAA0EQAAAAAAADURAAAAAAAAAAAAADURAAAAAAAANhEAAAAAAAAAAAAANhEAAAAAAAA3EQAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAMREAAAAAAAA5EQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							82,
-							1,
-							"insert",
-							{
-								"characters": "powerm"
-							},
-							"BwAAAEARAAAAAAAAQREAAAAAAAAAAAAAQREAAAAAAABBEQAAAAAAAAkAAABhbGFjcml0dHlBEQAAAAAAAEIRAAAAAAAAAAAAAEIRAAAAAAAAQxEAAAAAAAAAAAAAQxEAAAAAAABEEQAAAAAAAAAAAABEEQAAAAAAAEURAAAAAAAAAAAAAEURAAAAAAAARhEAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQBEAAAAAAABJEQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							91,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAAEUTAAAAAAAARhMAAAAAAAAAAAAARhMAAAAAAABHEwAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAARRMAAAAAAABFEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							92,
-							1,
-							"paste",
-							null,
-							"AQAAAEcTAAAAAAAAjxMAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAARxMAAAAAAABHEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							95,
-							1,
-							"left_delete",
-							null,
-							"AQAAAEcTAAAAAAAARxMAAAAAAAABAAAACQ",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAASBMAAAAAAABIEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							98,
-							1,
-							"insert",
-							{
-								"characters": "x"
-							},
-							"AgAAAGMTAAAAAAAAZBMAAAAAAAAAAAAAZBMAAAAAAABkEwAAAAAAAAYAAABSZXR1cm4",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAYxMAAAAAAABpEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							101,
-							1,
-							"insert",
-							{
-								"characters": "\t\t"
-							},
-							"AgAAAGYTAAAAAAAAZxMAAAAAAAAAAAAAZxMAAAAAAABoEwAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAZhMAAAAAAABmEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							102,
-							1,
-							"left_delete",
-							null,
-							"AQAAAGcTAAAAAAAAZxMAAAAAAAABAAAACQ",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAaBMAAAAAAABoEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							103,
-							1,
-							"insert",
-							{
-								"characters": "   "
-							},
-							"AwAAAGcTAAAAAAAAaBMAAAAAAAAAAAAAaBMAAAAAAABpEwAAAAAAAAAAAABpEwAAAAAAAGoTAAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAZxMAAAAAAABnEwAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							108,
-							1,
-							"insert",
-							{
-								"characters": "powerm"
-							},
-							"BwAAAIATAAAAAAAAgRMAAAAAAAAAAAAAgRMAAAAAAACBEwAAAAAAAAgAAAB0ZXJtaW5hbIETAAAAAAAAghMAAAAAAAAAAAAAghMAAAAAAACDEwAAAAAAAAAAAACDEwAAAAAAAIQTAAAAAAAAAAAAAIQTAAAAAAAAhRMAAAAAAAAAAAAAhRMAAAAAAACGEwAAAAAAAAAAAAA",
-							"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAgBMAAAAAAACIEwAAAAAAAAAAAAAAAPC/"
-						]
-					]
-				},
-				{
-					"file": "/home/erik/DATA/nixos-configurations/dotfiles/.xinitrc",
-					"settings":
-					{
-						"buffer_size": 3364,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							1,
-							"toggle_comment",
-							{
-								"block": false
-							},
-							"HQAAAO8EAAAAAAAA8QQAAAAAAAAAAAAA0AQAAAAAAADSBAAAAAAAAAAAAACiBAAAAAAAAKQEAAAAAAAAAAAAAIMEAAAAAAAAhQQAAAAAAAAAAAAAYgQAAAAAAABkBAAAAAAAAAAAAAAZBAAAAAAAABsEAAAAAAAAAAAAAPYDAAAAAAAA+AMAAAAAAAAAAAAA0QMAAAAAAADTAwAAAAAAAAAAAADAAwAAAAAAAMIDAAAAAAAAAAAAAJgDAAAAAAAAmgMAAAAAAAAAAAAAiQMAAAAAAACLAwAAAAAAAAAAAABUAwAAAAAAAFYDAAAAAAAAAAAAAAUDAAAAAAAABwMAAAAAAAAAAAAAyQIAAAAAAADLAgAAAAAAAAAAAACKAgAAAAAAAIwCAAAAAAAAAAAAAEUCAAAAAAAARwIAAAAAAAAAAAAAFQIAAAAAAAAXAgAAAAAAAAAAAAAAAgAAAAAAAAICAAAAAAAAAAAAAPUBAAAAAAAA9wEAAAAAAAAAAAAA5gEAAAAAAADoAQAAAAAAAAAAAADbAQAAAAAAAN0BAAAAAAAAAAAAAMsBAAAAAAAAzQEAAAAAAAAAAAAAvgEAAAAAAADAAQAAAAAAAAAAAACyAQAAAAAAALQBAAAAAAAAAAAAAHYBAAAAAAAAeAEAAAAAAAAAAAAAOQEAAAAAAAA7AQAAAAAAAAAAAAAoAQAAAAAAACoBAAAAAAAAAAAAAB4BAAAAAAAAIAEAAAAAAAAAAAAAEgEAAAAAAAAUAQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABEBAAAAAAAA9AQAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							7,
-							1,
-							"toggle_comment",
-							{
-								"block": false
-							},
-							"BwAAABQNAAAAAAAAFg0AAAAAAAAAAAAA1gwAAAAAAADYDAAAAAAAAAAAAACPDAAAAAAAAJEMAAAAAAAAAAAAAFcMAAAAAAAAWQwAAAAAAAAAAAAAVAwAAAAAAABWDAAAAAAAAAAAAAAeDAAAAAAAACAMAAAAAAAAAAAAAPELAAAAAAAA8wsAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABYNAAAAAAAA8QsAAAAAAAAAAAAAAADwvw"
-						]
-					]
-				},
-				{
-					"file": "/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-dwm/usr/share/xsessions/dwm.desktop",
-					"settings":
-					{
-						"buffer_size": 103,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -1002,6 +182,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
 					[
 						"insta",
 						"Package Control: Install Package"
@@ -1025,146 +209,12 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/erik/DATA/nixos-configurations",
-				"/home/erik/DATA/nixos-configurations/riker",
-				"/home/erik/DATA/nixos-configurations/riker/desktops"
-			],
 			"file_history":
 			[
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-titus/scripts/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.xinitrc",
-				"/home/erik/DATA/nixos-configurations/riker/configuration.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenvm",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/dwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/variety/scripts/set_wallpaper_arco",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/shell.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/config.py",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/qtile/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/change-archlinux-logout.sh",
-				"/home/erik/DATA/nixos-configurations/picard/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktop-packages.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/qtile.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/dwm.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/chadwm.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/bspwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/dwm-main/README.md",
-				"/home/erik/DATA/nixos-configurations/dotfiles/copy.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/bar.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.xserverrc",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-dwm/usr/share/xsessions/dwm.desktop",
-				"/home/erik/DATA/nixos-configurations/riker/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/riker/desktop-packages.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/xinitrc",
-				"/home/erik/DATA/arcolinux-nemesis/Personal/settings/xinit/xinitrc",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/hyprland.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-azerty.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/hyprland-qwerty.conf",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/powermenu.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.Xresources",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaper",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/changewallpaperdesktop",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/style.css",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-10/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-8/modules",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-1",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-9",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-8",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/change/waybar-alt-10",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/waybar-alt-9/config.ini",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/change-waybar-hyprland",
-				"/home/erik/.config/Kvantum/kvantum.kvconfig",
-				"/home/erik/.config/Kvantum/KvGnomeDark#/KvGnomeDark#.kvconfig",
-				"/home/erik/DATA/nixos-configurations/picard/configuration.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/hypr/scripts/statusbar",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/Kvantum/kvantum.kvconfig",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/awesome.nix",
-				"/home/erik/DATA/nixos-configurations/picard/desktops/i3wm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/rc.lua",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/bspwmrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/sxhkd/sxhkdrc-azerty",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/config",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/rebuild",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/bspwm.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/change-shbang.sh",
-				"/home/erik/DATA/nixos-configurations/data/core-packages.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/autostart.sh",
-				"/home/erik/DATA/nixos-configurations/update.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/fetch",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/keyhint",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/scripts/run.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/powermenu/powermenu",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-chadwm/launcher/launcher.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/awesome/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/i3/start-conky-i3statusbar.sh",
-				"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-v1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/external_rules_command",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/adjust-new-window",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/move-window",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/picom-toggle.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/bspwm/scripts/pseudo_automatic_mode",
-				"/home/erik/ARCO/ARCOLINUXB/replace-packages-with-in-line-v1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreenss",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc",
-				"/home/erik/ARCO/ARCOLINUXB/arco-sway/archiso/packages.x86_64",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreends",
-				"/home/erik/.screenlayout/erik.sh",
-				"/home/erik/DUMP/erik.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/setscreen",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/config.ini",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/launch.sh",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/i3wm.nix",
-				"/home/erik/DATA/nixos-configurations/riker/desktops/awesome.nix",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/style-1.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/colors.rasi",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-rofi/etc/skel/.config/rofi/files/launchers/type-3/shared/colors.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/powermenu/shared/fonts.rasi",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-arch-updates.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/check-aur-updates.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/get_spotify_status.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pavolume.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/pub-ip.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/scroll_spotify_status.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/spotify1.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/tempcores.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.config/polybar/scripts/weather.py",
-				"/home/erik/DATA/nixos-configurations/riker/copy.sh",
-				"/home/erik/DATA/nixos-configurations/worf/copy.sh",
-				"/home/erik/DATA/nixos-configurations/picard/copy.sh",
-				"/home/erik/DATA/nixos-configurations/up+.sh",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bin/powermenu",
-				"/home/erik/ARCO/ARCOLINUX-ISO/arcolinuxl-iso/archiso/packages.x86_64",
-				"/home/erik/DATA/nixos-configurations/picard/env-vars.nix",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/10-push-to-all-plasma.sh",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/13-build-all-plasma.sh",
-				"/home/erik/Downloads/nixos-config-main/etc-nixos/global-config.nix",
-				"/home/erik/Downloads/nixos-config-main/etc-nixos/flake.nix",
-				"/home/erik/Downloads/nixos-config-main/lib/bash.sh",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-nemesis-git/PKGBUILD",
-				"/home/erik/.bashrc-personal",
-				"/home/erik/DATA/nixos-configurations/dotfiles/.bashrc-personal",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/SPECIAL/arcolinux-spices-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-plasma/etc/skel/.config/dolphinrc",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-DESKTOP/arcolinux-plasma-git/PKGBUILD",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX/arcolinux-welcome-app-deepin-git/pkg/arcolinux-welcome-app-deepin-git/usr/share/applications/arcolinux-welcome-app.desktop",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/etc/skel/.config/autostart/arcolinux-welcome-app.desktop",
-				"/home/erik/ARCO/ARCOLINUX/arcolinux-welcome-app-deepin/usr/local/bin/arcolinux-welcome-app",
-				"/home/erik/ARCO/ARCOLINUXB/arco-deepin/archiso/packages.x86_64",
-				"/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-plasma/etc/skel/.local/share/kxmlgui5/dolphin/dolphinui.rc",
-				"/home/erik/ARCO/ARCOLINUX-PKGBUILD/arcolinux-pkgbuild/ARCOLINUX-CONFIG/arcolinux-config-plasma-nemesis-git/PKGBUILD"
 			],
 			"find":
 			{
-				"height": 37.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -1178,115 +228,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"console",
-					"keymap",
-					"console",
-					"archlinux-logout",
-					"qtile",
-					"dwm",
-					"archlinux-logout",
-					"autostart",
-					"locate",
-					"kitty",
-					"archlinux-logout",
-					"changew",
-					"run_cmd",
-					"hyprlan",
-					"archlinux-logout",
-					"lock",
-					"archlinux-logout",
-					"autostart",
-					"xd",
-					"bspwm",
-					"pavolume",
-					"i3",
-					"Lock",
-					"nix",
-					"/*",
-					"sudo nixos-rebuild switch --upgrade",
-					"sudo nix-channel --update",
-					"sudo nixos-rebuild switch --upgrade",
-					"boot",
-					"workstation",
-					"pacman",
-					"paru -Syu --noconfirm",
-					"sudo pacman -Syyu",
-					"security",
-					"firewall",
-					"gvfs",
-					"unicode",
-					"input",
-					"hardware",
-					"sway",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolution",
-					"pragh",
-					"pragah",
-					"evoluti",
-					"evolui",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolution",
-					"pragha",
-					"evolu",
-					"pragh",
-					"audio",
-					"pragha",
-					"modprobed",
-					"timezone",
-					"profile",
-					"light",
-					"personal",
-					"alacri",
-					"end",
-					"xfce4-task",
-					"xfce4-settings-manager",
-					"btop",
-					"fluen",
-					"conky-collection",
-					"hypr",
-					"hyprland",
-					"pkgname",
-					"sway",
-					"a",
-					"wlprop",
-					"newm",
-					"river",
-					"wayfire",
-					"kitty",
-					"xterm",
-					"sway",
-					"profile",
-					"hyprland",
-					"waycheck",
-					"ttf-jetbrains-mono-nerd",
-					"hyprpicker-git",
-					"clipman",
-					"nomacs",
-					"swaybg",
-					"swayidle",
-					"rofi-lbonn-wayland-only-git",
-					"pamixer",
-					"nwg-drawer-bin",
-					"kitty",
-					"hyprpicker-git",
-					"grimshot",
-					"bashtop",
-					"arcolinux",
-					"dconf",
-					"waybar",
-					"hyprland",
-					"rofi-l",
-					"polkit-gnome",
-					"wayland",
-					"dmDesktop",
-					"hyprland",
-					"NO_at",
-					"bemenu",
-					"Give the pkgversion number like 23.01"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1294,17 +235,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"powerm",
-					"konsole",
-					"powerm",
-					"",
-					"sudo nix-channel --update && sudo nixos-rebuild switch --upgrade",
-					"sudo nixos-rebuild switch --upgrade",
-					"lollypop",
-					"btop",
-					"wayfire",
-					"_pkgname",
-					"newm"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -1314,146 +244,17 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/erik/DATA/nixos-configurations"
-				}
-			],
 			"groups":
 			[
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/autostart.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 250,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										250,
-										250
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/erik/DATA/nixos-configurations/dotfiles/.config/arco-dwm/config.def.h",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 10969,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4998,
-										4998
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 2404.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/erik/DATA/nixos-configurations/dotfiles/.xinitrc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3364,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3364,
-										3364
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2885.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/erik/ARCO/ARCOLINUX-DESKTOP/arcolinux-dwm/usr/share/xsessions/dwm.desktop",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 103,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										103,
-										103
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 0.0
 			},
 			"input":
 			{
@@ -1482,20 +283,16 @@
 				]
 			},
 			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 156.0
-			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1930,57,3826,1066,3840,1080,0",
+			"position": "0,0,0,0,0,342,161,1192,799,1920,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 70.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1533,12 +330,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 211.0,
+			"side_bar_width": 159.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 3,
+			"window_id": 1,
 			"workspace_name": ""
 		}
 	],

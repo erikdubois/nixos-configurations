@@ -1,11 +1,8 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
 {
-	"overlay_scroll_bars":"disabled",
-	"font_size": 17,
- 	"remember_workspace": false,
 	"ignored_packages":
 	[
 		"Vintage",
 	],
+
+	"update_check" : false,
 }
