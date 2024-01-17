@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #
 # User-specific variables should be placed in $HOME/.config/openbox/environment
 #
