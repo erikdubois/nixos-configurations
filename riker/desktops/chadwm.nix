@@ -4,34 +4,34 @@
 
 { config, pkgs, ... }:
 
-# {
-#   #services.xserver.displayManager.defaultSession = "none+dwm";
-#   services.xserver.windowManager.dwm.enable = true;
-#   nixpkgs.overlays = [
-#     (final: prev: {
-#       dwm = prev.dwm.overrideAttrs (old: { src = /home/erik/.config/arco-chadwm/chadwm ;});
-#     })
-#   ];
-# }
-
 {
   #services.xserver.displayManager.defaultSession = "none+dwm";
   services.xserver.windowManager.dwm.enable = true;
-
-  pkgs.stdenv.mkDerivation = {
-    # name of our derivation
-    name = "chadwm";
-
-    # sources that will be used for our derivation.
-    src = ./config/arco-chadwm/chadwm;
-
-    buildInputs = [Imlib2 libX11 libXft libXinerama gnumake acpi];
-
-    installPhase = ''
-      mkdir $out
-      rm config.h -rf
-      make dwm
-      mv dwm $out
-    '';
-  };
+  nixpkgs.overlays = [
+    (final: prev: {
+      dwm = prev.dwm.overrideAttrs (old: { src = /home/erik/.config/arco-chadwm/chadwm ;});
+    })
+  ];
 }
+
+# {
+#   #services.xserver.displayManager.defaultSession = "none+dwm";
+#   services.xserver.windowManager.dwm.enable = true;
+
+#   pkgs.stdenv.mkDerivation = {
+#     # name of our derivation
+#     name = "chadwm";
+
+#     # sources that will be used for our derivation.
+#     src = ./config/arco-chadwm/chadwm;
+
+#     buildInputs = [Imlib2 libX11 libXft libXinerama gnumake acpi];
+
+#     installPhase = ''
+#       mkdir $out
+#       rm config.h -rf
+#       make dwm
+#       mv dwm $out
+#     '';
+#   };
+# }
