@@ -9,6 +9,7 @@
   services.xserver.windowManager.openbox.enable = true;
 
   environment.systemPackages = with pkgs; [
+    lxappearance
     obconf
     openbox-menu
     plank
