@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #use xrandr and arandr to know the
 #possible resolutions, frequency

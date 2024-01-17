@@ -22,7 +22,8 @@
       #./desktops/hyprland.nix
       #./desktops/dwm.nix
       #./desktops/chadwm.nix
-      ./desktops/qtile.nix
+      #./desktops/qtile.nix
+      ./desktops/hlwm.nix
     ];
 
   # Bootloader.

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 /home/titus/github/dwm-titus/scripts/status &
 /usr/bin/lxpolkit &
