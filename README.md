@@ -23,12 +23,19 @@ Some are with nvidia - others are just intel.
 The dotfiles folder contain all the desktops we can install. Code is coming from ArcoLinux - then we adapt it work elsewhere.
 
 awesome
+
 bspwm
+
 chadwm - coming
+
 dwm
+
 hyprland
+
 i3wm
+
 qtile
+
 
 Separate desktops file in the folder Desktops.
 
