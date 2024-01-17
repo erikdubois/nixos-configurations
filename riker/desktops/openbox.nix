@@ -10,6 +10,7 @@
 
   environment.systemPackages = with pkgs; [
     obconf
-    openbox-menu   
+    openbox-menu
+    plank
   ];
 }

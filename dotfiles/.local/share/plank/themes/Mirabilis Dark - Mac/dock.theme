@@ -1,0 +1,37 @@
+#Mirabilis Dark - Mac Version
+#170719
+#September 2019
+
+
+[PlankTheme]
+TopRoundness=18
+BottomRoundness=18
+LineWidth=1
+OuterStrokeColor=3;;62;;181;;247
+FillStartColor=3;;62;;181;;71
+FillEndColor=3;;62;;181;;141
+InnerStrokeColor=0;;0;;0;;255
+
+[PlankDockTheme]
+HorizPadding=1
+TopPadding=1
+BottomPadding=1
+ItemPadding=3
+IndicatorSize=2
+IconShadowSize=1.25
+UrgentBounceHeight=1.75
+LaunchBounceHeight=0.625
+FadeOpacity=1
+ClickTime=175
+UrgentBounceTime=600
+LaunchBounceTime=600
+ActiveTime=25
+SlideTime=4750
+FadeTime=350
+HideTime=725
+GlowSize=30
+GlowTime=10000
+GlowPulseTime=2750
+UrgentHueShift=175
+ItemMoveTime=450
+CascadeHide=true

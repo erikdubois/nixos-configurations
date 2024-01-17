@@ -1,0 +1,43 @@
+#Glassient - Cool Edition
+#
+#Created: June 2019
+#License: MIT © Alfredo F.
+#
+#Author: PT_Alfred
+#Social: https://mastodon.art/@PTAlfred
+
+
+[PlankTheme]
+TopRoundness=1
+BottomRoundness=1
+LineWidth=1
+InnerStrokeColor=255;;255;;255;;255
+OuterStrokeColor=0;;0;;0;;71
+FillStartColor=255;;255;;255;;107		
+FillEndColor=255;;255;;255;;107
+
+
+[PlankDockTheme]
+HorizPadding=7
+TopPadding=-6
+BottomPadding=2
+ItemPadding=4
+IndicatorSize=7
+IconShadowSize=3
+UrgentBounceHeight=2
+LaunchBounceHeight=1
+FadeOpacity=1
+ClickTime=125
+UrgentBounceTime=600
+LaunchBounceTime=750
+ActiveTime=25
+SlideTime=4750
+FadeTime=350
+HideTime=725
+GlowSize=75
+GlowTime=1750
+GlowTime=1750
+GlowPulseTime=1750
+UrgentHueShift=175
+ItemMoveTime=250
+CascadeHide=true
