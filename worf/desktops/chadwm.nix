@@ -9,7 +9,7 @@
   services.xserver.windowManager.dwm.enable = true;
   nixpkgs.overlays = [
     (final: prev: {
-      dwm = prev.dwm.overrideAttrs (old: { src = /home/erik/.config/arco-chadwm ;});
+      dwm = prev.dwm.overrideAttrs (old: { src = /home/erik/.config/arco-chadwm/chadwm ;});
     })
   ];
 }
