@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #
 # set-pywal - use pywal on any desktop with any wallpaper application
 #

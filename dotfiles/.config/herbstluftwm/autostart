@@ -34,16 +34,6 @@ Mod=Mod4   # Use the super key as the main modifier
 #reload sxhkd - see keybind in sxhkd
 #hc keybind $Mod-Shift-s  pkill -USR1 -x sxhkd
 
-#change your keyboard if you need it - azerty or qwerty
-#setxkbmap -layout be
-keybLayout=$(setxkbmap -v | awk -F "+" '/symbols/ {print $2}')
-
-if [ $keybLayout = "be" ]; then
-  cp ~/.config/herbstluftwm/autostart-azerty ~/.config/herbstluftwm/autostart
-else
-  cp ~/.config/lherbstluftwm/autostart-qwerty ~/.config/herbstluftwm/autostart
-fi
-
 # MOVEMENTS
 
 # focusing clients
@@ -100,16 +90,16 @@ hc keybind $Mod-Control-Right   resize right +$resizestep
 # TAGS or WORKSPACES
 
 #names to display in menu
-tag_names=( {1..10} )
+#tag_names=( {1..10} )
 #tag_names=("Web" "Chat" "Edit" "Meld" "Vb" "Mail" "Video" "Image" "Files" "Music")
-#tag_names=("I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X")
+tag_names=("I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X")
 
 #keys to press to get to the tags
 #Qwerty
-tag_keys=( {1..10} 0 )
+#tag_keys=( {1..10} 0 )
 
 #Belgian azerty
-#tag_keys=( ampersand eacute quotedbl apostrophe parenleft section egrave exclam ccedilla agrave )
+tag_keys=( ampersand eacute quotedbl apostrophe parenleft section egrave exclam ccedilla agrave )
 
 #French azerty
 #tag_keys=( ampersand eacute quotedbl apostrophe parenleft minus egrave underscore ccedilla agrave )
@@ -313,8 +303,6 @@ hc pad 1 30
 #Autostart applications
 pkill -u $USER '^picom$'
 picom  --config $HOME/.config/herbstluftwm/picom.conf &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 xsetroot -solid '#000000'
 xsetroot -cursor_name left_ptr &
@@ -322,27 +310,8 @@ xsetroot -cursor_name left_ptr &
 #keybindings are in config of sxhkd - interchangeable with other TWM
 sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-#feh --bg-scale ~/.config/herbstluftwm/wall.png &
-feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-#feh --bg-scale /usr/share/backgrounds/arcolinux/abstract-warm-heart-4560x2160.jpg
-conky -c $HOME/.config/herbstluftwm/system-overview &
 run variety &
 nm-applet &
-pamac-tray &
-xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 run volumeicon &
-# nitrogen --restore &
-# caffeine &
-# vivaldi-stable &
-# firefox &
-# thunar &
-# dropbox &
-# run insync start &
-# discord &
-# run telegram-desktop &
-# spotify &
-# atom &
