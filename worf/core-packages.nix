@@ -55,7 +55,6 @@
     lollypop
     lshw
     meld
-    mlocate
     most
     neofetch
     networkmanagerapplet

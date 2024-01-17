@@ -11,6 +11,8 @@
     #obs-studio-plugins.wlrobs
     arc-kde-theme
     btop
+    cava
+    cmatrix
     dash
     eww
     feh
@@ -29,6 +31,7 @@
     ocs-url
     pavucontrol
     picom
+    python311Packages.sparklines
     pywal
     rofi
     slstatus

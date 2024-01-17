@@ -13,7 +13,7 @@
       #./home-manager.nix
       #./nvidia.nix
       #<home-manager/nixos>
-      ./samba.nix
+      #./samba.nix
       ./env-vars.nix
       #./virtualbox.nix
       #./desktops/awesome.nix
@@ -69,8 +69,13 @@
     xkbVariant = "";
   };
 
-  # Configure console keymap
-  console.keyMap = "be-latin1";
+  # Select internationalisation properties.
+  console = {
+    keyMap = "be-latin1";
+    packages=[ pkgs.terminus_font ];
+    font="${pkgs.terminus_font}/share/consolefonts/ter-i22b.psf.gz";
+    #useXkbConfig = true; # use xkbOptions in tty.
+  };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -162,6 +167,29 @@
     shellInit = ''
       . ~/.bashrc-personal
     '';
+  };
+
+  #programs.steam.enable =  true;
+
+  services.xserver.displayManager.setupCommands = ''
+    ${pkgs.xorg.xrandr}/bin/xrandr --output Virtual1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+  '';
+
+  security.polkit.enable = true;
+  systemd = {
+    user.services.polkit-gnome-authentication-agent-1 = {
+      description = "polkit-gnome-authentication-agent-1";
+      wantedBy = [ "graphical-session.target" ];
+      wants = [ "graphical-session.target" ];
+      after = [ "graphical-session.target" ];
+      serviceConfig = {
+        Type = "simple";
+        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+        Restart = "on-failure";
+        RestartSec = 1;
+        TimeoutStopSec = 10;
+      };
+    };
   };
 
   # Gvfs
