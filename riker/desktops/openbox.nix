@@ -7,5 +7,9 @@
 {
   #services.xserver.displayManager.defaultSession = "none+openbox";
   services.xserver.windowManager.openbox.enable = true;
-}
 
+  environment.systemPackages = with pkgs; [
+    obconf
+    openbox-menu   
+  ];
+}
