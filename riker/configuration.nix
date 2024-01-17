@@ -25,8 +25,8 @@
       #./desktops/qtile.nix
       #./desktops/hlwm.nix                 #does not work
       #./desktops/openbox.nix
-      #./desktops/leftwm.nix
-      ./desktops/dusk.nix
+      ./desktops/leftwm.nix
+      #./desktops/dusk.nix
     ];
 
   # Bootloader.
