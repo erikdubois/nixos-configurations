@@ -21,7 +21,7 @@
       #./desktops/bspwm.nix
       #./desktops/hyprland.nix
       #./desktops/dwm.nix
-      #./desktops/chadwm.nix              #does not work
+      ./desktops/chadwm.nix              #does not work
       #./desktops/qtile.nix
       #./desktops/hlwm.nix                 #does not work
       #./desktops/openbox.nix
