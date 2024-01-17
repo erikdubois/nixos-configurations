@@ -295,7 +295,7 @@ hc pad 1 30
 #hc pad 1 30 0 30 0
 
 #launching polybar
-~/.config/polybar/launch.sh
+~/.config/herbstluftwm/polybar/launch.sh
 
 #change your keyboard if you need it
 #setxkbmap -layout be
