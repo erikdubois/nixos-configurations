@@ -1,6 +1,7 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
+# https://releases.nixos.org/nixos/unstable/
 
 { config, pkgs, ... }:
 
@@ -21,12 +22,13 @@
       #./desktops/bspwm.nix
       #./desktops/hyprland.nix
       #./desktops/dwm.nix
-      #./desktops/chadwm.nix              #does not work
+      #./desktops/chadwm.nix             #does not work
       #./desktops/qtile.nix
-      #./desktops/hlwm.nix                 #does not work
+      #./desktops/hlwm.nix               #does not work
       #./desktops/openbox.nix
       #./desktops/leftwm.nix
-      #./desktops/dusk.nix					#does not work
+      #./desktops/dusk.nix		           #does not work
+	  ./wordpress.nix
     ];
 
   # Bootloader.
@@ -65,6 +67,8 @@
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
+  # for wayland dark theme  
+  #programs.dconf.enable = true;
 
   # Configure keymap in X11
   services.xserver = {
@@ -148,6 +152,7 @@
   services.avahi = {
     enable = true;
     nssmdns = true;
+    #nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
     publish = {
@@ -177,6 +182,12 @@
   services.xserver.displayManager.setupCommands = ''
     ${pkgs.xorg.xrandr}/bin/xrandr --output Virtual1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
   '';
+
+  # Dbus
+  #services.dbus.enable = true;
+
+  # for wayland dark theme  
+  #programs.dconf.enable = true;
 
   security.polkit.enable = true;
   systemd = {
