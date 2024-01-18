@@ -28,7 +28,7 @@
       #./desktops/openbox.nix
       #./desktops/leftwm.nix
       #./desktops/dusk.nix		           #does not work
-	  ./wordpress.nix
+	  #./desktops/wordpress.nix
     ];
 
   # Bootloader.
