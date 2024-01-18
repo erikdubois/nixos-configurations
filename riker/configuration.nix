@@ -2,6 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 # https://releases.nixos.org/nixos/unstable/
+# https://releases.nixos.org/nixos/unstable/nixos-24.05pre571714.c3e128f3c0ec
 
 { config, pkgs, ... }:
 
