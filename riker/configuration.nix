@@ -28,7 +28,8 @@
       #./desktops/hlwm.nix                 #does not work
       #./desktops/openbox.nix
       #./desktops/leftwm.nix
-      #./desktops/dusk.nix					#does not work
+      #./desktops/dusk.nix		#does not work
+	../wordpress.nix
     ];
 
   # Bootloader.
