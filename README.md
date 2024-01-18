@@ -44,23 +44,23 @@ TIP: your desktops name is not bspwm for example but none+variety - that matters
 
  - awesome
 
-bspwm
+ - bspwm
 
-chadwm - not working
+ - chadwm - not working
 
-dusk - not working
+ - dusk - not working
 
-dwm
+ - dwm
 
-hyprland
+ - hyprland
 
-i3wm
+ - i3wm
 
-openbox
+ - openbox
 
-plasma
+ - plasma
 
-qtile
+ - qtile
 
 
 Separate desktops file in the folder Desktops.
