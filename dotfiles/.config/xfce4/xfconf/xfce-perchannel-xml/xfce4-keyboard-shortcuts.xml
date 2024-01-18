@@ -75,7 +75,7 @@
       <property name="&lt;Super&gt;F4" type="string" value="gimp"/>
       <property name="&lt;Super&gt;F5" type="string" value="meld"/>
       <property name="&lt;Super&gt;F6" type="string" value="vlc"/>
-      <property name="&lt;Super&gt;F7" type="string" value="virtualbox"/>
+      <property name="&lt;Super&gt;F7" type="string" value="VirtualBox"/>
       <property name="&lt;Super&gt;F8" type="string" value="thunar"/>
       <property name="&lt;Super&gt;F9" type="string" value="lollypop"/>
       <property name="&lt;Super&gt;F10" type="string" value="spotify"/>

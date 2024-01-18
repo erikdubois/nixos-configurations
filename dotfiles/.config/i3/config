@@ -506,7 +506,7 @@ bindsym control+mod1+i exec --no-startup-id nitrogen;focus
 bindsym $mod+F6 exec --no-startup-id vlc;focus
 
 # virtual machine
-bindsym $mod+F7 exec --no-startup-id virtualbox;focus
+bindsym $mod+F7 exec --no-startup-id VirtualBox;focus
 
 # file management
 for_window [class="Thunar"] focus

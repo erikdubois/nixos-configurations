@@ -512,7 +512,7 @@ dgroups_app_rules = []
 #     d[group_names[4]] = ["Meld", "meld", "org.gnome.meld" "org.gnome.Meld" ]
 #     d[group_names[5]] = ["Vlc","vlc", "Mpv", "mpv" ]
 #     d[group_names[6]] = ["VirtualBox Manager", "VirtualBox Machine", "Vmplayer",
-#               "virtualbox manager", "virtualbox machine", "vmplayer", ]
+#               "VirtualBox manager", "VirtualBox machine", "vmplayer", ]
 #     d[group_names[7]] = ["Thunar", "Nemo", "Caja", "Nautilus", "org.gnome.Nautilus", "Pcmanfm", "Pcmanfm-qt",
 #               "thunar", "nemo", "caja", "nautilus", "org.gnome.nautilus", "pcmanfm", "pcmanfm-qt", ]
 #     d[group_names[8]] = ["Evolution", "Geary", "Mail", "Thunderbird",

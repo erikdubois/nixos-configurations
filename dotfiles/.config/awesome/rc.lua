@@ -127,7 +127,7 @@ local filemanager       = "thunar"
 local mailclient        = "evolution"
 local mediaplayer       = "spotify"
 local terminal          = "alacritty"
-local virtualmachine    = "virtualbox"
+local virtualmachine    = "VirtualBox"
 
 -- awesome variables
 awful.util.terminal = terminal
@@ -342,7 +342,7 @@ globalkeys = my_table.join(
         {description = "meld" , group = "function keys" }),
     awful.key({ modkey }, "F6", function () awful.util.spawn( "vlc --video-on-top" ) end,
         {description = "vlc" , group = "function keys" }),
-    awful.key({ modkey }, "F7", function () awful.util.spawn( "virtualbox" ) end,
+    awful.key({ modkey }, "F7", function () awful.util.spawn( "VirtualBox" ) end,
         {description = virtualmachine , group = "function keys" }),
     awful.key({ modkey }, "F8", function () awful.util.spawn( filemanager ) end,
         {description = filemanager , group = "function keys" }),

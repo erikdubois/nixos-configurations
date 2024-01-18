@@ -625,7 +625,7 @@
     </keybind>
     <keybind key="W-F7">
       <action name="Execute">
-        <command>virtualbox</command>
+        <command>VirtualBox</command>
       </action>
     </keybind>
     <keybind key="W-F8">
