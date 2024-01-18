@@ -107,3 +107,4 @@ if [ $host == "nixos-picard" ]; then
 	cd ..
 fi
 
+sudo nix-collect-garbage --delete-older-than 30d
