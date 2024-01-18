@@ -71,6 +71,29 @@
   # for wayland dark theme  
   #programs.dconf.enable = true;
 
+  # https://mynixos.com/options/services.xserver.desktopManager
+  
+  #services.xserver.desktopManager.budgie
+  #services.xserver.desktopManager.cde
+  #services.xserver.desktopManager.cinnamon
+  #services.xserver.desktopManager.deepin
+  #services.xserver.desktopManager.enlightenment
+  #services.xserver.desktopManager.gnome
+  #services.xserver.desktopManager.kodi
+  #services.xserver.desktopManager.lumina
+  #services.xserver.desktopManager.lxqt
+  #services.xserver.desktopManager.mate
+  #services.xserver.desktopManager.pantheon
+  #services.xserver.desktopManager.phosh
+  #services.xserver.desktopManager.plasma
+  #services.xserver.desktopManager.retroarch
+  #services.xserver.desktopManager.surf-display
+  #services.xserver.desktopManager.wallpaper
+  #services.xserver.desktopManager.xfce
+  #services.xserver.desktopManager.xterm
+
+  #https://mynixos.com/options/services.xserver.windowManager
+
   # Configure keymap in X11
   services.xserver = {
     layout = "be";

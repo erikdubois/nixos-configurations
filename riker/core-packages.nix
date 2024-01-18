@@ -59,6 +59,7 @@
     most
     neofetch
     networkmanagerapplet
+    nixos-generators
     nomacs
     numlockx
     obs-studio
