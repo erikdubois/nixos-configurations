@@ -148,6 +148,7 @@
   services.avahi = {
     enable = true;
     nssmdns = true;
+    #nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
     publish = {
