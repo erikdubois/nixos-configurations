@@ -10,4 +10,6 @@
 
   # Needed for https://github.com/NixOS/nixpkgs/issues/58959
   boot.supportedFilesystems = lib.mkForce [ "btrfs" "reiserfs" "vfat" "f2fs" "xfs" "ntfs" "cifs" ];
+
+  environment.systemPackages = [ pkgs.neovim pkgs.yakuake pkgs.git pkgs.subl pkgs.inxi pkgs.neofetch pkgs.sublime4 pkgs.meld ];
 }
