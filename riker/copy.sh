@@ -45,8 +45,6 @@ sudo cp -vrf desktops /etc/nixos/
 
 sudo nixos-rebuild switch
 
-sudo nix-collect-garbage
-
 echo
 echo
 tput setaf 6
