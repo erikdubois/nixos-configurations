@@ -43,6 +43,8 @@ echo
 sudo cp -vf *.nix /etc/nixos/
 sudo cp -vrf desktops /etc/nixos/
 
+sudo nixos-rebuild switch
+
 echo
 echo
 tput setaf 6
