@@ -42,7 +42,7 @@ TIP: your desktops name is not bspwm for example but none+variety - that matters
 
 
 
-awesome
+ - awesome
 
 bspwm
 
