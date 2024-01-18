@@ -24,6 +24,8 @@ The dotfiles folder contain all the desktops we can install. Code is coming from
 
 TIP : your scripts always start with this shebang
 
+TIP: your desktops name is not bspwm for example but none+variety - that matters in variety, polybars and wherever you make references to the ENV variables
+
 #!/usr/bin/env bash
 
 awesome
