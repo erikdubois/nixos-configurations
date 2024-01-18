@@ -34,13 +34,8 @@ Some are with nvidia - others are just intel.
 
 The dotfiles folder contain all the desktops we can install. Code is coming from ArcoLinux - then we adapt it to work on NixOS.
 
-TIP : your scripts always start with this shebang
 
-#!/usr/bin/env bash
-
-TIP: your desktops name is not bspwm for example but none+variety - that matters in variety, polybars and wherever you make references to the ENV variables
-
-
+# Desktops
 
  - awesome
 
@@ -75,6 +70,16 @@ You always learn something from switching distros.
 More info in our videos
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS7HDKMIzvngkPsZvaxTsYKq
+
+# Tips
+
+TIP 1: your scripts always start with this shebang
+
+#!/usr/bin/env bash
+
+TIP 2: your desktops name is not bspwm for example but none+variety - that matters in variety, polybars and wherever you make references to the ENV variables
+
+
 
 # Examples
 
