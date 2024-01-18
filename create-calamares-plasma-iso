@@ -1,4 +1,4 @@
-##!/usr/bin/env bash
+#!/usr/bin/env bash
 
 # https://github.com/NixOS/nix.dev/blob/master/source/tutorials/nixos/building-bootable-iso-image.md
 
