@@ -49,3 +49,7 @@ You always learn something from switching distros.
 More info in our videos
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS7HDKMIzvngkPsZvaxTsYKq
+
+Examples
+
+![image](https://github.com/erikdubois/nixos-configurations/assets/10594806/9bd7360b-cd5b-40e6-b70a-9df9e0e0221f)
