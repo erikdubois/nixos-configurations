@@ -1,3 +1,15 @@
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/128645103-795eebbd-f853-47cc-8087-916dfd98347b.png">
+  <br />
+   NixOS Guide
+</h1>
+
+<a href="https://github.com/erikdubois?tab=followers">
+         <img alt="followers" title="Follow for Updates" src="https://custom-icon-badges.demolab.com/github/followers/erikdubois?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a> 
+
+![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)
+![Last-Commit](https://img.shields.io/github/last-commit/erikdubois/nixos-configurations?style=for-the-badge)
+
 # Nixos-configurations
 
 3 desktops and 1 laptop will be set with these configs
