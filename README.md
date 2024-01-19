@@ -83,6 +83,9 @@ TIP 2: your desktops name is not bspwm for example but none+bspwm - that matters
 
 # Examples
 
+All the possible desktops on NixOS : https://mynixos.com/options/services.xserver.desktopManager 
+
+
 ![image](https://github.com/erikdubois/nixos-configurations/assets/10594806/9bd7360b-cd5b-40e6-b70a-9df9e0e0221f)
 
 ![image](https://github.com/erikdubois/nixos-configurations/assets/10594806/ea56ddbd-b15a-4cb9-b71e-b8a8ee9929a6)
