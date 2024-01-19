@@ -77,7 +77,7 @@ TIP 1: your scripts always start with this shebang
 
 #!/usr/bin/env bash
 
-TIP 2: your desktops name is not bspwm for example but none+variety - that matters in variety, polybars and wherever you make references to the ENV variables
+TIP 2: your desktops name is not bspwm for example but none+bspwm - that matters in variety, polybars and wherever you make references to the ENV variables
 
 
 
