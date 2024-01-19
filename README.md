@@ -111,6 +111,9 @@ TIP 2: your desktops name is not bspwm for example but none+variety - that matte
 
 ![image](https://github.com/erikdubois/nixos-configurations/assets/10594806/a76e2257-b450-484e-920f-c3e31477902f)
 
+![image](https://github.com/erikdubois/nixos-configurations/assets/10594806/1b154332-a279-4fea-8a5f-9a8e65243979)
+
+
 
 
 
