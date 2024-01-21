@@ -12,27 +12,33 @@
 
 # Nixos-configurations
 
-3 desktops and 1 laptop will be set with these configs
+3 desktops (1 with nvidia card) and 1 laptop will be set with these configs
 
 Plasma as default desktop.
 
-Use the plasma iso from nixos - install it with calamares
+Use the plasma iso from Nixos - install it with calamares.
+
+Open up your Documents folder and open a terminal there and type:
 
 nix-env -i git 
 
-in a terminal
+This will install git. It might take a while to install it. Be patient.
 
-put it in Documents just to be tidy - same as in videos
+Then you get this github project via this command in the same terminal:
 
 git clone https://github.com/erikdubois/nixos-configurations
 
-My pcs got a name.
+My pcs got a name because of this project.
 
 Keep the name or change it anywhere and everywhere.
+
+My username and keyboard setup (Belgium - Azerty) are also in my configs. So change them.
 
 Some are with nvidia - others are just intel.
 
 The dotfiles folder contain all the desktops we can install. Code is coming from ArcoLinux - then we adapt it to work on NixOS.
+
+We use the same dotfiles on all pcs.
 
 
 # Desktops
@@ -57,9 +63,12 @@ The dotfiles folder contain all the desktops we can install. Code is coming from
 
  - qtile
 
+ - others ... see images
 
-Separate desktops file in the folder Desktops.
 
+I have created separate desktops file in the folder Desktops.
+
+If we remove the "#" in the configuration.nix file it will be installed.
 
 This is a personal project.
 
