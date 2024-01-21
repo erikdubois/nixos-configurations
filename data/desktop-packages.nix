@@ -19,6 +19,7 @@
     font-awesome
     gnumake
     grim
+    i3lock-fancy-rapid
     imlib2
     jetbrains-mono
     kate
