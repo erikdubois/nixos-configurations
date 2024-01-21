@@ -79,6 +79,8 @@ TIP 1: your scripts always start with this shebang
 
 TIP 2: your desktops name is not bspwm for example but none+bspwm - that matters in variety, polybars and wherever you make references to the ENV variables
 
+TIP 3: Use syntax editing for the nix language in sublime-text or visua studio code - you will make less mistakes
+
 
 
 # Examples
