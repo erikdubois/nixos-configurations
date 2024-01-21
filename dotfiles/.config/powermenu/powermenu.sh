@@ -5,13 +5,10 @@
 #
 ## Rofi   : Power Menu
 #
-## Available Styles
-#
-## style-1   style-2   style-3   style-4   style-5
 
 # Current Theme
 dir="$HOME/.config/powermenu/"
-theme='style-1'
+theme='style-default'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -70,12 +67,20 @@ run_cmd() {
 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
-			desktop=$(echo  $XDG_CURRENT_DESKTOP)
-			if [ $desktop == "Hyprland" ]; then
-				hyprctl dispatch exit
-			else
-				loginctl kill-user $USER
-			fi
+			desktop=$(echo  $DESKTOP_SESSION)
+			echo "You are on "$desktop
+			case $desktop in
+				hyprland)
+					hyprctl dispatch exit
+					;;
+				herbstluftwm)
+					herbstclient quit
+					;;
+				*)
+					pkill $desktop
+					#loginctl kill-user $USER
+					;;
+			esac
 		fi
 	else
 		exit 0
@@ -92,7 +97,8 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		i3lock-fancy
+		# sudo pacman -S i3lock-fancy-dualmonitors-git
+		i3lock-fancy-dualmonitor
         ;;
     $suspend)
 		run_cmd --suspend

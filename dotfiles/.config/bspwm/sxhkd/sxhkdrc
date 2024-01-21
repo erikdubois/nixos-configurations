@@ -76,11 +76,11 @@ super + h
 
 #powerm
 super + x
-    powerm
+    ~/.config/powermenu/powermenu.sh
 
 #powermenu
 super + shift + x
-    ~/.config/bspwm/powermenu/powermenu
+    ~/.config/powermenu/powermenu.sh
 
 #Rofi theme selector
 super + r
