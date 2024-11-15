@@ -95,7 +95,7 @@
 
   # Configure keymap in X11
   services.xserver = {
-    xcb.layout = "be";
+    xkb.layout = "be";
     xkb.variant = "";
   };
 
