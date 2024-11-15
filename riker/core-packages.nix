@@ -63,7 +63,6 @@
     numlockx
     obs-studio
     ookla-speedtest
-    #qbittorrent-qt5
     platinum-searcher
     polybar
     qt6Packages.qtstyleplugin-kvantum

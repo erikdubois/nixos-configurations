@@ -40,6 +40,10 @@ echo "################################################################"
 tput sgr0
 echo
 
+if [ ! -d /etc/nixos-backup ]; then
+	sudo cp -rf /etc/nixos /etc/nixos-backup
+fi
+
 sudo cp -vf *.nix /etc/nixos/
 sudo cp -vrf desktops /etc/nixos/
 

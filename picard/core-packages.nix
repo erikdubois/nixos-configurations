@@ -29,7 +29,6 @@
     dropbox
     duf
     edid-decode
-    etcher
     evince
     feh
     filezilla
@@ -64,7 +63,6 @@
     numlockx
     obs-studio
     ookla-speedtest
-    qbittorrent-qt5
     platinum-searcher
     polybar
     qt6Packages.qtstyleplugin-kvantum
