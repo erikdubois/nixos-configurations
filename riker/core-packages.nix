@@ -29,7 +29,6 @@
     dropbox
     duf
     edid-decode
-    etcher
     evince
     feh
     filezilla
