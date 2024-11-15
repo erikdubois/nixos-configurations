@@ -66,7 +66,7 @@
 
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
+  services.desktopManager.plasma5.enable = true;
 
   # for wayland dark theme  
   #programs.dconf.enable = true;
