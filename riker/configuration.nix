@@ -65,7 +65,7 @@
   #services.xserver.displayManager.startx.enable = true;
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
+  services.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
   # for wayland dark theme  
   #programs.dconf.enable = true;
@@ -96,7 +96,7 @@
   # Configure keymap in X11
   services.xserver = {
     layout = "be";
-    xkbVariant = "";
+    xkb.variant = "";
   };
 
   # Select internationalisation properties.
@@ -142,8 +142,8 @@
   };
 
   # Enable automatic login for the user.
-  services.xserver.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "erik";
+  services.displayManager.autoLogin.enable = true;
+  services.displayManager.autoLogin.user = "erik";
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -174,7 +174,7 @@
 
   services.avahi = {
     enable = true;
-    nssmdns = true;
+    nssmdns4 = true;
     #nssmdns4 = true;
     ipv4 = true;
     ipv6 = true;
